@@ -139,7 +139,7 @@ hr {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  opacity: 0;
+  opacity: 0.5;
   filter: alpha(opacity=75);
   z-index: 2;
 }
