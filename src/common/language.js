@@ -1,5 +1,9 @@
 // Get the user's preferred language from localStorage
-let preferredLanguage = localStorage.getItem('preferredLanguage') || navigator.language.slice(0, 2) || 'en';
+
+const url = new URL(window.location.href);
+const lang = url.searchParams.get("lang");
+
+lang ? preferredLanguage = lang : preferredLanguage = (localStorage.getItem('preferredLanguage') || navigator.language.slice(0, 2) || 'en');
 
 // Set the value of the language select dropdown to the user's preferred language
 document.querySelector('#language-select').value = preferredLanguage;
@@ -28,7 +32,7 @@ document.querySelector('#language-select').addEventListener('change', (event) =>
 });
 
 // Load the appropriate translation file
-fetch(preferredLanguage + '.json')
+fetch(`src/localization/${preferredLanguage}.json`)
   .then(response => response.json())
   .then(data => {
     // Replace text content with translations
