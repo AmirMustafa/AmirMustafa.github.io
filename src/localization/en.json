@@ -24,5 +24,16 @@
     "looking_for_desc1": "Looking for on-site opportunity.",
     "looking_for_desc2": "Have UAE Experience - TAMM. ",
     "role": "Role:",
-    "roles_interested": "Team Lead | Lead developer or equivalent profile - React, Node JS"
+    "roles_interested": "Team Lead | Lead developer or equivalent profile - React, Node JS",
+    "image_alt_desc": "Amir Mustafa",
+    "name_key": "Name",
+    "experience_key": "Experience:",
+    "experience_val": "5+ years:",
+    "clocation_key": "Current Location:",
+    "clocation_val": "Bengaluru, India",
+    "passport_key": "Passport:",
+    "passport_val": "Yes, Available on request:",
+    "visa_key": "VISA:",
+    "visa_val": "Not at present"
+    
 }

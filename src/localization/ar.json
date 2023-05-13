@@ -24,5 +24,15 @@
     "looking_for_desc1": "أبحث عن فرصة في الموقع.",
     "looking_for_desc2": "لديك خبرة في الإمارات العربية المتحدة - تم.",
     "role": "دور:",
-    "roles_interested": "قائد الفريق | مطور رئيسي أو ملف شخصي مكافئ - React ، Node JS"
+    "roles_interested": "قائد الفريق | مطور رئيسي أو ملف شخصي مكافئ - React ، Node JS",
+    "image_alt_desc": "أمير مصطفى",
+    "name_key": "اسم",
+    "experience_key": "خبرة:",
+    "experience_val": "5+ سنوات:",
+    "clocation_key": "الموقع الحالي:",
+    "clocation_val": "بنغالورو ، الهند",
+    "passport_key": "جواز سفر:",
+    "passport_val": "نعم ، متاح عند الطلب",
+    "visa_key": "تأشيرة دخول:",
+    "visa_val": "ليس في الوقت الحاضر"
 }
