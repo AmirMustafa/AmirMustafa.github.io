@@ -37,7 +37,6 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 	<script src="view/js/bootstrap.min.js"></script>
 	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
-	
 
 
 
@@ -53,10 +52,10 @@
 			}
 		})();
 	</script>
+
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example">
-
 	<div id="content">
 		<div id="top" class="jumbotron" data-src="/view/images/taxi_drive_by_animation.gif" data-position="center center">
 			<div class="container">
@@ -81,7 +80,7 @@
 				<span class="glyphicon glyphicon-chevron-down"></span>
 			</a>
 		</div>
-		
+	
 		<nav class="navbar navbar-default" id="navbar-example" role="navigation">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -515,8 +514,7 @@
 						<img src="view/images/projects/FFRG.png" alt="Financial Resilient Growth" />
 						<figcaption>
 							<h3 data-i18n="project_name_ffrg">FFRGs</h3>
-							<p data-i18n="project_desc_ffrg">Financial Resilient Growth NGO, elearning for climate change public budgets and planning and
-								improve climate change resilience.</p>
+							<p data-i18n="project_desc_ffrg">Financial Resilient Growth NGO, elearning for climate change public budgets and planning and improve climate change resilience.</p>
 							<p><span data-i18n="tech_key"><strong>Technology:</strong></span> <br />
 							<span data-i18n="project_tech_ffrg">Development, Moodle</span></p>
 							<a href="https://financingresilientgrowth.org/moodle" target="_blank"><span class="icon"  data-i18n="view_more">View more</span></a>
@@ -2163,6 +2161,7 @@
 	
 	
 			<!-- Bootstrap core JavaScript -->
+			<script type="text/javascript" src="jquery.min.js"></script>
 			<script type="text/javascript" src="view/js/script.js"></script>
 			<script type="text/javascript" src="view/js/bootstrap.min.js"></script>
 
@@ -2182,8 +2181,69 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+<style>
+	/* Testimonial CSS */
+	hr.divider {
+		margin-top: 2em;
+	}
 
-<script
+	.testimonial {
+		padding: 0 15px;
+		text-align: center;
+	}
+
+	.testimonial .pic {
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		margin-bottom: 25px;
+		overflow: hidden;
+	}
+
+	.testimonial .pic img {
+		width: 100%;
+		height: auto;
+	}
+
+	.testimonial .description {
+		padding: 0 15px;
+		font-size: 13px;
+		color: #808080;
+		line-height: 26px;
+	}
+
+	.testimonial .testimonial-title {
+		font-size: 14px;
+		letter-spacing: 3px;
+		color: #000;
+		text-transform: uppercase;
+		position: relative;
+	}
+
+	.testimonial .testimonial-title:after {
+		content: "\f10d";
+		font-family: "Font Awesome 5 Free";
+		font-weight: 900;
+		display: inline-block;
+		width: 100%;
+		font-size: 40px;
+		color: #54478a;
+		margin-top: 30px;
+	}
+
+	.owl-theme .owl-controls .owl-page span {
+		display: block;
+		width: 12px;
+		height: 12px;
+		border-radius: 20px;
+		background: #f3904d;
+		margin: 5px 7px;
+		opacity: 0.5;
+	}
+</style>
+
+<script type="text/javascript"
 	src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 <script src="./src/common/language.js"></script>
 <script>
