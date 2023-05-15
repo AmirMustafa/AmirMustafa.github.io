@@ -59,14 +59,12 @@
 	<div id="content">
 		<div id="top" class="jumbotron" data-src="/view/images/taxi_drive_by_animation.gif" data-position="center center">
 			<div class="container">
-				<select id="language-select" data-width="fit" style="color: inherit">
-					<option value="en" selected>English</option>
-					<option value="ar">عربي</option>
-				</select>
-				<!-- <select id="language-select" data-width="fit" style="color: inherit">
-					<option value="en" data-content='<span style="color: inherit" class="flag-icon flag-icon-us"></span> English' selected>English</option>
-					<option value="ar" data-content='<span style="color: inherit" class="flag-icon flag-icon-ar"></span> عربي'>عربي</option>
-				</select> -->
+				<div class="flag-dropdown">
+					<select id="language-select" data-width="fit" style="color: inherit">
+						<option value="en"Flagpedia.net. selected>English</option>
+						<option value="ar">عربي</option>
+					</select>
+				</div>
 				
 				<h1 data-i18n="name">Amir Mustafa</h1>
 				<p data-i18n="header" class="lead"></p>
@@ -1784,35 +1782,50 @@
 						<strong>
 							<img src="view/images/logo/github.jpeg" alt="Amir Mustafa" width="40" height="40" />
 							<span style="color: rgb(178, 178, 178)">
-								&nbsp; Issued by Github . Jun 2021, Feb 2020 resp.
+								&nbsp; Issued by Github . May 14, 2023, Jun 2021, Feb 2020 resp.
 							</span>
 						</strong>
 	
 						<br /> Received below Github badges:<br /><br />
+						<!-- Badge 1 -->
 						<strong>I. Pull Shark Badge:</strong> <br /> For fixing issue that have been merged. View <a
 							target="_blank"
 							href="https://github.com/AmirMustafa/?tab=achievements&achievement=pull-shark">here</a><br /><br />
 	
+						<!-- Badge 2 -->
 						<strong>II. Arctic Code Vault Contributor Badge:</strong> <br />Preserving open-source software for
 						future generations. View <a target="_blank"
-							href="https://github.com/AmirMustafa/?tab=achievements&achievement=arctic-code-vault-contributor">here</a><br />
+							href="https://github.com/AmirMustafa/?tab=achievements&achievement=arctic-code-vault-contributor">here</a>
+							<br /><br />
+						
+						<!-- Badge 3 -->
+						<strong>III. Yolo Badge:</strong> <br /> For merging PR. View <a
+						target="_blank"
+						href="https://github.com/AmirMustafa?tab=achievements&achievement=yolo">here</a><br /><br /><br />
 	
 						<div class="certificates">
 							<br />
 							<div class="row">
-								<div class="col-md-3">
-									<a href="https://github.com/AmirMustafa/?tab=achievements&achievement=pull-shark"
-										title="Github's Pull Shark Achievement Badge" style="text-decoration:none;"
-										target="_blank">
-										<img src="view/images/certificates/github-arctic-pull-shark-badge.png" width="80%">
+								<div class="col-md-2">
+									<a href="https://github.com/AmirMustafa?tab=achievements&achievement=yolo"
+										title="Yolo Badge, May 14, 2023"
+										style="text-decoration:none;" target="_blank">
+										<img src="view/images/certificates/yolo-big.png"  width="75%">
 									</a>
 								</div>
-								<div class="col-md-3">
+								<div class="col-md-2">
+									<a href="https://github.com/AmirMustafa/?tab=achievements&achievement=pull-shark"
+										title="Pull Shark Badge, Jun 27, 2021" style="text-decoration:none;"
+										target="_blank">
+										<img src="view/images/certificates/pull-shark-big.png" width="75%">
+									</a>
+								</div>
+								<div class="col-md-2">
 									<a href="https://github.com/AmirMustafa/?tab=achievements&achievement=arctic-code-vault-contributor"
-										title="Github's Arctic Code Vault Contributor Achievement Badge"
+										title="Arctic Code Vault Contributor Badge, Feb 2, 2020"
 										style="text-decoration:none;" target="_blank">
-										<img src="view/images/certificates/github-arctic-vault-contributer-badge.png"
-											width="80%">
+										<img src="view/images/certificates/artic-code-vault-big.png"
+											width="75%">
 									</a>
 								</div>
 							</div>
@@ -2240,6 +2253,12 @@
 		background: #f3904d;
 		margin: 5px 7px;
 		opacity: 0.5;
+	}
+
+	.flag-dropdown {
+		position: absolute;
+		color: inherit !important;
+		top: 10%;
 	}
 </style>
 
