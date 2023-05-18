@@ -161,6 +161,23 @@
     "experience_fundlr_point_7": "7. المحررون الزاويون المطورون (محرر متوسط ​​و Tiny MCE) حسب المتطلبات.",
     "experience_fundlr_point_8": "8. خدمة إعلام الدفع مقدمة من oneSignal API.",
     "experience_fundlr_point_9": "9. عمل معظمهم في MySql Technology لقواعد البيانات.",
-    "experience_fundlr_point_10": "10. مساعدة أعضاء الفريق على حل المشكلات الفنية."
+    "experience_fundlr_point_10": "10. مساعدة أعضاء الفريق على حل المشكلات الفنية.",
+
+    "educations": "تعليم",
+    "education_nalanda": "معهد نالاندا للتكنولوجيا",
+    "education_nalanda_period": "يونيو 2011 - مايو 2015",
+    "education_nalanda_degree": "بكالوريوس في التكنولوجيا | مجلس BPUT | هندسة الإلكترونيات والاتصالات",
+    "education_nalanda_desc": "كانت الإلكترونيات وعلوم الكمبيوتر هي أوراقي في B-Tech ، واكتسب المعرفة والمهارات العملية في PHP و MVC. اكتساب الاهتمام بتكنولوجيا المعلومات ببطء. لذلك بدأت في أخذ دورات مختلفة عبر الإنترنت لتحسين مهاراتي. بعضها Linux و Angular JavaScript وما إلى ذلك.",
+    "education_nalanda_location": "بوبانسوار ، الهند",
+
+    "education_st_patricks": "القديس باتريك ه. مدرسة",
+    "education_st_patricks_location": "أسانسول ، الهند",
+    "education_st_patricks_12_period": "يونيو 2009 - مايو 2011",
+    "education_st_patricks_12_degree": "مجلس ISC | التعليم الثانوي العالي | العلوم والرياضيات",
+    "education_st_patricks_12_desc": "كان التعليم تعليمي العالي في مجال العلوم. تعلمت أيضًا عن SQL و PHP و MVC و OOPS والمزيد.",
+
+    "education_st_patricks_10_period": "مارس 1998 - أبريل 2009",
+    "education_st_patricks_10_degree": "مجلس ICSE | المدرسة الثانوية | العلوم والرياضيات",
+    "education_st_patricks_10_desc": "I graduated highschool, where I enjoyed doing science, math, biology and arts. I realized in my third year of school, I wanted to do something with websites, and so I started making small websites."
 
 }

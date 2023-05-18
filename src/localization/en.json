@@ -160,6 +160,24 @@
     "experience_fundlr_point_6": "6. Developed a basic Facebook Chat Bot. ",
     "experience_fundlr_point_7": "7. Developed Angular Editors (Medium Editor and Tiny MCE) as per requirements.",
     "experience_fundlr_point_8": "8. Push Notification facility provided by oneSignal API.",
-    "experience_fundlr_point_9": "9. Mostly worked in MySql Technology for database.",
-    "experience_fundlr_point_10": "10. Assist team members to solve technical issues."
+    "experience_fundlr_point_9": "9. Mostly worked in MySql Technology for databases.",
+    "experience_fundlr_point_10": "10. Assist team members to solve technical issues.",
+
+    "educations": "Educations",
+    "education_nalanda": "Nalanda Institute of Technology",
+    "education_nalanda_period": "Jun 2011 - May 2015",
+    "education_nalanda_degree": "Bachelor of Technology | BPUT Board | Electronics and Communication Engg.",
+    "education_nalanda_desc": "Electronics and Computer Science were my papers in B-Tech, and gaining knowledge and hands-on skills in PHP, and MVC. Slowly gaining interest in Information Technology. So I started taking different online courses to better my skills. Some of them are Linux, Angular JavaScript, and so on.",
+    "education_nalanda_location": "Bhubaneswar, India",
+
+    "education_st_patricks": "St. Patrick's H.S. School",
+    "education_st_patricks_location": "Asansol, India",
+    "education_st_patricks_12_period": "Jun 2009 - May 2011",
+    "education_st_patricks_12_degree": "ISC Board | Higher Secondary Education | Science and Mathematics",
+    "education_st_patricks_12_desc": "The education was my higher education in the science field. I also learned about SQL, PHP, MVC, OOPS, and more.",
+
+    "education_st_patricks_10_period": "Mar 1998 - Apr 2009",
+    "education_st_patricks_10_degree": "ICSE Board | High School | Science and Mathematics ",
+    "education_st_patricks_10_desc": "I graduated high school, where I enjoyed doing science, math, biology, and arts. I realized in my third year of school, I wanted to do something with websites, so I started making small websites."
+
 }
