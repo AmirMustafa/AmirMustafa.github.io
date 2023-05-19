@@ -235,10 +235,34 @@
     "videos_feat2_link": "عامل ميناء: تحقق من المزيد من المحتويات",
     "videos_feat3": "تشفير آمن | أمن البرمجيات",
     "videos_feat3_link": "التشفير الآمن: تحقق من المزيد من المحتويات",
-    "here": "هنا",
+    "here": "هنا ",
 
     "blogs_quotes": "الحياة بدون معرفة موت مقنع.",
     "blogs_quotes2": "أحب التعلم ومشاركة تجربتي. انقر",
-    "blogs_quotes3": "للمحتوى الفني."
+    "blogs_quotes3": "للمحتوى الفني.",
+
+    "awards_badges": "الجوائز والشارات",
+
+    "ey_kudo_header": "1. جائزة EY Kudos",
+    "ey_kudo_timestamp": "صادر عن إرنست ويونغ. آذار (مارس) 2023",
+    "ey_kudo_reason": "حائز على شهرة من EY لأداء مثالي. منظر",
+
+    "tcs_gems_header": "2. TCS Gems - جائزة المبادرة الخاصة",
+    "tcs_gems_timestamp": "صادر عن شركة تاتا للخدمات الاستشارية. كانون الثاني (يناير) 2022",
+    "tcs_gems_reason": "  تقديرا للمساهمة المتميزة للمنظمة. منظر",
+
+    "github_badge_header": "3. شارات Github Achievement:",
+    "github_badge_timestamp": "صادر عن جيثب. 14 مايو 2023 ، يونيو 2021 ، فبراير 2020 على التوالي.",
+    "github_badge_desc": "تم استلام شارات Github أدناه:",
+    "github_badge_name_yolo": " شارة Yolo:",
+    "github_badge_yolo_desc": "لدمج العلاقات العامة. منظر",
+    "github_badge_name_pullshark": " ثانيًا. سحب شارة القرش:",
+    "github_badge_pullshark_desc": "لإصلاح المشكلات التي تم دمجها. منظر ",
+    "github_badge_name_arctic": "ثالثا. شارة مساهم Arctic Code Vault:",
+    "github_badge_arctic_desc": "الحفاظ على البرمجيات مفتوحة المصدر للأجيال القادمة. منظر",
+
+    "aicte_platinum_certificate": "4. مهندس معتمد من AICTE بلاتينيوم وذهبي",
+    "aicte_platinum_timestamp": "صادر عن BSNL-EETP AICTE. يناير 2015 ، مايو 2014 ، ديسمبر 2013 resp.",
+    "aicte_platinum_certificate_desc": "تم اختيارها من قبل AICTE وتدريبها في BSNL-AICTE EETP (برنامج التدريب على تعزيز قابلية التوظيف). التقى بعلماء رائعين على مدار 1.5 سنة الماضية وحصلوا على شهادة البلاتينية. رحلة لثلاثة فصول مع فريق رائع. منظر "
 
 }
