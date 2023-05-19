@@ -226,6 +226,19 @@
     "languages": "Languages",
     "en": "English (Daily use)",
     "hi": "Hindi (Mother Tongue)",
-    "ar": "Arabic"
+    "ar": "Arabic",
+
+    "videos_quotes": "Sharing my experience as a Full Stack Software Developer.",
+    "videos_feat1": "Amazon Web Services",
+    "videos_feat1_link": "Check more contents",
+    "videos_feat2": "Docker",
+    "videos_feat2_link": "Docker: Check more contents",
+    "videos_feat3": "Secure Coding | Software Security",
+    "videos_feat4_link": "Secure Coding: Check more contents",
+    "here": "here",
+
+    "blogs_quotes": "Life without knowledge is death in disguise.",
+    "blogs_quotes2": "Love learning and sharing my experience. Click",
+    "blogs_quotes3": "for technical content.."
 
 }
