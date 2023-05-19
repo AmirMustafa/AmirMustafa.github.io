@@ -226,6 +226,45 @@
     "languages": "Languages",
     "en": "English (Daily use)",
     "hi": "Hindi (Mother Tongue)",
-    "ar": "Arabic"
+    "ar": "Arabic",
+
+    "videos_quotes": "Sharing my experience as a Full Stack Software Developer.",
+    "videos_feat1": "Amazon Web Services",
+    "videos_feat1_link": "Check more contents",
+    "videos_feat2": "Docker",
+    "videos_feat2_link": "Docker: Check more contents",
+    "videos_feat3": "Secure Coding | Software Security",
+    "videos_feat3_link": "Secure Coding: Check more contents",
+    "here": " here",
+
+    "blogs_quotes": "Life without knowledge is death in disguise.",
+    "blogs_quotes2": "Love learning and sharing my experience. Click",
+    "blogs_quotes3": "for technical content..",
+    
+    "awards_badges": "Awards and Badges",
+
+    "ey_kudo_header": "1. EY Kudos Award ",
+    "ey_kudo_timestamp": "Issued by Ernst and Young . Mar 2023",
+    "ey_kudo_reason": "Awarded Kudos by EY for Exemplary performance. View",
+
+    "tcs_gems_header": "2. TCS Gems - Special Initiative Award ",
+    "tcs_gems_timestamp": "Issued by TATA Consultancy Services . Jan 2022",
+    "tcs_gems_reason": "In appreciation of the outstanding contribution to the organization. View",
+
+    "github_badge_header": "3. Github Achievement Badges: ",
+    "github_badge_timestamp": "Issued by Github . May 14, 2023, Jun 2021, Feb 2020 resp.",
+    "github_badge_desc": "Received below Github badges:",
+    "github_badge_name_yolo": "I. Yolo Badge:",
+    "github_badge_yolo_desc": "For merging PR. View",
+    "github_badge_name_pullshark": "II. Pull Shark Badge:",
+    "github_badge_pullshark_desc": "For fixing issues that have been merged. View ",
+    "github_badge_name_arctic": "III. Arctic Code Vault Contributor Badge:",
+    "github_badge_arctic_desc": "Preserving open-source software for future generations. View",
+
+    "aicte_platinum_certificate": "4. AICTE Platinum and Gold Certified Engineer ",
+    "aicte_platinum_timestamp": "Issued by BSNL-EETP AICTE. Jan 2015, May 2014, Dec 2013 resp.",
+    "aicte_platinum_certificate_desc": "Got selected by AICTE and trained in BSNL-AICTE EETP (Employability Enhancement Training Programme). Met amazing scholars over the past 1.5 years and was certified as Platinum. A journey of three summers with an amazing team. View "
+
+
 
 }
