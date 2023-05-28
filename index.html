@@ -36,7 +36,6 @@
 	
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 	<script src="view/js/bootstrap.min.js"></script>
-	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
 
 
 
@@ -60,10 +59,14 @@
 		<div id="top" class="jumbotron" data-src="/view/images/taxi_drive_by_animation.gif" data-position="center center">
 			<div class="container">
 				<div class="flag-dropdown">
-					<select id="language-select" data-width="fit" style="color: inherit">
-						<option value="en"Flagpedia.net. selected>English</option>
-						<option value="ar">عربي</option>
-					</select>
+					
+					<div class="form-group">
+						<select id="language-select" class="form-control"  data-width="fit" style="color: inherit">
+							<option value="en" selected><span class="flag-emoji"  style="font-size: 30px;">🇮🇳</span> English</option>
+							<option value="ar"><span class="flag-emoji"  style="font-size: 30px;">🇦🇪</span> عربي</option>
+							<option value="en"><span class="flag-emoji"  style="font-size: 30px;">🇬🇧</span> United Kingdom</option>
+						</select> 
+					  </div>
 				</div>
 				
 				<h1 data-i18n="name">Amir Mustafa</h1>
@@ -2159,9 +2162,27 @@
 		position: absolute;
 		color: inherit !important;
 		top: 10%;
+		top: -60% !important;
+		right: -81px;
+	}
+
+	select#language-select {
+		font-size: 18px;
+		height: auto;
+		margin: 0px !important;
+		display: inline !important;
+		vertical-align: baseline !important;
+		cursor: pointer;
+
+		background: transparent;
+    	color: white !important;
+	}
+
+	select#language-select:hover {
+		box-shadow:0 0 13px 5px rgba(150, 180, 200, .6);
 	}
 </style>
-
+    
 <script type="text/javascript"
 	src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 <script src="./src/common/language.js"></script>
