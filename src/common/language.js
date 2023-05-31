@@ -3,7 +3,8 @@
 const url = new URL(window.location.href);
 const lang = url.searchParams.get("lang");
 
-lang ? preferredLanguage = lang : preferredLanguage = (localStorage.getItem('preferredLanguage') || navigator.language.slice(0, 2) || 'en');
+// lang ? preferredLanguage = lang : preferredLanguage = (localStorage.getItem('preferredLanguage') || navigator.language.slice(0, 2) || 'en');
+lang ? preferredLanguage = lang : preferredLanguage = navigator.language.slice(0, 2) || 'en';
 
 // Set the value of the language select dropdown to the user's preferred language
 document.querySelector('#language-select').value = preferredLanguage;
