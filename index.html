@@ -24,20 +24,16 @@
 
 	<!-- Bootstrap core CSS -->
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
-	<link href="view/css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- <link href="view/css/bootstrap.min.css" rel="stylesheet" /> -->
 
 
 	<link href="view/style.css" rel="stylesheet" />
 	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 	<link rel="icon" href="favicon.png" type="image/x-icon" />
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
 	
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-	<script src="view/js/bootstrap.min.js"></script>
-
-
-
-	<!-- Scripts -->
+	
 	<script type="text/javascript" id="inspectletjs">
 		window.__insp = window.__insp || [];
 		__insp.push(['wid', 92785244]);
@@ -1658,16 +1654,68 @@
 				</p>
 	
 				<div class="row">
-					<div class="col-md-6">
-						<span data-i18n="blogs_quotes2">Love learning and sharing my experience. Click </span>
-						 <a href="https://medium.com/@amirmustafaofficial"><span data-i18n="here">here</span>  </a> 
-						 <span data-i18n="blogs_quotes3">for technical contents. </span>
+					<div class="col-md-12">
+						<div class="card" style="width: auto">
+							<div class="carousel">
+								<div class="slick-carousel">
+								  <!-- First card -->
+								  <div class="card">
+									<img src="./view/images/projects/Lilly.jpg" alt="Image 1" width="80%" height="auto" />
+									<div class="card-body">
+									  <h4 class="card-title">Blog Title 1</h4>
+									  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									  <a href="#" class="btn btn-primary">Read More</a>
+									</div>
+								  </div>
+								  
+								  <!-- Second card -->
+								  <div class="card">
+									<img src="./view/images/projects/Lilly2.jpg" alt="Image 2"  width="80%" height="auto" />
+									<div class="card-body">
+									  <h4 class="card-title">Blog Title 2</h4>
+									  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									  <a href="#" class="btn btn-primary">Read More</a>
+									</div>
+								  </div>
+								  
+								  <!-- Third card -->
+								  <div class="card">
+									<img src="./view/images/projects/zabai.PNG" alt="Image 3"  width="80%" height="auto" />
+									<div class="card-body">
+									  <h4 class="card-title">Blog Title 3</h4>
+									  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									  <a href="#" class="btn btn-primary">Read More</a>
+									</div>
+								  </div>
+								  
+								  <!-- Fourth card -->
+								  <div class="card">
+									<img src="./view/images/projects/waves.png"  alt="Image 4"  width="80%" height="auto" />
+									<div class="card-body">
+									  <h4 class="card-title">Blog Title 4</h4>
+									  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									  <a href="#" class="btn btn-primary">Read More</a>
+									</div>
+								  </div>
+								  
+								  <!-- Additional card items... -->
+								</div>
+								<button class="carousel-btn carousel-prev"><i class="fa fa-chevron-left"></i></button>
+								<button class="carousel-btn carousel-next"><i class="fa fa-chevron-right"></i></button>
+							  </div>
+							</div>
+
+							
+							  
+						  </div>
 					</div>
 				</div>
 				<hr />
 			</div>
 		</div>
-	
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			
 		<!-- Awards and Badges -->
 		<div class="background-white">
 			<div id="awards" class="container">
@@ -2081,6 +2129,28 @@
 			<script type="text/javascript" src="view/js/script.js"></script>
 			<script type="text/javascript" src="view/js/bootstrap.min.js"></script>
 
+			<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+			<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script> -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+			<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+			<!-- <script src="view/js/bootstrap.min.js"></script> -->
+
+
+
+			<!-- Scripts -->
+			<script>
+				$(document).ready(function(){
+					$('.slick-carousel').slick({
+						slidesToShow: 3,
+						slidesToScroll: 1,
+						autoplay: true,
+						prevArrow: $('.carousel-prev'),
+						nextArrow: $('.carousel-next')
+					});
+				});
+				</script>
+
 			<!-- Google Analytics -->
 			<script type="text/javascript">
 				var _gaq = _gaq || [];
@@ -2097,6 +2167,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 	/* Testimonial CSS */
 	hr.divider {
@@ -2186,6 +2257,25 @@
 
 	select#language-select:hover {
 		box-shadow:0 0 13px 5px rgba(150, 180, 200, .6);
+	}
+
+	.carousel-btn {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		background-color: transparent;
+		border: none;
+		color: #333;
+		font-size: 24px;
+		cursor: pointer;
+		}
+
+	.carousel-prev {
+		left: 10px;
+	}
+
+	.carousel-next {
+		right: 10px;
 	}
 </style>
     
