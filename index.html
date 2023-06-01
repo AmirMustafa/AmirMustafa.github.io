@@ -2332,6 +2332,9 @@
 						}
 						return string;
 					}
+					function removeHTMLTags(str) {
+						return str.replace(/<[^>]*>/g, '').replace(/→/g, '');
+					}
 					function getTrimmedString(description = "", length=20) {
 
 						// Create a regular expression to match complete HTML tags
@@ -2348,7 +2351,7 @@
 
 							outputString = description.slice(0, firstTagIndex) + description.slice(seventhTagIndex + matches[6].length);
 
-							//outputString = outputString.textContent;
+							outputString = removeHTMLTags(outputString);
 
 							let desc = trimStringWithDots(outputString, length);
 							return desc;
@@ -2406,7 +2409,7 @@
 									var card = $('<div>').addClass('card');
 									var image = $(`
 										<a href='${blog.link}' target='_blank'>
-										<img src='${blog.thumbnail}' alt="Blog Image" width='90%' height="170px" />
+										<img src='${blog.thumbnail}' alt="Blog Image" width='90%' height="190px" />
 										</a>
 									`);
 									var cardBody = $('<div>').addClass('card-body');
