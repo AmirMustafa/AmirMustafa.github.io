@@ -2098,59 +2098,82 @@
 
 			<!-- Scripts -->
 			<script>
-				$(document).ready(function () {
-				  // Blog card data
-				  var blogData = [
-					{
-					  title: "Blog Title 1",
-					  image: "./view/images/projects/Lilly.jpg",
-					  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-					  link: '#'
-					},
-					{
-					  title: "Blog Title 2",
-					  image: "./view/images/projects/zabai.PNG",
-					  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-					  link: ''
-					},
-					{
-					  title: "Blog Title 3",
-					  image: "./view/images/projects/Lilly2.jpg",
-					  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-					  link: ''
-					},
-					{
-					  title: "Blog Title 4",
-					  image: "./view/images/projects/waves.png",
-					  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-					  link: ''
-					}
-				  ];
-			
-				  // Generate blog cards dynamically
-				  var cardCarousel = $('#card-carousel');
-				  blogData.forEach(function (blog) {
-					var card = $('<div>').addClass('card');
-					var image = $('<img>').attr('src', blog.image).attr('alt', 'Image').attr('width', '80%');
-					var cardBody = $('<div>').addClass('card-body');
-					var title = $('<h4>').addClass('card-title').text(blog.title);
-					var description = $('<p>').addClass('card-text').text(blog.description);
-					var readMore = $('<a>').attr('href', blog.link).addClass('btn btn-primary').text('Read More');
-			
-					cardBody.append(title, description, readMore);
-					card.append(image, cardBody);
-					cardCarousel.append(card);
-				  });
-			
-				  // Initialize Slick carousel
-				  cardCarousel.slick({
-					slidesToShow: 3,
-					slidesToScroll: 1,
-					autoplay: true,
-					prevArrow: $('.carousel-prev'),
-					nextArrow: $('.carousel-next')
-				  });
-				});
+				try {
+					$(document).ready(function () {
+				  // Fetch the Medium RSS feed
+					const feedUrl = 'https://medium.com/feed/@amirmustafaofficial';
+					fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}`)
+					.then(response => response.json())
+					.then(data => {
+						const posts = data.items;
+
+						// Render the blog posts
+						const blogPostsContainer = document.getElementById('blog-posts');
+						posts.forEach(post => {
+
+						console.log('post ===> ', {post})
+						const { title, link } = post;
+						const postElement = document.createElement('div');
+						postElement.innerHTML = `<a href="${link}" target="_blank">${title}</a>`;
+						// blogPostsContainer.appendChild(postElement);
+						});
+					
+						// Blog card data
+						var blogData = [
+							{
+							title: "Blog Title 1",
+							thumbnail: "./view/images/projects/Lilly.jpg",
+							description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+							link: '#'
+							},
+							{
+							title: "Blog Title 2",
+							thumbnail: "./view/images/projects/zabai.PNG",
+							description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+							link: ''
+							},
+							{
+							title: "Blog Title 3",
+							thumbnail: "./view/images/projects/Lilly2.jpg",
+							description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+							link: ''
+							},
+							{
+							title: "Blog Title 4",
+							thumbnail: "./view/images/projects/waves.png",
+							description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+							link: ''
+							}
+						];
+					
+						// Generate blog cards dynamically
+						var cardCarousel = $('#card-carousel');
+						blogData.forEach(function (blog) {
+							var card = $('<div>').addClass('card');
+							var image = $('<img>').attr('src', blog.thumbnail).attr('alt', 'Image').attr('width', '80%');
+							var cardBody = $('<div>').addClass('card-body');
+							var title = $('<h4>').addClass('card-title').text(blog.title);
+							var description = $('<p>').addClass('card-text').text(blog.description);
+							var readMore = $('<a>').attr('href', blog.link).addClass('btn btn-primary').text('Read More');
+					
+							cardBody.append(title, description, readMore);
+							card.append(image, cardBody);
+							cardCarousel.append(card);
+						});
+					
+						// Initialize Slick carousel
+						cardCarousel.slick({
+							slidesToShow: 3,
+							slidesToScroll: 1,
+							autoplay: true,
+							prevArrow: $('.carousel-prev'),
+							nextArrow: $('.carousel-next')
+						});
+						});
+					})
+				} catch (err) {
+					throw new Error('Error: ', err);
+				}
 			  </script>
 
 			<!-- Google Analytics -->
