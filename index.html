@@ -2404,15 +2404,19 @@
 								var cardCarousel = $('#card-carousel');
 								blogData.items.forEach(function (blog) {
 									var card = $('<div>').addClass('card');
-									var image = $('<img>')
-												.attr('src', blog.thumbnail)
-												.attr('alt', 'Image')
-												.attr('width', '90%')
-												.attr('height', '170px')
+									var image = $(`
+										<a href='${blog.link}' target='_blank'>
+										<img src='${blog.thumbnail}' alt="Blog Image" width='90%' height="170px" />
+										</a>
+									`);
 									var cardBody = $('<div>').addClass('card-body');
 									var title = $('<h4>').addClass('card-title').text(getTrimmedString(blog.title));
 									var description = $('<p>').addClass('card-text').text(getTrimmedString(blog.description, 100));
-									var readMore = $('<a>').attr('href', blog.link).addClass('btn btn-primary').text('Read More');
+									var readMore = $('<a>')
+										.attr('href', blog.link)
+										.attr('target', '_blank') 
+										.addClass('btn btn-primary')
+										.text('Read More');
 				
 									cardBody.append(title, description, readMore);
 									card.append(image, cardBody);
