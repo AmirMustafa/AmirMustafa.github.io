@@ -31,6 +31,8 @@
 	<link href="view/style.css" rel="stylesheet" />
 	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 	<link rel="icon" href="favicon.png" type="image/x-icon" />
+	<!-- <link rel="stylesheet" href="./view/css/font-awesome-5.15.3.min.css" /> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
 
 
@@ -164,21 +166,29 @@
 							<span data-i18n="clocation_val">Bengaluru, India</span>
 						</p>
 
-						<span data-i18n="passport_key"><strong>Passport:</strong></span><br />
-						<span data-i18n="passport_val">
-							<p>Yes, Available on request
-						</span></p>
+						<p>
+							<strong>
+								<span data-i18n="passport_key">Passport:</span> 
+								<span id="active"><i class="fas fa-check-circle"></i></span>
+							</strong><br />
+							<span data-i18n="passport_val">
+								Yes, Available on request
+							</span>
+						</p>
 
-						<span data-i18n="visa_key"><strong>VISA:</strong></span><br />
-						<span data-i18n="visa_val">
-							<p>Not at present
-						</span></p>
+						
+						<strong>
+							<span data-i18n="visa_key">VISA:</span>
+							<span id="inactive"><i class="fas fa-times-circle"></i></span>
+						</strong><br />
+						<p><span data-i18n="visa_val">Not at present</span></p>
+						
 						<!-- <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="amirmustafa1" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/amirmustafa1?trk=profile-badge">Amir Mustafa (He/Him)</a></div> -->
 
-
+						<br>
 						<a href="https://twitter.com/amir__mustafa" class="twitter-follow-button"
 							data-show-count="false" data-size="large" data-show-screen-name="false">Follow
-							@pascalvgemert</a>
+							@amirmustafa</a>
 						<script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
 					</div>
 				</div>
@@ -2574,6 +2584,20 @@
 	.card-body {
 		height: 196px;
 		width: 95%;
+	}
+
+	#active {
+		width: 2px;
+		height: 2px;
+		display: inline-block;
+		color: green;
+	}
+
+	#inactive {
+		width: 2px;
+		height: 2px;
+		display: inline-block;
+		color: #ddd;
 	}
 </style>
 
