@@ -28,7 +28,7 @@
     "image_alt_desc": "أمير مصطفى",
     "name_key": "اسم",
     "experience_key": "خبرة:",
-    "experience_val": "5+ سنوات:",
+    "experience_val": "6+ سنوات:",
     "clocation_key": "الموقع الحالي:",
     "clocation_val": "بنغالورو ، الهند",
     "passport_key": "جواز سفر:",
@@ -261,7 +261,7 @@
     "github_badge_name_pullshark": "ثالثا. سحب شارة القرش:",
     "github_badge_pullshark_desc": "لإصلاح المشكلات التي تم دمجها. منظر",
     "github_badge_name_arctic": "رابعا. شارة مساهم Arctic Code Vault:",
-    "github_badge_arctic_desc": "الحفاظ على البرمجيات مفتوحة المصدر للأجيال القادمة. منظر",
+    "github_badge_arctic_desc": "الحفاظ على البرمجيات مفتوحة المصدر للأجيال القادمة. منظر,",
 
     "aicte_platinum_certificate": "4. مهندس معتمد من AICTE بلاتينيوم وذهبي",
     "aicte_platinum_timestamp": "صادر عن BSNL-EETP AICTE. يناير 2015 ، مايو 2014 ، ديسمبر 2013 resp.",
