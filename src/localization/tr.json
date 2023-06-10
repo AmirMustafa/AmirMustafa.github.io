@@ -228,18 +228,18 @@
     "hi": "Hindi (Mother Tongue)",
     "ar": "Arabic",
 
-    "videos_quotes": "Sharing my experience as a Full Stack Software Developer.",
-    "videos_feat1": "Amazon Web Services",
-    "videos_feat1_link": "Check more contents",
-    "videos_feat2": "Docker",
-    "videos_feat2_link": "Docker: Check more contents",
-    "videos_feat3": "Secure Coding | Software Security",
-    "videos_feat3_link": "Secure Coding: Check more contents",
-    "here": " here",
+    "videos_quotes": "Full Stack Yazılım Geliştiricisi olarak deneyimlerimi paylaşıyorum.",
+    "videos_feat1": "Amazon Web Hizmetleri",
+    "videos_feat1_link": "Daha fazla içerik kontrol edin",
+    "videos_feat2": "Liman işçisi",
+    "videos_feat2_link": "Docker: Daha fazla içerik kontrol edin",
+    "videos_feat3": "Güvenli Kodlama | Yazılım Güvenliği",
+    "videos_feat3_link": "Güvenli Kodlama: Daha fazla içerik kontrol edin",
+    "here": " burada",
 
-    "blogs_quotes": "Life without knowledge is death in disguise.",
-    "blogs_quotes2": "Love learning and sharing my experience. Click",
-    "blogs_quotes3": "for technical content.",
+    "blogs_quotes": "Bilgisiz yaşam kılık değiştirmiş ölümdür.",
+    "blogs_quotes2": "Öğrenmeyi ve deneyimlerimi paylaşmayı seviyorum. Tıklamak",
+    "blogs_quotes3": "teknik içerik için",
     
     "awards_badges": "Awards and Badges",
 
@@ -267,7 +267,7 @@
     "aicte_platinum_timestamp": "Issued by BSNL-EETP AICTE. Jan 2015, May 2014, Dec 2013 resp.",
     "aicte_platinum_certificate_desc": "Got selected by AICTE and trained in BSNL-AICTE EETP (Employability Enhancement Training Programme). Met amazing scholars over the past 1.5 years and was certified as Platinum. A journey of three summers with an amazing team. View ",
 
-    "reviews_quotes": "See what professionals say about Amir.",
+    "reviews_quotes": "Profesyonellerin Amir hakkında ne söylediklerini gör.",
 
     "review_shreyas_desc": "Amir and I worked together on several projects. He consistently gave 100 percent effort to the team and played a significant role in ensuring that we completed assignments on time. He had excellent time management skills and had a knack for keeping everyone calm and productive during intense crunch periods. Any team would be lucky to have Amir.",
     "review_shreyas_timestamp": "April 23, 2023, Shreyas worked with Amir but on different teams | Client",
