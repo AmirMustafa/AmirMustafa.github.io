@@ -59,16 +59,12 @@
 
 					<div class="form-group">
 						<select id="language-select" class="form-control" data-width="fit" style="color: inherit">
-							<option value="en" selected><span class="flag-emoji" style="font-size: 30px;">🇮🇳</span>
-								English</option>
-							<option value="ar"><span class="flag-emoji" style="font-size: 30px;">🇦🇪</span> عربي
-							</option>
-							<option value="fr"><span class="flag-emoji" style="font-size: 30px;">🇫🇷</span> Français
-							</option>
-							<option value="es"><span class="flag-emoji" style="font-size: 30px;">🇪🇸</span> Español
-							</option>
-							<option value="tr"><span class="flag-emoji" style="font-size: 30px;">🇹🇷</span> Türkçe
-							</option>
+							<option value="en" selected><span class="flag-emoji" style="font-size: 30px;">🇮🇳</span> English</option>
+							<option value="ar"><span class="flag-emoji" style="font-size: 30px;">🇦🇪</span> عربي</option>
+							<option value="fr"><span class="flag-emoji" style="font-size: 30px;">🇫🇷</span> Français</option>
+							<option value="es"><span class="flag-emoji" style="font-size: 30px;">🇪🇸</span> Español</option>
+							<option value="tr"><span class="flag-emoji" style="font-size: 30px;">🇹🇷</span> Türkçe</option>
+							<option value="el"><span class="flag-emoji" style="font-size: 30px;">🇬🇷</span> Ελληνικά</option>
 						</select>
 					</div>
 				</div>
@@ -2446,7 +2442,15 @@
 					  getMediumBlogs()
 							.then(blogData => blogData.json())
 							.then(blogData => {
+								console.log({blogData});
 								// Generate blog cards dynamically
+
+								const views = blogData.viewCount;
+								const likes = blogData.likes;
+
+								// Use the 'views' and 'likes' variables as needed in your code
+								console.log("Number of views:", views);
+								console.log("Number of likes:", likes);
 								var cardCarousel = $('#card-carousel');
 								blogData.items.forEach(function (blog) {
 									var card = $('<div>').addClass('card');
@@ -2456,7 +2460,7 @@
 										</a>
 									`);
 									var cardBody = $('<div>').addClass('card-body');
-									var title = $('<h4>').addClass('card-title').text(getTrimmedString(blog.title));
+									var title = $('<h4>').addClass('card-title').text(getTrimmedString(blog.title + '' + blog.likes));
 									var description = $('<p>').addClass('card-text').text(getTrimmedString(blog.description, 100));
 									var readMore = $('<a>')
 										.attr('href', blog.link)
