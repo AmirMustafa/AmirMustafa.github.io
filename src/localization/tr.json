@@ -170,6 +170,10 @@
     "education_nalanda_degree": "Teknoloji Lisans | BPUT Kurulu | Elektronik ve Haberleşme Müh.",
     "education_nalanda_desc": "Elektronik ve Bilgisayar Bilimi, B-Tech'teki kağıtlarımdı ve PHP ve MVC'de bilgi ve uygulamalı beceriler kazandım. Bilgi Teknolojisine yavaş yavaş ilgi duymak. Bu yüzden becerilerimi geliştirmek için farklı çevrimiçi kurslar almaya başladım. Bazıları Linux, Angular JavaScript vb.",
     "education_nalanda_location": "Bhubaneswar, Hindistan",
+    "education_nalanda_desc_university": "Üniversite: Biju Patnaik Teknoloji Üniversitesi (BPUT)",
+    "education_nalanda_desc_college": "Kolej: Nalanda Teknoloji Enstitüsü, Bhubaneswar, Hindistan",
+    "education_nalanda_desc_degree": "Derece: B-Tech",
+    "education_bput": "Biju Patnaik Teknoloji Üniversitesi (BPUT)",
 
     "education_st_patricks": "St. Patrick's H.S. Okul",
     "education_st_patricks_location": "Asansol, Hindistan",

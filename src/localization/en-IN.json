@@ -170,6 +170,10 @@
     "education_nalanda_degree": "Bachelor of Technology | BPUT Board | Electronics and Communication Engg.",
     "education_nalanda_desc": "Electronics and Computer Science were my papers in B-Tech, and gaining knowledge and hands-on skills in PHP, and MVC. Slowly gaining interest in Information Technology. So I started taking different online courses to better my skills. Some of them are Linux, Angular JavaScript, and so on.",
     "education_nalanda_location": "Bhubaneswar, India",
+    "education_nalanda_desc_university": "University: Biju Patnaik University of Technology (BPUT)",
+    "education_nalanda_desc_college": "College: Nalanda Institute of Technology, Bhubaneswar, India",
+    "education_nalanda_desc_degree": "Degree: B-Tech",
+    "education_bput": "Biju Patnaik University of Technology (BPUT)",
 
     "education_st_patricks": "St. Patrick's H.S. School",
     "education_st_patricks_location": "Asansol, India",

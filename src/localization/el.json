@@ -170,6 +170,10 @@
     "education_nalanda_degree": "Πτυχίο Τεχνολογίας | BPUT Board | Ηλεκτρονικής και Επικοινωνίας Εγγ.",
     "education_nalanda_desc": "Τα Ηλεκτρονικά και η Επιστήμη Υπολογιστών ήταν τα χαρτιά μου στη Β-Τεχνολογία και η απόκτηση γνώσεων και πρακτικών δεξιοτήτων στην PHP και στο MVC. Κερδίζει σιγά σιγά ενδιαφέρον για την Πληροφορική. Έτσι άρχισα να παρακολουθώ διαφορετικά διαδικτυακά μαθήματα για να βελτιώσω τις δεξιότητές μου. Μερικά από αυτά είναι το Linux, το Angular JavaScript και ούτω καθεξής.",
     "education_nalanda_location": "Bhubaneswar, Ινδία",
+    "education_nalanda_desc_university": "Πανεπιστήμιο: Τεχνολογικό Πανεπιστήμιο Biju Patnaik (BPUT)",
+    "education_nalanda_desc_college": "Κολλέγιο: Ινστιτούτο Τεχνολογίας Nalanda, Bhubaneswar, Ινδία",
+    "education_nalanda_desc_degree": "Πτυχίο: Β-Τεχν",
+    "education_bput": "Πανεπιστήμιο Τεχνολογίας Biju Patnaik (BPUT)",
 
     "education_st_patricks": "Πατρικίου H.S. Σχολείο",
     "education_st_patricks_location": "Asansol, Ινδία",

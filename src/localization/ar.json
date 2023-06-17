@@ -170,6 +170,10 @@
     "education_nalanda_degree": "بكالوريوس في التكنولوجيا | مجلس BPUT | هندسة الإلكترونيات والاتصالات",
     "education_nalanda_desc": "كانت الإلكترونيات وعلوم الكمبيوتر هي أوراقي في B-Tech ، واكتسب المعرفة والمهارات العملية في PHP و MVC. اكتساب الاهتمام بتكنولوجيا المعلومات ببطء. لذلك بدأت في أخذ دورات مختلفة عبر الإنترنت لتحسين مهاراتي. بعضها Linux و Angular JavaScript وما إلى ذلك.",
     "education_nalanda_location": "بوبانسوار ، الهند",
+    "education_nalanda_desc_university": "الجامعة: جامعة بيجو باتنايك للتكنولوجيا (BPUT)",
+    "education_nalanda_desc_college": "الكلية: معهد نالاندا للتكنولوجيا ، بوبانسوار ، الهند",
+    "education_nalanda_desc_degree": "الدرجة العلمية: بى تك",
+    "education_bput": "جامعة بيجو باتنايك للتكنولوجيا (BPUT)",
 
     "education_st_patricks": "القديس باتريك ه. مدرسة",
     "education_st_patricks_location": "أسانسول ، الهند",

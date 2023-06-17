@@ -170,6 +170,10 @@
     "education_nalanda_degree": "Licență în tehnologie | placă BPUT | Inginer electronic si comunicatii",
     "education_nalanda_desc": "Electronica și Computer Science au fost lucrările mele în B-Tech și dobândesc cunoștințe și abilități practice în PHP și MVC. Câștigă încet interes pentru tehnologia informației. Așa că am început să urmez diferite cursuri online pentru a-mi îmbunătăți abilitățile. Unele dintre ele sunt Linux, Angular JavaScript și așa mai departe.",
     "education_nalanda_location": "Bhubaneswar, India",
+    "education_nalanda_desc_university": "Universitatea: Universitatea de Tehnologie Biju Patnaik (BPUT)",
+    "education_nalanda_desc_college": "Colegiu: Institutul de Tehnologie Nalanda, Bhubaneswar, India",
+    "education_nalanda_desc_degree": "Gradul: B-Tech",
+    "education_bput": "Universitatea de Tehnologie Biju Patnaik (BPUT)",
 
     "education_st_patricks": "St. Patrick's H.S. Şcoală",
     "education_st_patricks_location": "Asansol, India",
