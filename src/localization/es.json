@@ -170,6 +170,10 @@
     "education_nalanda_degree": "Licenciatura en Tecnología | Tablero BPUT | Ing. Electrónica y Comunicaciones.",
     "education_nalanda_desc": "Electrónica e Informática fueron mis trabajos en B-Tech, y obtuve conocimientos y habilidades prácticas en PHP y MVC. Poco a poco ganando interés en la tecnología de la información. Entonces comencé a tomar diferentes cursos en línea para mejorar mis habilidades. Algunos de ellos son Linux, Angular JavaScript, etc.",
     "education_nalanda_location": "Bhubaneswar, India",
+    "education_nalanda_desc_university": "Universidad: Universidad Tecnológica Biju Patnaik (BPUT)",
+    "education_nalanda_desc_college": "College: Instituto de Tecnología de Nalanda, Bhubaneswar, India",
+    "education_nalanda_desc_degree": "Título: B-Tech",
+    "education_bput": "Universidad Tecnológica de Biju Patnaik (BPUT)",
 
     "education_st_patricks": "Escuela secundaria de San Patricio Escuela",
     "education_st_patricks_location": "Asansol, India",
