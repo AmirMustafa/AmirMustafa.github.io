@@ -266,7 +266,13 @@
   "github_badge_name_arctic": "IV. Arctic Code Vault Contributor徽章：",
   "github_badge_arctic_desc": "为保留开源软件为后代做出贡献。查看",
 
-  "aicte_platinum_certificate": "4. AICTE白金和金牌工程师认证",
+  "postman_badge_header": "4. Postman Achievement Badge: ",
+  "postman_badge_timestamp": "Issued by Postman . Jul 2023",
+  "postman_badge_desc": "Received below postman badge:",
+  "postman_badge_name_fundamentals": "V. Postman API Expert:",
+  "postman_badge_fundamentals_desc": "For understansding Postman concepts and passing test script. View ",
+
+  "aicte_platinum_certificate": "5. AICTE白金和金牌工程师认证",
   "aicte_platinum_timestamp": "由BSNL-EETP AICTE颁发。分别为2015年1月、2014年5月和2013年12月",
   "aicte_platinum_certificate_desc": "通过AICTE的选拔并在BSNL-AICTE EETP（就业能力提升培训计划）中接受培训。在过去的1.5年里，我遇到了许多优秀的学者，并被认证为白金级别。这是与一个了不起的团队一起度过的三个夏天的旅程。查看",
 
@@ -331,6 +337,21 @@
   "review_karan_gupta_desc": "Amir是一个非常高效的人。我有幸在Fundlr与他共事。我总是赞赏他在截止日期之前完成任何任务的能力。他将成为任何团队的宝贵资产。",
   "review_karan_gupta_timestamp": "2017年9月26日，Karan比Amir资深，但没有直接管理Amir",
   "review_karan_gupta_workdetail": "Karan Gupta - Emids高级软件工程师，印度",
+
+  "review_shrish_desc_line1": "Amir is a result oriented Full stack/Node JS developer delivering work product, tasks within stipulated timelines, has strong alignment with team results, goes beyond what is expected of him to achieve tasks/goals.  He keeps himself updated in technology and tools related to project. He participates and implement in defect prevention and software improvement activities in the project. he also participation in SQA activities such as peer reviews. He diligently understands project defined processes and implements the same in everyday tasks. He is a great team player.",
+  "review_shrish_desc_line2": "He communicates effectively and can be relied upon in times of crisis – Mr. dependable. He assists in any technical issues being faced by team members and other team members consult him for suggestion, solutions, etc. He has also helped in hiring right resources to the project. He is a great asset to the team, thanks for the commendable work done so far.",
+  "review_shrish_timestamp": "July 4, 2023, Shrish managed Amir directly",
+  "review_shrish_workdetail": "Shrish Tripathi - Enterprise Architect- Data & Analytics /Head of FS ITT COE Data & Analytics at EY, India",
+
+  "review_vinu_jade_desc_line1": "I highly recommend Amir Mustafa for any Senior Architect role on his leadership qualities and expertise in the field. As an upcoming TOGAF certified professional, Amir has demonstrated an understanding of architectural frameworks and methodologies, delivering innovative and scalable solutions.He has a talent for inspiring and motivating teams, creating a collaborative work environment where individuals thrive. His open and effective communication style enables him to build strong relationships with stakeholders.Amir's dedication to continuous learning and professional development is commendable. He stays updated with latest industry trends and best practices, leveraging his strategic thinking to drive technological advancements and provide valuable guidance.",
+  "review_vinu_jade_desc_line2": "I have utmost confidence in Amir and recommend him to any organization seeking a results-driven professional who can lead teams to success. I wish him the very best.",
+  "review_vinu_jade_timestamp": "July 4, 2023, Vinu was Amir’s mentor | 60+ years of experience",
+  "review_vinu_jade_workdetail": "Vinu Jade - Founder & CEO jDruids, Chief Architect and Consultant at jDruids, India",
+
+  "review_mohit_agrawal_desc_line1": "I have worked with Amir Mustafa on a large-scale project. He is a very hard-working person and has excellent technical skills. Thanks to these qualities, he consistently delivers projects on time and with a high level of professionalism. I would also like to highlight Amir's adaptiveness and self learning capabilities, constantly strives to find the best ways to contribute to team’s success , enhance productivity, and create a positive work environment.",
+  "review_mohit_agrawal_desc_line2": "Amir's contributions and skills make him a true asset to any team or organization.",
+  "review_mohit_agrawal_timestamp": "July 5, 2023, Mohit managed Amir directly",
+  "review_mohit_agrawal_workdetail": "Mohit Agrawal - Associate Vice President at Xebia, Americas",
 
   "contact_quotes": "如果我问人们他们想要什么，他们会说更快的马。",
   "new": "新",
