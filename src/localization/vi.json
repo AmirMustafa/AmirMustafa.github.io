@@ -266,11 +266,12 @@
   "github_badge_name_arctic": "IV. Huy hiệu Đóng góp Vườn mã nguồn Bắc Cực:",
   "github_badge_arctic_desc": "Bảo tồn phần mềm mã nguồn mở cho các thế hệ tương lai. Xem",
 
-  "postman_badge_header": "4. Postman Achievement Badge: ",
-  "postman_badge_timestamp": "Issued by Postman . Jul 2023",
-  "postman_badge_desc": "Received below postman badge:",
-  "postman_badge_name_fundamentals": "V. Postman API Expert:",
-  "postman_badge_fundamentals_desc": "For understansding Postman concepts and passing test script. View ",
+  "postman_badge_header": "4. Huy hiệu Thành tựu Postman: ",
+  "postman_badge_timestamp": "Được cấp bởi Postman. Tháng 7 năm 2023",
+  "postman_badge_desc": "Nhận được huy hiệu Postman dưới đây:",
+  "postman_badge_name_fundamentals": "V. Chuyên gia API của Postman:",
+  "postman_badge_fundamentals_desc": "Để hiểu các khái niệm của Postman và vượt qua các kịch bản kiểm tra. Xem ",
+
 
   "aicte_platinum_certificate": "5. Kỹ sư được chứng nhận Platinum và Gold của AICTE",
   "aicte_platinum_timestamp": "Được trao bởi BSNL-EETP AICTE. Tháng 1 năm 2015, tháng 5 năm 2014, tháng 12 năm 2013 tương ứng.",
@@ -338,20 +339,21 @@
   "review_karan_gupta_timestamp": "Ngày 26 tháng 9 năm 2017, Karan là cấp trên của Amir nhưng không quản lý Amir trực tiếp",
   "review_karan_gupta_workdetail": "Karan Gupta - Kỹ sư phần mềm cấp cao tại Emids, Ấn Độ",
 
-  "review_shrish_desc_line1": "Amir is a result oriented Full stack/Node JS developer delivering work product, tasks within stipulated timelines, has strong alignment with team results, goes beyond what is expected of him to achieve tasks/goals.  He keeps himself updated in technology and tools related to project. He participates and implement in defect prevention and software improvement activities in the project. he also participation in SQA activities such as peer reviews. He diligently understands project defined processes and implements the same in everyday tasks. He is a great team player.",
-  "review_shrish_desc_line2": "He communicates effectively and can be relied upon in times of crisis – Mr. dependable. He assists in any technical issues being faced by team members and other team members consult him for suggestion, solutions, etc. He has also helped in hiring right resources to the project. He is a great asset to the team, thanks for the commendable work done so far.",
-  "review_shrish_timestamp": "July 4, 2023, Shrish managed Amir directly",
-  "review_shrish_workdetail": "Shrish Tripathi - Enterprise Architect- Data & Analytics /Head of FS ITT COE Data & Analytics at EY, India",
+  "review_shrish_desc_line1": "Amir là một nhà phát triển Full stack/Node JS hướng tới kết quả, cung cấp sản phẩm công việc, nhiệm vụ đúng theo tiến độ quy định, có sự phù hợp mạnh mẽ với kết quả của nhóm, vượt xa những gì được mong đợi để đạt được nhiệm vụ/mục tiêu. Anh giữ bản thân cập nhật với công nghệ và công cụ liên quan đến dự án. Anh tham gia và thực hiện các hoạt động ngăn chặn lỗi và cải tiến phần mềm trong dự án. Anh cũng tham gia vào các hoạt động SQA như đánh giá đồng nghiệp. Anh hiểu một cách cẩn thận quy trình được xác định trong dự án và triển khai chúng trong các nhiệm vụ hàng ngày. Anh là một người chơi đội tuyệt vời.",
+  "review_shrish_desc_line2": "Anh giao tiếp hiệu quả và có thể được tin tưởng trong thời điểm khẩn cấp - Ông đáng tin cậy. Anh hỗ trợ trong bất kỳ vấn đề kỹ thuật nào mà các thành viên trong nhóm đang gặp phải và các thành viên khác trong nhóm tham khảo ý kiến, giải pháp, vv từ anh. Anh cũng đã giúp trong việc tuyển dụng nguồn lực phù hợp cho dự án. Anh là một tài sản tuyệt vời cho nhóm, cảm ơn vì những công việc đáng khen đã làm cho đến nay.",
+  "review_shrish_timestamp": "4 tháng 7 năm 2023, Shrish quản lý Amir trực tiếp",
+  "review_shrish_workdetail": "Shrish Tripathi - Kiến trúc sư doanh nghiệp - Dữ liệu & Phân tích / Trưởng FS ITT COE Dữ liệu & Phân tích tại EY, Ấn Độ",
 
-  "review_vinu_jade_desc_line1": "I highly recommend Amir Mustafa for any Senior Architect role on his leadership qualities and expertise in the field. As an upcoming TOGAF certified professional, Amir has demonstrated an understanding of architectural frameworks and methodologies, delivering innovative and scalable solutions.He has a talent for inspiring and motivating teams, creating a collaborative work environment where individuals thrive. His open and effective communication style enables him to build strong relationships with stakeholders.Amir's dedication to continuous learning and professional development is commendable. He stays updated with latest industry trends and best practices, leveraging his strategic thinking to drive technological advancements and provide valuable guidance.",
-  "review_vinu_jade_desc_line2": "I have utmost confidence in Amir and recommend him to any organization seeking a results-driven professional who can lead teams to success. I wish him the very best.",
-  "review_vinu_jade_timestamp": "July 4, 2023, Vinu was Amir’s mentor | 60+ years of experience",
-  "review_vinu_jade_workdetail": "Vinu Jade - Founder & CEO jDruids, Chief Architect and Consultant at jDruids, India",
+  "review_vinu_jade_desc_line1": "Tôi cao đánh giá Amir Mustafa cho bất kỳ vai trò Kiến trúc sư Cấp cao nào dựa trên phẩm chất lãnh đạo và chuyên môn của anh ấy trong lĩnh vực này. Là một chuyên gia TOGAF đang tiếp tục chứng chỉ, Amir đã chứng minh sự hiểu biết về các khung kiến trúc và phương pháp, cung cấp các giải pháp sáng tạo và có khả năng mở rộng. Anh ấy có tài năng truyền cảm hứng và thúc đẩy đội ngũ, tạo ra một môi trường làm việc hợp tác nơi mà mọi người phát triển. Phong cách giao tiếp mở và hiệu quả của anh ấy cho phép anh ấy xây dựng mối quan hệ mạnh mẽ với các bên liên quan. Sự tận tụy của Amir đối với việc học tập liên tục và phát triển chuyên nghiệp là đáng khen ngợi. Anh ấy luôn cập nhật với xu hướng và phương pháp tốt nhất trong ngành, sử dụng tư duy chiến lược của mình để thúc đẩy tiến bộ công nghệ và mang lại sự hướng dẫn quý giá.",
+  "review_vinu_jade_desc_line2": "Tôi tin tưởng tuyệt đối vào Amir và giới thiệu anh ấy cho bất kỳ tổ chức nào đang tìm kiếm một chuyên gia chủ động có thể dẫn dắt đội ngũ đạt được thành công. Chúc anh ấy tốt đẹp nhất.",
+  "review_vinu_jade_timestamp": "4 tháng 7 năm 2023, Vinu là người hướng dẫn của Amir | Kinh nghiệm hơn 60 năm",
+  "review_vinu_jade_workdetail": "Vinu Jade - Sáng lập viên và CEO jDruids, Chủ kiến trúc sư và Tư vấn tại jDruids, Ấn Độ",
 
-  "review_mohit_agrawal_desc_line1": "I have worked with Amir Mustafa on a large-scale project. He is a very hard-working person and has excellent technical skills. Thanks to these qualities, he consistently delivers projects on time and with a high level of professionalism. I would also like to highlight Amir's adaptiveness and self learning capabilities, constantly strives to find the best ways to contribute to team’s success , enhance productivity, and create a positive work environment.",
-  "review_mohit_agrawal_desc_line2": "Amir's contributions and skills make him a true asset to any team or organization.",
-  "review_mohit_agrawal_timestamp": "July 5, 2023, Mohit managed Amir directly",
-  "review_mohit_agrawal_workdetail": "Mohit Agrawal - Associate Vice President at Xebia, Americas",
+  "review_mohit_agrawal_desc_line1": "Tôi đã làm việc cùng Amir Mustafa trên một dự án quy mô lớn. Anh ấy là một người làm việc cần cù và có kỹ năng kỹ thuật xuất sắc. Nhờ những phẩm chất này, anh ấy luôn giao các dự án đúng hẹn và với mức độ chuyên nghiệp cao. Tôi cũng muốn nhấn mạnh tính thích ứng và khả năng tự học của Amir, luôn cố gắng tìm ra những cách tốt nhất để đóng góp vào thành công của nhóm, nâng cao năng suất và tạo ra môi trường làm việc tích cực.",
+  "review_mohit_agrawal_desc_line2": "Những đóng góp và kỹ năng của Amir khiến anh ấy trở thành một tài sản thực sự cho bất kỳ nhóm hoặc tổ chức nào.",
+  "review_mohit_agrawal_timestamp": "5 tháng 7 năm 2023, Mohit quản lý Amir trực tiếp",
+  "review_mohit_agrawal_workdetail": "Mohit Agrawal - Phó Tổng Giám đốc Tại Xebia, Châu Mỹ",
+
 
   "contact_quotes": "Nếu tôi đã hỏi mọi người những gì họ muốn, họ đã nói là những con ngựa nhanh hơn.",
   "new": "Mới",
