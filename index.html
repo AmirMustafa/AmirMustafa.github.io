@@ -657,6 +657,25 @@
 										<!-- Write Something -->
 									</span><br />
 								</p>
+								
+								<!-- Show/Hide Table: Start -->
+								<!-- <a class="exp-toggle-link" data-toggle="collapse" href="#collapseEy" role="button" aria-expanded="false" aria-controls="collapseEy">
+									<i class="indicator"></i>
+								</a>
+								<div class="exp-toggle-content collapse" id="collapseEy">
+									<table class="table table-bordered">
+									<thead>
+										<tr>
+										<th>Area</th>
+										<th>Technology</th>
+										</tr>
+									</thead>
+									<tbody class="tableBody" id="eyTableBody">
+									</tbody>
+									</table>
+								</div> -->
+								<!-- Show/Hide Table: End -->
+								
 								<span class="experience-details">
 									<span class="location">
 										<span class="glyphicon glyphicon-map-marker"></span>
@@ -717,6 +736,24 @@
 											(AWS) · PostgreSQL · Sequelize.js </span>
 									</span>
 								</p>
+
+								<!-- Show/Hide Table: Start -->
+								<a class="exp-toggle-link" data-toggle="collapse" href="#collapseTcs" role="button" aria-expanded="false" aria-controls="collapseTcs">
+									<i class="indicator"></i>
+									</a>
+									<div class="exp-toggle-content collapse" id="collapseTcs">
+									<table class="table table-bordered">
+										<thead>
+										<tr>
+											<th>Area</th>
+											<th>Technology</th>
+										</tr>
+										</thead>
+										<tbody class="tableBody" id="tcsTableBody">
+										</tbody>
+									</table>
+									</div>
+								<!-- Show/Hide Table: End --><br/>
 
 								<span class="experience-details">
 									<span class="location">
@@ -800,7 +837,27 @@
 											Gitlab · API Development · Software Development · Express.js · TypeScript
 										</span>
 									</span>
+									
 								</p>
+
+								<!-- Show/Hide Table: Start -->
+								<a class="exp-toggle-link" data-toggle="collapse" href="#collapseXebia" role="button" aria-expanded="false" aria-controls="collapseXebia">
+									<i class="indicator"></i>
+								  </a>
+								  <div class="exp-toggle-content collapse" id="collapseXebia">
+									<table class="table table-bordered">
+									  <thead>
+										<tr>
+										  <th>Area</th>
+										  <th>Technology</th>
+										</tr>
+									  </thead>
+									  <tbody class="tableBody" id="xebiaTableBody">
+									  </tbody>
+									</table>
+								  </div>
+								 <!-- Show/Hide Table: Hide --> 
+								  <br/>
 
 								<span class="experience-details">
 									<span class="location">
@@ -2584,33 +2641,6 @@
 							return null;
 						}
 					}
-					// Blog card data
-					//   var blogData = [
-					// 	{
-					// 	  title: "Blog Title 1",
-					// 	  image: "./view/images/projects/Lilly.jpg",
-					// 	  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-					// 	  link: '#'
-					// 	},
-					// 	{
-					// 	  title: "Blog Title 2",
-					// 	  image: "./view/images/projects/zabai.PNG",
-					// 	  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-					// 	  link: ''
-					// 	},
-					// 	{
-					// 	  title: "Blog Title 3",
-					// 	  image: "./view/images/projects/Lilly2.jpg",
-					// 	  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-					// 	  link: ''
-					// 	},
-					// 	{
-					// 	  title: "Blog Title 4",
-					// 	  image: "./view/images/projects/waves.png",
-					// 	  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-					// 	  link: ''
-					// 	}
-					//   ];
 	
 					  
 					  getMediumBlogs()
@@ -2836,11 +2866,59 @@
 		display: inline-block;
 		color: #ddd;
 	}
+
+	.exp-toggle-content {
+      max-height: 0;
+      opacity: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    }
+
+    .exp-toggle-link {
+      cursor: pointer;
+    }
+
+    .exp-toggle-link:before {
+      content: '+ Show Tabular';
+      display: inline-block;
+      margin-right: 5px;
+      transition: transform 0.3s ease-out;
+    }
+
+    .exp-toggle-content.show {
+      max-height: 500px; /* Adjust as needed */
+      opacity: 1;
+      transition: max-height 0.5s ease-in, opacity 0.5s ease-in;
+    }
+
+    .exp-toggle-link.open:before {
+      content: '- Hide Tabular';
+    }
+
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fade-out {
+      from {
+        opacity: 1;
+      }
+      to {
+        opacity: 0;
+      }
+    }
 </style>
 
 <script type="text/javascript"
 	src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 <script src="./src/common/language.js"></script>
+<script src="./service/data/experiencetable.js"></script>
+
 <script>
 	$(document).ready(function () {
 		$("#testimonial-slider").owlCarousel({
@@ -2871,6 +2949,73 @@
       }
     }
   });
+
+  // For handling Experience Section show/hide table
+  $(document).ready(function() {
+      var data = {
+        ey: [
+          { area: 'Frontend', technology: 'React JS, Javascript' },
+          { area: 'Backend', technology: 'Nest JS, Node JS' },
+          { area: 'Store', technology: 'MobX' },
+          { area: 'Cloud', technology: 'Azure' },
+          { area: 'Cloud Services', technology: 'Azure Form Recognizer' },
+		  { area: 'Version Control System', technology: 'Azure Repos' },
+          { area: 'CI/CD', technology: 'Local, Dev, UAT, Production' },
+		  { area: 'Tracking System', technology: 'Azure DevOps (Azure version of tickets), JIRA, Confluence' },
+        ],
+        tcs: [
+          { area: 'Frontend', technology: 'React JS, Javascript' },
+          { area: 'Backend', technology: 'Express JS, Node JS' },
+          { area: 'Cloud', technology: 'AWS' },
+          { area: 'Cloud Services', technology: 'AWS Lambda, AWS S3, SNS, API Gateway services.' },
+          { area: 'Database', technology: 'AWS Aurora DB, PostgreSQL' },
+          { area: 'Version Control System', technology: 'Github' },
+          { area: 'CI/CD', technology: 'AWS Code Pipeline, Pull Request(PR) approach' },
+          { area: 'SDLC', technology: 'Local, Dev, UAT, Production' },
+		  { area: 'Architecting', technology: 'Lucid Chart Diagram - Designing Database' },
+        ],
+        xebia: [
+          { area: 'Frontend', technology: 'React JS, Javascript' },
+          { area: 'Backend', technology: 'Node JS, Camunda BPMN Diagram, TAMM Workbench' },
+		  { area: 'Store', technology: 'Redux Thunk' },
+		  { area: 'Version Control System', technology: 'Gitlab' },
+          { area: 'CI/CD', technology: 'Used to deploy using Merge Requests (MR) approach' },
+          { area: 'SDLC', technology: 'Local, Stage, UAT, FUT, Go-Live, Production' },
+		  { area: 'Tracking System', technology: 'JIRA, Confluence' },
+        ],
+      };
+
+      var tableBodies = $('.tableBody');
+
+      // Function to generate table rows
+      function generateTableRows(data) {
+        var rows = '';
+        for (var i = 0; i < data.length; i++) {
+          rows += '<tr>';
+          rows += '<td>' + data[i].area + '</td>';
+          rows += '<td>' + data[i].technology + '</td>';
+          rows += '</tr>';
+        }
+        return rows;
+      }
+
+      // Initial table rendering
+      $('#eyTableBody').html(generateTableRows(data.ey));
+      $('#tcsTableBody').html(generateTableRows(data.tcs));
+      $('#xebiaTableBody').html(generateTableRows(data.xebia));
+
+      $('.exp-toggle-link').click(function() {
+        var content = $(this).attr('href');
+        var isOpen = $(this).hasClass('open');
+        $(this).toggleClass('open');
+        if (isOpen) {
+          $(content).removeClass('show');
+        } else {
+          $(content).addClass('show');
+        }
+        return false;
+      });
+    });
 </script>
 
 </html>
