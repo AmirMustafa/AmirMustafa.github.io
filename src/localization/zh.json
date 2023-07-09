@@ -1,6 +1,6 @@
 {
   "lang": "Chinese",
-  "name": "Amir Mustafa",
+  "name": "阿米尔·穆斯塔法",
   "header": "具有印度和阿联酋（TAMM）经验的 Web 开发人员",
   "specialist": "专长领域：JavaScript | React.js | Node.js | TypeScript | AWS | Docker | 软件安全",
   "profile": "个人简介",
@@ -14,7 +14,7 @@
   "contact": "联系方式",
   "profile_desc": "我是一名富有创造力的 Web 开发人员",
   "about_me_heading": "关于我",
-  "about_me_line1": "Amir Mustafa 是一名 JavaScript 和云解决方案专家，曾就职于",
+  "about_me_line1": "阿米尔·穆斯塔法 是一名 JavaScript 和云解决方案专家，曾就职于",
   "about_me_company": "EY India",
   "about_me_line2": "担任全栈 JavaScript 工程师，目前担任",
   "about_me_designation": "首席开发人员并负责团队管理",
@@ -26,7 +26,7 @@
   "looking_for_desc2": "拥有阿联酋（TAMM）经验。",
   "role": "职位：",
   "roles_interested": "团队负责人 | 首席开发人员或类似职位 - React，Node.js",
-  "image_alt_desc": "Amir Mustafa",
+  "image_alt_desc": "阿米尔·穆斯塔法",
   "name_key": "姓名",
   "experience_key": "经验：",
   "experience_val": "6 年以上",
@@ -266,11 +266,12 @@
   "github_badge_name_arctic": "IV. Arctic Code Vault Contributor徽章：",
   "github_badge_arctic_desc": "为保留开源软件为后代做出贡献。查看",
 
-  "postman_badge_header": "4. Postman Achievement Badge: ",
-  "postman_badge_timestamp": "Issued by Postman . Jul 2023",
-  "postman_badge_desc": "Received below postman badge:",
-  "postman_badge_name_fundamentals": "V. Postman API Expert:",
-  "postman_badge_fundamentals_desc": "For understansding Postman concepts and passing test script. View ",
+  "postman_badge_header": "4. Postman 成就徽章: ",
+  "postman_badge_timestamp": "由 Postman 发布。2023 年 7 月",
+  "postman_badge_desc": "获得以下 Postman 徽章：",
+  "postman_badge_name_fundamentals": "V. Postman API 专家:",
+  "postman_badge_fundamentals_desc": "用于理解 Postman 概念并通过测试。查看 ",
+
 
   "aicte_platinum_certificate": "5. AICTE白金和金牌工程师认证",
   "aicte_platinum_timestamp": "由BSNL-EETP AICTE颁发。分别为2015年1月、2014年5月和2013年12月",
@@ -294,7 +295,7 @@
   "review_vincent_mendy_timestamp": "2021年12月27日，Vincent是Amir的客户",
   "review_vincent_mendy_workdetail": "Vincent Mendy - 阿联酋TAMM解决方案架构总监",
 
-  "review_aamir_iqbal_desc": "在我的职业生涯中，我与许多专业人士一起工作过，但Amir Mustafa先生是一个与众不同的合作伙伴。我们曾在阿布扎比TAMM的EAD和ADAFSA政府部门一起工作。他的职业道德是无可挑剔的，他很容易适应不同的情况。他愿意竭尽全力帮助他人的能力使他脱颖而出。通过他的技能和价值，他赢得了每个人的尊重。我推荐Amir Mustafa先生作为每个想要让自己变得更好的人所需要的资深人员。",
+  "review_aamir_iqbal_desc": "在我的职业生涯中，我与许多专业人士一起工作过，但阿米尔·穆斯塔法先生是一个与众不同的合作伙伴。我们曾在阿布扎比TAMM的EAD和ADAFSA政府部门一起工作。他的职业道德是无可挑剔的，他很容易适应不同的情况。他愿意竭尽全力帮助他人的能力使他脱颖而出。通过他的技能和价值，他赢得了每个人的尊重。我推荐阿米尔·穆斯塔法先生作为每个想要让自己变得更好的人所需要的资深人员。",
   "review_aamir_iqbal_timestamp": "2021年7月8日，Aamir直接管理Amir",
   "review_aamir_iqbal_workdetail": "Aamir Iqbal - 阿布扎比数字权威、TAMM、阿联酋技术经理 | IT总监 | CTO | 企业架构师",
 
@@ -310,7 +311,7 @@
   "review_anusuya_devi_timestamp": "2021年7月11日，Anusuya与Amir在同一团队合作",
   "review_anusuya_devi_workdetail": "Anusuya Devi - 阿联酋TAMM敏捷主管",
 
-  "review_shanavas_elaydath_desc": "很高兴与Amir Mustafa先生一起在阿布扎比政府（TAMM）项目上工作。他在JavaScript开发方面具有深厚的知识和专业知识，他处理客户的方式非常出色。作为他的产品负责人，我可以说他开发的所有应用程序都具有高质量。他是一个出色的团队合作者，总是愿意全力以赴并超额完成任务。Amir是一个开放思维的个人，渴望取得成果。他是项目团队的一项重要资源。祝愿你在未来的职业生涯中一切顺利。",
+  "review_shanavas_elaydath_desc": "很高兴与阿米尔·穆斯塔法先生一起在阿布扎比政府（TAMM）项目上工作。他在JavaScript开发方面具有深厚的知识和专业知识，他处理客户的方式非常出色。作为他的产品负责人，我可以说他开发的所有应用程序都具有高质量。他是一个出色的团队合作者，总是愿意全力以赴并超额完成任务。Amir是一个开放思维的个人，渴望取得成果。他是项目团队的一项重要资源。祝愿你在未来的职业生涯中一切顺利。",
   "review_shanavas_elaydath_timestamp": "2021年4月26日，Shanavas博士与Amir在同一团队合作",
   "review_shanavas_elaydath_workdetail": "Dr. Shanavas Elayedath - 阿联酋TAMM产品负责人",
 
@@ -338,22 +339,23 @@
   "review_karan_gupta_timestamp": "2017年9月26日，Karan比Amir资深，但没有直接管理Amir",
   "review_karan_gupta_workdetail": "Karan Gupta - Emids高级软件工程师，印度",
 
-  "review_shrish_desc_line1": "Amir is a result oriented Full stack/Node JS developer delivering work product, tasks within stipulated timelines, has strong alignment with team results, goes beyond what is expected of him to achieve tasks/goals.  He keeps himself updated in technology and tools related to project. He participates and implement in defect prevention and software improvement activities in the project. he also participation in SQA activities such as peer reviews. He diligently understands project defined processes and implements the same in everyday tasks. He is a great team player.",
-  "review_shrish_desc_line2": "He communicates effectively and can be relied upon in times of crisis – Mr. dependable. He assists in any technical issues being faced by team members and other team members consult him for suggestion, solutions, etc. He has also helped in hiring right resources to the project. He is a great asset to the team, thanks for the commendable work done so far.",
-  "review_shrish_timestamp": "July 4, 2023, Shrish managed Amir directly",
-  "review_shrish_workdetail": "Shrish Tripathi - Enterprise Architect- Data & Analytics /Head of FS ITT COE Data & Analytics at EY, India",
+  "review_shrish_desc_line1": "Amir是一个以结果为导向的全栈/Node JS开发人员，按照规定的时间交付工作成果和任务，与团队的结果紧密相连，超越预期以实现任务/目标。他保持对与项目相关的技术和工具的更新。他参与并实施项目中的缺陷预防和软件改进活动。他还参与SQA活动，如同行评审。他认真理解项目定义的流程，并在日常任务中实施相同的流程。他是一个出色的团队合作者。",
+  "review_shrish_desc_line2": "他有效沟通，在危机时可靠。他协助团队成员解决任何技术问题，其他团队成员会咨询他的建议、解决方案等。他还协助招聘项目中的合适资源。他是团队的重要资产，感谢他迄今为止所做的值得称赞的工作。",
+  "review_shrish_timestamp": "2023年7月4日，Shrish直接管理Amir",
+  "review_shrish_workdetail": "Shrish Tripathi - 企业架构师-数据与分析/FS ITT COE数据与分析负责人，印度EY公司",
 
-  "review_vinu_jade_desc_line1": "I highly recommend Amir Mustafa for any Senior Architect role on his leadership qualities and expertise in the field. As an upcoming TOGAF certified professional, Amir has demonstrated an understanding of architectural frameworks and methodologies, delivering innovative and scalable solutions.He has a talent for inspiring and motivating teams, creating a collaborative work environment where individuals thrive. His open and effective communication style enables him to build strong relationships with stakeholders.Amir's dedication to continuous learning and professional development is commendable. He stays updated with latest industry trends and best practices, leveraging his strategic thinking to drive technological advancements and provide valuable guidance.",
-  "review_vinu_jade_desc_line2": "I have utmost confidence in Amir and recommend him to any organization seeking a results-driven professional who can lead teams to success. I wish him the very best.",
-  "review_vinu_jade_timestamp": "July 4, 2023, Vinu was Amir’s mentor | 60+ years of experience",
-  "review_vinu_jade_workdetail": "Vinu Jade - Founder & CEO jDruids, Chief Architect and Consultant at jDruids, India",
+  "review_vinu_jade_desc_line1": "我高度推荐阿米尔·穆斯塔法担任任何高级架构师职位，因为他在领导能力和专业领域的专业知识方面表现出色。作为即将获得TOGAF认证的专业人士，Amir展示了对架构框架和方法论的理解，提供创新且可扩展的解决方案。他有激发和激励团队的才能，创造一个人人都能茁壮成长的协作工作环境。他开放且有效的沟通风格使他能够建立与利益相关者的牢固关系。Amir对持续学习和职业发展的执着令人钦佩。他保持与最新行业趋势和最佳实践的接轨，利用他的战略思维推动技术进步并提供宝贵的指导。",
+  "review_vinu_jade_desc_line2": "我对Amir有着极大的信心，并推荐他给任何寻求以结果为导向的专业人士来领导团队取得成功的组织。祝他一切顺利。",
+  "review_vinu_jade_timestamp": "2023年7月4日，Vinu是Amir的导师|拥有60年以上经验",
+  "review_vinu_jade_workdetail": "Vinu Jade - jDruids创始人兼首席执行官，jDruids首席架构师和顾问，印度",
 
-  "review_mohit_agrawal_desc_line1": "I have worked with Amir Mustafa on a large-scale project. He is a very hard-working person and has excellent technical skills. Thanks to these qualities, he consistently delivers projects on time and with a high level of professionalism. I would also like to highlight Amir's adaptiveness and self learning capabilities, constantly strives to find the best ways to contribute to team’s success , enhance productivity, and create a positive work environment.",
-  "review_mohit_agrawal_desc_line2": "Amir's contributions and skills make him a true asset to any team or organization.",
-  "review_mohit_agrawal_timestamp": "July 5, 2023, Mohit managed Amir directly",
-  "review_mohit_agrawal_workdetail": "Mohit Agrawal - Associate Vice President at Xebia, Americas",
+  "review_mohit_agrawal_desc_line1": "我与阿米尔·穆斯塔法在一个大型项目上共事。他是一个非常勤奋并且具有出色技术技能的人。凭借这些素质，他始终按时并以高水平的专业精神交付项目。我还想强调Amir的适应能力和自学能力，他不断努力寻找为团队的成功、提高生产力和创造积极工作环境的最佳方法。",
+  "review_mohit_agrawal_desc_line2": "Amir的贡献和技能使他成为任何团队或组织的真正资产。",
+  "review_mohit_agrawal_timestamp": "2023年7月5日，Mohit直接管理Amir",
+  "review_mohit_agrawal_workdetail":"Mohit Agrawal - Xebia副总裁，美洲地区",
+
 
   "contact_quotes": "如果我问人们他们想要什么，他们会说更快的马。",
   "new": "新",
-  "copyright_desclamair": "Amir Mustafa 2023"
+  "copyright_desclamair": "阿米尔·穆斯塔法 2023"
 }
