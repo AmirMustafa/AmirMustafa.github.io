@@ -266,11 +266,12 @@
   "github_badge_name_arctic": "رابعا. شارة مساهم Arctic Code Vault:",
   "github_badge_arctic_desc": "الحفاظ على البرمجيات مفتوحة المصدر للأجيال القادمة. منظر,",
 
-  "postman_badge_header": "4. Postman Achievement Badge: ",
-  "postman_badge_timestamp": "Issued by Postman . Jul 2023",
-  "postman_badge_desc": "Received below postman badge:",
-  "postman_badge_name_fundamentals": "V. Postman API Expert:",
-  "postman_badge_fundamentals_desc": "For understansding Postman concepts and passing test script. View ",
+  "postman_badge_header": "4. شارة إنجاز بوستمان: ",
+  "postman_badge_timestamp": "مُمنحة من قِبل بوستمان . يوليو 2023",
+  "postman_badge_desc": "تم تلقي الشارة التالية من بوستمان:",
+  "postman_badge_name_fundamentals": "V. خبير بوستمان لواجهة برمجة التطبيقات:",
+  "postman_badge_fundamentals_desc": "لفهم مفاهيم بوستمان واجتياز سكربت الاختبار. شاهد ",
+
 
   "aicte_platinum_certificate": "5. مهندس معتمد من AICTE بلاتينيوم وذهبي",
   "aicte_platinum_timestamp": "صادر عن BSNL-EETP AICTE. يناير 2015 ، مايو 2014 ، ديسمبر 2013 resp.",
@@ -338,20 +339,22 @@
   "review_karan_gupta_timestamp": "26 سبتمبر 2017، كان كاران أكبر من عامر ولكنه لم يدير عامر مباشرةً",
   "review_karan_gupta_workdetail": "كاران غوبتا - مهندس برمجيات أول في إيميدز، الهند",
 
-  "review_shrish_desc_line1": "Amir is a result oriented Full stack/Node JS developer delivering work product, tasks within stipulated timelines, has strong alignment with team results, goes beyond what is expected of him to achieve tasks/goals.  He keeps himself updated in technology and tools related to project. He participates and implement in defect prevention and software improvement activities in the project. he also participation in SQA activities such as peer reviews. He diligently understands project defined processes and implements the same in everyday tasks. He is a great team player.",
-  "review_shrish_desc_line2": "He communicates effectively and can be relied upon in times of crisis – Mr. dependable. He assists in any technical issues being faced by team members and other team members consult him for suggestion, solutions, etc. He has also helped in hiring right resources to the project. He is a great asset to the team, thanks for the commendable work done so far.",
-  "review_shrish_timestamp": "July 4, 2023, Shrish managed Amir directly",
-  "review_shrish_workdetail": "Shrish Tripathi - Enterprise Architect- Data & Analytics /Head of FS ITT COE Data & Analytics at EY, India",
+  "review_shrish_desc_line1": "عمير هو مطور متكامل Full stack/Node JS متحفز للنتائج، حيث يقدم منتجات العمل والمهام ضمن الجداول الزمنية المحددة، ولديه توافق قوي مع نتائج الفريق، يتجاوز ما هو متوقع منه لتحقيق المهام/الأهداف. يبقى نفسه محدّثًا في التكنولوجيا والأدوات المتعلقة بالمشروع. يشارك وينفّذ في أنشطة منع العيوب وتحسين البرامج في المشروع. يشارك أيضًا في أنشطة ضمان الجودة مثل مراجعات الأقران. يفهم بدقة العمليات المحددة في المشروع وينفّذها في المهام اليومية. إنه لاعب فريق رائع.",
+  "review_shrish_desc_line2": "يتواصل بفعالية ويمكن الاعتماد عليه في حالات الأزمات - السيد الجدير بالثقة. يساعد في حل أي مشاكل تقنية يواجهها أعضاء الفريق ويُعتمد عليه من قبل أعضاء الفريق الآخرين للحصول على اقتراحات وحلول، وما إلى ذلك. ساعد أيضًا في توظيف الموارد المناسبة للمشروع. إنه إضافة رائعة للفريق، شكرًا على العمل الممتاز الذي تم القيام به حتى الآن.", 
 
-  "review_vinu_jade_desc_line1": "I highly recommend Amir Mustafa for any Senior Architect role on his leadership qualities and expertise in the field. As an upcoming TOGAF certified professional, Amir has demonstrated an understanding of architectural frameworks and methodologies, delivering innovative and scalable solutions.He has a talent for inspiring and motivating teams, creating a collaborative work environment where individuals thrive. His open and effective communication style enables him to build strong relationships with stakeholders.Amir's dedication to continuous learning and professional development is commendable. He stays updated with latest industry trends and best practices, leveraging his strategic thinking to drive technological advancements and provide valuable guidance.",
-  "review_vinu_jade_desc_line2": "I have utmost confidence in Amir and recommend him to any organization seeking a results-driven professional who can lead teams to success. I wish him the very best.",
-  "review_vinu_jade_timestamp": "July 4, 2023, Vinu was Amir’s mentor | 60+ years of experience",
-  "review_vinu_jade_workdetail": "Vinu Jade - Founder & CEO jDruids, Chief Architect and Consultant at jDruids, India",
+  "review_shrish_timestamp": "4 يوليو 2023، قام شريش بإدارة عمر مباشرة",
+  "review_shrish_workdetail": "شريش تريباثي - مهندس معماري مؤسسة - البيانات والتحليلات / رئيس مركز التميز الفني لتكنولوجيا المعلومات والتحليلات في EY، الهند",
 
-  "review_mohit_agrawal_desc_line1": "I have worked with Amir Mustafa on a large-scale project. He is a very hard-working person and has excellent technical skills. Thanks to these qualities, he consistently delivers projects on time and with a high level of professionalism. I would also like to highlight Amir's adaptiveness and self learning capabilities, constantly strives to find the best ways to contribute to team’s success , enhance productivity, and create a positive work environment.",
-  "review_mohit_agrawal_desc_line2": "Amir's contributions and skills make him a true asset to any team or organization.",
-  "review_mohit_agrawal_timestamp": "July 5, 2023, Mohit managed Amir directly",
-  "review_mohit_agrawal_workdetail": "Mohit Agrawal - Associate Vice President at Xebia, Americas",
+  "review_vinu_jade_desc_line1": "أوصي بشدة بعمر مصطفى لأي دور مهندس معماري كبير بناءً على صفات القيادة والخبرة التي يتمتع بها في هذا المجال. كمحترف قادم يحمل شهادة TOGAF، أظهر عمر فهمًا للأطر الهندسية والمنهجيات المعمارية، وقدم حلولًا مبتكرة وقابلة للتوسع. لديه موهبة في إلهام وتحفيز الفرق، وخلق بيئة عمل تعاونية تمكن الأفراد من التطور. أسلوبه المفتوح والفعّال في التواصل يمكنه من بناء علاقات قوية مع أصحاب المصلحة. تفاني عمر في التعلم المستمر والتطوير المهني يستحق الثناء. إنه يبقى محدثًا بأحدث اتجاهات الصناعة وأفضل الممارسات، ويستغل تفكيره الاستراتيجي لدفع التقدم التكنولوجي وتقديم توجيه قيم.",
+  "review_vinu_jade_desc_line2": "لدي ثقة قصوى في عمر وأوصي به لأي منظمة تبحث عن محترف يعمل بنتائج وقادر على قيادة الفرق نحو النجاح. أتمنى له التوفيق الكامل.",
+  "review_vinu_jade_timestamp": "3 يوليو 2023، كان فينو مربي عمر | أكثر من 60 عامًا من الخبرة",
+  "review_vinu_jade_workdetail": "فينو جاد - مؤسس ورئيس تنفيذي لشركة jDruids، ورئيس المهندسين المعماريين والمستشارين في شركة jDruids، الهند",
+
+  "review_mohit_agrawal_desc_line1": "لقد عملت مع عمر مصطفى في مشروع ضخم. إنه شخص يعمل بجد ولديه مهارات تقنية ممتازة. بفضل هذه الصفات، يقدم بشكل متسق مشاريع في الوقت المحدد وبمستوى عالٍ من الاحترافية. أود أيضًا أن أشير إلى قدرة عمر على التكيف وقدرته على التعلم الذاتي، حيث يسعى باستمرار لإيجاد أفضل الطرق للمساهمة في نجاح الفرق، وتعزيز الإنتاجية، وخلق بيئة عمل إيجابية.",
+  "review_mohit_agrawal_desc_line2": "تساهم مساهمات عمر ومهاراته في جعله إضافة حقيقية لأي فريق أو منظمة.",
+  "review_mohit_agrawal_timestamp": "5 يوليو 2023، قام موهيت بإدارة عمر مباشرة",
+  "review_mohit_agrawal_workdetail": "موهيت أجراوال - نائب الرئيس المشارك في شركة Xebia، الأمريكتين | سان فرانسيسكو، كاليفورنيا، الولايات المتحدة",
+
 
   "contact_quotes": "إذا سألت الناس عما يريدون ، لقالوا خيولًا أسرع.",
   "new": "جديد،",

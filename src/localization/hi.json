@@ -266,11 +266,12 @@
   "github_badge_name_arctic": "IV. आर्कटिक कोड वॉल्ट योगदानकर्ता बैज:",
   "github_badge_arctic_desc": "भविष्य की पीढ़ियों के लिए ओपन-सोर्स सॉफ़्टवेयर को संरक्षित करना। देखना",
 
-  "postman_badge_header": "4. Postman Achievement Badge: ",
-  "postman_badge_timestamp": "Issued by Postman . Jul 2023",
-  "postman_badge_desc": "Received below postman badge:",
-  "postman_badge_name_fundamentals": "V. Postman API Expert:",
-  "postman_badge_fundamentals_desc": "For understansding Postman concepts and passing test script. View ",
+  "postman_badge_header": "4. पोस्टमैन उपलब्धि बैज: ",
+  "postman_badge_timestamp": "पोस्टमैन द्वारा जारी किया गया। जुलाई 2023",
+  "postman_badge_desc": "निम्नलिखित पोस्टमैन बैज प्राप्त किया है:",
+  "postman_badge_name_fundamentals": "V. पोस्टमैन एपीआई विशेषज्ञ:",
+  "postman_badge_fundamentals_desc": "पोस्टमैन के अवधारणाओं को समझने और टेस्ट स्क्रिप्ट पास करने के लिए। देखें ",
+
 
   "aicte_platinum_certificate": "5. AICTE प्लेटिनम और गोल्ड सर्टिफाइड इंजीनियर",
   "aicte_platinum_timestamp": "बीएसएनएल-ईईटीपी एआईसीटीई द्वारा जारी। जनवरी 2015, मई 2014, दिसंबर 2013 सम्मान।",
@@ -338,20 +339,19 @@
   "review_karan_gupta_timestamp": "26 सितंबर 2017, करन अमिर से सीनियर थे, लेकिन सीधे उन्हें प्रबंधित नहीं करते थे",
   "review_karan_gupta_workdetail": "करन गुप्ता - ईमिड्स, इंडिया में सीनियर सॉफ़्टवेयर इंजीनियर",
 
-  "review_shrish_desc_line1": "Amir is a result oriented Full stack/Node JS developer delivering work product, tasks within stipulated timelines, has strong alignment with team results, goes beyond what is expected of him to achieve tasks/goals.  He keeps himself updated in technology and tools related to project. He participates and implement in defect prevention and software improvement activities in the project. he also participation in SQA activities such as peer reviews. He diligently understands project defined processes and implements the same in everyday tasks. He is a great team player.",
-  "review_shrish_desc_line2": "He communicates effectively and can be relied upon in times of crisis – Mr. dependable. He assists in any technical issues being faced by team members and other team members consult him for suggestion, solutions, etc. He has also helped in hiring right resources to the project. He is a great asset to the team, thanks for the commendable work done so far.",
-  "review_shrish_timestamp": "July 4, 2023, Shrish managed Amir directly",
-  "review_shrish_workdetail": "Shrish Tripathi - Enterprise Architect- Data & Analytics /Head of FS ITT COE Data & Analytics at EY, India",
+ "review_shrish_desc_line1": "अमीर एक परिणामशील फुल स्टैक/Node JS डेवलपर हैं जो कार्य उत्पाद और कार्यों को समय सीमाओं के भीतर पूरा करने में सफल रहते हैं, उनकी टीम के परिणामों के साथ मजबूत संरेखण होता है, वे कार्य/लक्ष्य प्राप्त करने के लिए उम्मीद से ज्यादा करते हैं। वे परियोजना से जुड़ी तकनीक और उपकरणों में अद्यतित रहते हैं। वे परियोजना में दोष रोकने और सॉफ़्टवेयर सुधार कार्यों में भाग लेते हैं। उनका सहभाग भी SQA गतिविधाओं जैसे पीयर समीक्षा में होता है। वे परियोजना द्वारा परिभाषित प्रक्रियाओं को समझते हैं और रोजमर्रा के कार्यों में उन्हें लागू करते हैं। वे एक महान टीम के सदस्य हैं।",
+"review_shrish_desc_line2": "वे संकट के समय प्रभावी रूप से संचार करते हैं और भरोसे के योग्य हैं। उन्हें टीम सदस्यों द्वारा प्रतिसादित हो रहे किसी भी तकनीकी मुद्दे में सहायता करते हैं और अन्य टीम सदस्यों से सलाह, समाधान आदि के लिए परामर्श करते हैं। उन्होंने परियोजना में सही संसाधनों की भर्ती में भी मदद की है। वे टीम के लिए एक महान संपदा हैं, अभी तक किए गए प्रशंसनीय कार्यों के लिए धन्यवाद।",
+"review_shrish_timestamp": "4 जुलाई 2023, श्रीष ने अमीर का प्रबंधन किया",
+"review_shrish_workdetail": "श्रीष त्रिपाठी - एंटरप्राइज आर्किटेक्ट- डेटा और एनालिटिक्स / FS ITT COE डेटा और एनालिटिक्स के प्रमुख, EY, भारत",
+"review_vinu_jade_desc_line1": "मैं अमीर मुस्तफा को किसी भी वरिष्ठ आर्किटेक्ट भूमिका के लिए उनके नेतृत्व के गुणों और इस क्षेत्र में उनके विशेषज्ञता पर आधारित हार्डिक सिफारिश करता हूँ। एक आगामी TOGAF प्रमाणित पेशेवर के रूप में, अमीर ने वास्तुशास्त्रीय ढांचाओं और मेथडोलॉजीज की समझ प्रदर्शित की है, नवीनतम और स्केलेबल समाधानों की प्रस्तुति की है। उन्हें टीमों को प्रेरित और प्रोत्साहित करने की क्षमता है, जहां व्यक्तियों की सफलता बढ़ती है। उनकी खुली और प्रभावी संचार शैली स्टेकहोल्डर्स के साथ मजबूत संबंध बनाने में सक्षम करती है। अमीर की निरंतर शिक्षा और पेशेवर विकास में समर्पणशीलता काबिलियतों की सराहना करना चाहूंगा। वे नवीनतम उद्योग की प्रवृत्तियों और सर्वोत्तम प्रथाओं के साथ अपडेट रहते हैं, जिनका उपयोग उन्हीं की स्ट्रेटेजिक सोच करते हुए तकनीकी प्रगति को आगे बढ़ाने और मूल्यवान मार्गदर्शन प्रदान करने के लिए करते हैं।",
+"review_vinu_jade_desc_line2": "मुझे अमीर पर पूरा भरोसा है और मैं किसी भी संगठन को अनुशंसा करता हूं जो सफलता के लिए टीमों का नेतृत्व कर सकने वाले एक परिणामशील पेशेवर की तलाश कर रहा हो। मैं उसे बहुत सारी शुभकामनाएँ देता हूं।",
+"review_vinu_jade_timestamp": "4 जुलाई 2023, विनू अमीर के मेंटर रहे | 60+ वर्षों का अनुभव",
+"review_vinu_jade_workdetail": "विनू जेड - संस्थापक और मुख्य कार्यकारी अभियंता और सलाहकार, जेड्रूइड्स, भारत",
+"review_mohit_agrawal_desc_line1": "मैंने अमीर मुस्तफा के साथ एक बड़े पैमाने पर परियोजना पर काम किया है। वह एक बहुत मेहनती व्यक्ति है और उनकी तकनीकी क्षमताएं बहुत उत्कृष्ट हैं। इन गुणों के कारण, उन्होंने नियमित रूप से परियोजनाओं को समय पर और उच्च स्तर पर पूरा किया है। मैं यह भी दर्ज करना चाहूँगा कि अमीर की अनुकूलता और स्व-सीखने की क्षमताएं उन्हें हमेशा बेहतर तरीके से योगदान देने, उत्पादकता को बढ़ाने और एक सकारात्मक कार्य वातावरण बनाने के लिए सतत प्रयास करती हैं।",
+"review_mohit_agrawal_desc_line2": "अमीर के योगदान और कौशल उन्हें किसी भी टीम या संगठन के लिए सच्ची संपत्ति बनाते हैं।",
+"review_mohit_agrawal_timestamp": "5 जुलाई 2023, मोहित ने अमीर का प्रबंधन किया",
+"review_mohit_agrawal_workdetail": "मोहित अग्रवाल - एसोसिएट वाइस प्रेसिडेंट, जेबिया, अमेरिका",
 
-  "review_vinu_jade_desc_line1": "I highly recommend Amir Mustafa for any Senior Architect role on his leadership qualities and expertise in the field. As an upcoming TOGAF certified professional, Amir has demonstrated an understanding of architectural frameworks and methodologies, delivering innovative and scalable solutions.He has a talent for inspiring and motivating teams, creating a collaborative work environment where individuals thrive. His open and effective communication style enables him to build strong relationships with stakeholders.Amir's dedication to continuous learning and professional development is commendable. He stays updated with latest industry trends and best practices, leveraging his strategic thinking to drive technological advancements and provide valuable guidance.",
-  "review_vinu_jade_desc_line2": "I have utmost confidence in Amir and recommend him to any organization seeking a results-driven professional who can lead teams to success. I wish him the very best.",
-  "review_vinu_jade_timestamp": "July 4, 2023, Vinu was Amir’s mentor | 60+ years of experience",
-  "review_vinu_jade_workdetail": "Vinu Jade - Founder & CEO jDruids, Chief Architect and Consultant at jDruids, India",
-
-  "review_mohit_agrawal_desc_line1": "I have worked with Amir Mustafa on a large-scale project. He is a very hard-working person and has excellent technical skills. Thanks to these qualities, he consistently delivers projects on time and with a high level of professionalism. I would also like to highlight Amir's adaptiveness and self learning capabilities, constantly strives to find the best ways to contribute to team’s success , enhance productivity, and create a positive work environment.",
-  "review_mohit_agrawal_desc_line2": "Amir's contributions and skills make him a true asset to any team or organization.",
-  "review_mohit_agrawal_timestamp": "July 5, 2023, Mohit managed Amir directly",
-  "review_mohit_agrawal_workdetail": "Mohit Agrawal - Associate Vice President at Xebia, Americas",
 
   "new": "नया",
 

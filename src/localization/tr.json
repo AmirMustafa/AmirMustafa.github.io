@@ -266,11 +266,12 @@
   "github_badge_name_arctic": "IV. Arctic Code Vault Katılımcı Rozeti:",
   "github_badge_arctic_desc": "Açık kaynaklı yazılımları gelecek nesiller için korumak. Görüş",
 
-  "postman_badge_header": "4. Postman Achievement Badge: ",
-  "postman_badge_timestamp": "Issued by Postman . Jul 2023",
-  "postman_badge_desc": "Received below postman badge:",
-  "postman_badge_name_fundamentals": "V. Postman API Expert:",
-  "postman_badge_fundamentals_desc": "For understansding Postman concepts and passing test script. View ",
+  "postman_badge_header": "4. Postman Başarı Rozeti: ",
+  "postman_badge_timestamp": "Postman tarafından verildi. Temmuz 2023",
+  "postman_badge_desc": "Aşağıdaki Postman rozetini aldı:",
+  "postman_badge_name_fundamentals": "V. Postman API Uzmanı:",
+  "postman_badge_fundamentals_desc": "Postman kavramlarını anlamak ve test senaryosunu geçmek için. Görüntüle ",
+
 
   "aicte_platinum_certificate": "5. AICTE Platin ve Altın Sertifikalı Mühendis",
   "aicte_platinum_timestamp": "BSNL-EETP AICTE tarafından yayınlandı. Ocak 2015, Mayıs 2014, Aralık 2013 resp.",
@@ -338,20 +339,21 @@
   "review_karan_gupta_timestamp": "26 Eylül 2017, Karan Amir'in üstüydü, ancak doğrudan onu yönetmiyordu",
   "review_karan_gupta_workdetail": "Karan Gupta - Emids, Hindistan'da Kıdemli Yazılım Mühendisi",
 
-  "review_shrish_desc_line1": "Amir is a result oriented Full stack/Node JS developer delivering work product, tasks within stipulated timelines, has strong alignment with team results, goes beyond what is expected of him to achieve tasks/goals.  He keeps himself updated in technology and tools related to project. He participates and implement in defect prevention and software improvement activities in the project. he also participation in SQA activities such as peer reviews. He diligently understands project defined processes and implements the same in everyday tasks. He is a great team player.",
-  "review_shrish_desc_line2": "He communicates effectively and can be relied upon in times of crisis – Mr. dependable. He assists in any technical issues being faced by team members and other team members consult him for suggestion, solutions, etc. He has also helped in hiring right resources to the project. He is a great asset to the team, thanks for the commendable work done so far.",
-  "review_shrish_timestamp": "July 4, 2023, Shrish managed Amir directly",
-  "review_shrish_workdetail": "Shrish Tripathi - Enterprise Architect- Data & Analytics /Head of FS ITT COE Data & Analytics at EY, India",
+  "review_shrish_desc_line1": "Amir, sonuç odaklı bir Full stack/Node JS geliştiricidir ve iş ürünü ve görevleri belirlenen zaman çerçevesi içinde teslim eder. Takım sonuçlarıyla güçlü bir uyum içerisinde çalışır ve görevleri/hedefleri başarmak için beklentilerin ötesine geçer. Projeye ilişkin teknoloji ve araçlarla ilgili kendisini güncel tutar. Projede hata önleme ve yazılım iyileştirme faaliyetlerine katılır ve uygular. Ayrıca akran incelemeleri gibi SQA faaliyetlerine katılır. Proje tarafından tanımlanan süreçleri özenle anlar ve günlük görevlerde aynı şekilde uygular. Harika bir takım oyuncusudur.",
+  "review_shrish_desc_line2": "Kriz anlarında etkili iletişim kurar ve güvenilir bir kişidir. Takım üyelerinin karşılaştığı herhangi bir teknik sorunda yardımcı olur ve diğer takım üyeleri ona öneri, çözüm vb. konular için danışır. Ayrıca projeye doğru kaynakları işe alma konusunda da yardımcı olmuştur. Takım için büyük bir değerdir, şu ana kadar gerçekleştirdiği takdire değer çalışmalar için teşekkürler.",
+  "review_shrish_timestamp": "4 Temmuz 2023, Shrish Amir'i doğrudan yönetti",
+  "review_shrish_workdetail": "Shrish Tripathi - Veri ve Analitik Gelişmiş Mimar - FS ITT COE Veri ve Analitik Başkanı - EY, Hindistan",
 
-  "review_vinu_jade_desc_line1": "I highly recommend Amir Mustafa for any Senior Architect role on his leadership qualities and expertise in the field. As an upcoming TOGAF certified professional, Amir has demonstrated an understanding of architectural frameworks and methodologies, delivering innovative and scalable solutions.He has a talent for inspiring and motivating teams, creating a collaborative work environment where individuals thrive. His open and effective communication style enables him to build strong relationships with stakeholders.Amir's dedication to continuous learning and professional development is commendable. He stays updated with latest industry trends and best practices, leveraging his strategic thinking to drive technological advancements and provide valuable guidance.",
-  "review_vinu_jade_desc_line2": "I have utmost confidence in Amir and recommend him to any organization seeking a results-driven professional who can lead teams to success. I wish him the very best.",
-  "review_vinu_jade_timestamp": "July 4, 2023, Vinu was Amir’s mentor | 60+ years of experience",
-  "review_vinu_jade_workdetail": "Vinu Jade - Founder & CEO jDruids, Chief Architect and Consultant at jDruids, India",
+  "review_vinu_jade_desc_line1": "Liderlik nitelikleri ve uzmanlığı açısından herhangi bir Kıdemli Mimar rolü için Amir Mustafa'yı şiddetle tavsiye ederim. Yaklaşan TOGAF sertifikalı bir uzman olarak, Amir mimari çerçeveleri ve metodolojileri anlama konusunda yetkinliklerini göstermiş, yenilikçi ve ölçeklenebilir çözümler sunmuştur. Takımları motive etme ve ilham verme yeteneğine sahiptir, bireylerin gelişim göstereceği işbirliğine dayalı bir çalışma ortamı oluşturur. Açık ve etkili iletişim tarzı, paydaşlarla güçlü ilişkiler kurmasını sağlar. Amir'in sürekli öğrenme ve mesleki gelişme konusundaki özverisi takdire değerdir. En son endüstri trendleri ve en iyi uygulamalarla güncel kalır, stratejik düşüncelerini kullanarak teknolojik ilerlemeleri yönlendirir ve değerli rehberlik sağlar.",
+  "review_vinu_jade_desc_line2": "Amir'e tam güvenim var ve başarıya yönelik takımlar yönlendirebilen sonuç odaklı bir profesyonel olarak herhangi bir kuruluşa tavsiye ederim. Kendisine en iyisini dilerim.",
+  "review_vinu_jade_timestamp": "4 Temmuz 2023, Vinu Amir'in mentoruydu | 60+ yıl deneyim",
+  "review_vinu_jade_workdetail": "Vinu Jade - jDruids Kurucusu ve CEO'su, jDruids Baş Mimar ve Danışmanı - Hindistan",
 
-  "review_mohit_agrawal_desc_line1": "I have worked with Amir Mustafa on a large-scale project. He is a very hard-working person and has excellent technical skills. Thanks to these qualities, he consistently delivers projects on time and with a high level of professionalism. I would also like to highlight Amir's adaptiveness and self learning capabilities, constantly strives to find the best ways to contribute to team’s success , enhance productivity, and create a positive work environment.",
-  "review_mohit_agrawal_desc_line2": "Amir's contributions and skills make him a true asset to any team or organization.",
-  "review_mohit_agrawal_timestamp": "July 5, 2023, Mohit managed Amir directly",
-  "review_mohit_agrawal_workdetail": "Mohit Agrawal - Associate Vice President at Xebia, Americas",
+  "review_mohit_agrawal_desc_line1": "Amir Mustafa ile büyük ölçekli bir projede çalıştım. O çok çalışkan bir kişi ve mükemmel teknik becerilere sahip. Bu özelliklere sahip olduğu için projeleri sürekli olarak zamanında ve yüksek bir profesyonellikle teslim eder. Ayrıca, Amir'in uyum sağlama ve öğrenme yeteneklerini vurgulamak isterim; sürekli olarak takımın başarısına katkıda bulunmak, verimliliği artırmak ve olumlu bir çalışma ortamı yaratmak için en iyi yolları bulmaya çalışır.",
+  "review_mohit_agrawal_desc_line2": "Amir'in katkıları ve becerileri, herhangi bir takım veya kuruluş için gerçek bir varlık haline getiriyor.",
+  "review_mohit_agrawal_timestamp": "5 Temmuz 2023, Mohit Amir'i doğrudan yönetti",
+  "review_mohit_agrawal_workdetail": "Mohit Agrawal - Xebia, Americas'ta Başkan Yardımcısı",
+
 
   "new": "Yeni",
 

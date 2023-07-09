@@ -266,11 +266,12 @@
   "github_badge_name_arctic": "IV. Insigna de colaborator Arctic Code Vault:",
   "github_badge_arctic_desc": "Păstrarea software-ului open-source pentru generațiile viitoare. Vedere",
 
-  "postman_badge_header": "4. Postman Achievement Badge: ",
-  "postman_badge_timestamp": "Issued by Postman . Jul 2023",
-  "postman_badge_desc": "Received below postman badge:",
-  "postman_badge_name_fundamentals": "V. Postman API Expert:",
-  "postman_badge_fundamentals_desc": "For understansding Postman concepts and passing test script. View ",
+  "postman_badge_header": "4. Insignă de Realizare Postman: ",
+  "postman_badge_timestamp": "Eliberată de către Postman. Iulie 2023",
+  "postman_badge_desc": "A primit următoarea insignă Postman:",
+  "postman_badge_name_fundamentals": "V. Expert API Postman:",
+  "postman_badge_fundamentals_desc": "Pentru înțelegerea conceptelor Postman și trecerea testelor. Vizualizare ",
+
 
   "aicte_platinum_certificate": "5. AICTE Inginer certificat Platină și Aur",
   "aicte_platinum_timestamp": "Eliberat de BSNL-EETP AICTE. ian 2015, mai 2014, dec 2013 resp.",
@@ -338,20 +339,21 @@
   "review_karan_gupta_timestamp": "26 septembrie 2017, Karan era superior lui Amir, dar nu îl gestionase direct",
   "review_karan_gupta_workdetail": "Karan Gupta - Inginer Software Senior la Emids, India",
 
-  "review_shrish_desc_line1": "Amir is a result oriented Full stack/Node JS developer delivering work product, tasks within stipulated timelines, has strong alignment with team results, goes beyond what is expected of him to achieve tasks/goals.  He keeps himself updated in technology and tools related to project. He participates and implement in defect prevention and software improvement activities in the project. he also participation in SQA activities such as peer reviews. He diligently understands project defined processes and implements the same in everyday tasks. He is a great team player.",
-  "review_shrish_desc_line2": "He communicates effectively and can be relied upon in times of crisis – Mr. dependable. He assists in any technical issues being faced by team members and other team members consult him for suggestion, solutions, etc. He has also helped in hiring right resources to the project. He is a great asset to the team, thanks for the commendable work done so far.",
-  "review_shrish_timestamp": "July 4, 2023, Shrish managed Amir directly",
-  "review_shrish_workdetail": "Shrish Tripathi - Enterprise Architect- Data & Analytics /Head of FS ITT COE Data & Analytics at EY, India",
+  "review_shrish_desc_line1": "Amir este un dezvoltator Full stack/Node JS orientat către rezultate, care livrează produse și sarcini în limitele impuse de timp, are o aliniere puternică cu rezultatele echipei, depășește ceea ce se așteaptă de la el pentru a-și atinge sarcinile/obiectivele. Se menține la curent cu tehnologia și instrumentele legate de proiect. Participă și implementează activități de prevenire a defectelor și de îmbunătățire a software-ului în proiect. De asemenea, participă la activități SQA precum revizii efectuate de colegi. Înțelege cu dăruire procesele definite de proiect și le implementează în sarcinile de zi cu zi. Este un jucător de echipă excelent.",
+  "review_shrish_desc_line2": "Comunica eficient și poate fi încredințat în momentele de criză - un om de încredere. Oferă asistență în orice problemă tehnică cu care se confruntă membrii echipei și ceilalți membri ai echipei îl consultă pentru sugestii, soluții, etc. A ajutat, de asemenea, la recrutarea resurselor potrivite pentru proiect. Este o mare valoare pentru echipă, mulțumim pentru munca remarcabilă realizată până acum.",
+  "review_shrish_timestamp": "4 iulie 2023, Shrish a coordonat direct pe Amir",
+  "review_shrish_workdetail": "Shrish Tripathi - Arhitect Enterprise - Date și Analitică / Șef al FS ITT COE Date și Analitică la EY, India",
 
-  "review_vinu_jade_desc_line1": "I highly recommend Amir Mustafa for any Senior Architect role on his leadership qualities and expertise in the field. As an upcoming TOGAF certified professional, Amir has demonstrated an understanding of architectural frameworks and methodologies, delivering innovative and scalable solutions.He has a talent for inspiring and motivating teams, creating a collaborative work environment where individuals thrive. His open and effective communication style enables him to build strong relationships with stakeholders.Amir's dedication to continuous learning and professional development is commendable. He stays updated with latest industry trends and best practices, leveraging his strategic thinking to drive technological advancements and provide valuable guidance.",
-  "review_vinu_jade_desc_line2": "I have utmost confidence in Amir and recommend him to any organization seeking a results-driven professional who can lead teams to success. I wish him the very best.",
-  "review_vinu_jade_timestamp": "July 4, 2023, Vinu was Amir’s mentor | 60+ years of experience",
-  "review_vinu_jade_workdetail": "Vinu Jade - Founder & CEO jDruids, Chief Architect and Consultant at jDruids, India",
+  "review_vinu_jade_desc_line1": "Recomand cu tărie pe Amir Mustafa pentru orice rol de arhitect senior datorită calităților sale de leadership și expertiza în domeniu. Ca profesionist certificat TOGAF în devenire, Amir a demonstrat o înțelegere a cadrului și metodologiilor arhitecturale, oferind soluții inovatoare și scalabile. Are un talent de a inspira și motiva echipele, creând un mediu de lucru colaborativ în care indivizii prosperă. Stilul său de comunicare deschis și eficient îi permite să construiască relații puternice cu părțile interesate. Dedicarea lui Amir față de învățarea continuă și dezvoltarea profesională este lăudabilă. Se menține la curent cu cele mai recente tendințe din industrie și cele mai bune practici, valorificând gândirea sa strategică pentru a impulsiona progresele tehnologice și a oferi îndrumare valoroasă.",
+  "review_vinu_jade_desc_line2": "Am cea mai mare încredere în Amir și îl recomand oricărei organizații în căutarea unui profesionist orientat spre rezultate, capabil să conducă echipe către succes. Îi doresc tot binele.",
+  "review_vinu_jade_timestamp": "4 iulie 2023, Vinu a fost mentorul lui Amir | Peste 60 de ani de experiență",
+  "review_vinu_jade_workdetail": "Vinu Jade - Fondator și CEO jDruids, Arhitect Șef și Consultant la jDruids, India",
 
-  "review_mohit_agrawal_desc_line1": "I have worked with Amir Mustafa on a large-scale project. He is a very hard-working person and has excellent technical skills. Thanks to these qualities, he consistently delivers projects on time and with a high level of professionalism. I would also like to highlight Amir's adaptiveness and self learning capabilities, constantly strives to find the best ways to contribute to team’s success , enhance productivity, and create a positive work environment.",
-  "review_mohit_agrawal_desc_line2": "Amir's contributions and skills make him a true asset to any team or organization.",
-  "review_mohit_agrawal_timestamp": "July 5, 2023, Mohit managed Amir directly",
-  "review_mohit_agrawal_workdetail": "Mohit Agrawal - Associate Vice President at Xebia, Americas",
+  "review_mohit_agrawal_desc_line1": "Am lucrat cu Amir Mustafa în cadrul unui proiect de mare amploare. Este o persoană foarte harnică și are abilități tehnice excelente. Datorită acestor calități, livrează în mod constant proiecte la timp și cu un nivel înalt de profesionalism. Aș dori, de asemenea, să evidențiez adaptabilitatea și capacitățile sale de învățare autonomă, luptând în mod constant să găsească cele mai bune modalități de a contribui la succesul echipei, de a îmbunătăți productivitatea și de a crea un mediu de lucru pozitiv.",
+  "review_mohit_agrawal_desc_line2": "Contribuțiile și abilitățile lui Amir îl fac o adevărată valoare pentru orice echipă sau organizație.",
+  "review_mohit_agrawal_timestamp": "5 iulie 2023, Mohit a coordonat direct pe Amir",
+  "review_mohit_agrawal_workdetail": "Mohit Agrawal - Vicepreședinte Asociat la Xebia, Americas",
+
 
   "contact_quotes": "Dacă aș fi întrebat oamenii ce vor, ar fi spus cai mai rapizi.",
   "new": "Nou",
