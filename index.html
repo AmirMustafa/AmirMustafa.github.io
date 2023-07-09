@@ -661,7 +661,6 @@
 								<!-- Show/Hide Table: Start -->
 								<a class="exp-toggle-link" data-toggle="collapse" href="#collapseEy" role="button" aria-expanded="false" aria-controls="collapseEy">
 									<i class="indicator"></i>
-									Show Tabular
 								</a>
 								<div class="exp-toggle-content collapse" id="collapseEy">
 									<table class="table table-bordered">
@@ -741,7 +740,6 @@
 								<!-- Show/Hide Table: Start -->
 								<a class="exp-toggle-link" data-toggle="collapse" href="#collapseTcs" role="button" aria-expanded="false" aria-controls="collapseTcs">
 									<i class="indicator"></i>
-									Show Tabular
 									</a>
 									<div class="exp-toggle-content collapse" id="collapseTcs">
 									<table class="table table-bordered">
@@ -845,7 +843,6 @@
 								<!-- Show/Hide Table: Start -->
 								<a class="exp-toggle-link" data-toggle="collapse" href="#collapseXebia" role="button" aria-expanded="false" aria-controls="collapseXebia">
 									<i class="indicator"></i>
-									Show Tabular
 								  </a>
 								  <div class="exp-toggle-content collapse" id="collapseXebia">
 									<table class="table table-bordered">
@@ -2909,7 +2906,7 @@
     }
 
     .exp-toggle-link:before {
-      content: '+';
+      content: '+ Show Tabular';
       display: inline-block;
       margin-right: 5px;
       transition: transform 0.3s ease-out;
@@ -2922,7 +2919,7 @@
     }
 
     .exp-toggle-link.open:before {
-      content: '-';
+      content: '- Hide Tabular';
     }
 
     @keyframes fade-in {
