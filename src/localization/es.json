@@ -87,16 +87,13 @@
   "project_name_ffrg": "FFRGs",
   "project_desc_ffrg": "ONG Financial Resilient Growth, aprendiendo sobre los presupuestos públicos del cambio climático y planificando y mejorando la resiliencia al cambio climático.",
   "project_tech_ffrg": "Desarrollo, Moodle",
-
   "experience_quote": "Desarrollo, Moodle",
   "experience_header": "Experiencia profesional",
   "experience_skill": "Habilidades:",
-
   "experience_ey": "Ernst and Young",
   "experience_ey_period": "Sep 2022 al presente",
   "experience_ey_designation": "Consultor Senior",
   "experience_ey_location": "Bengaluru, India",
-
   "experience_tcs": "Servicios de consultoría TATA",
   "experience_tcs_period": "julio 2021 - septiembre 2022",
   "experience_tcs_designation": "Ingeniero de Sistemas - Javascript / Desarrollador Líder",
@@ -112,7 +109,6 @@
   "experience_tcs_point_8": "8. Interactuar con clientes y múltiples partes interesadas para funciones, mejoras y correcciones de errores.",
   "experience_tcs_point_9": "9. Envío de correos electrónicos de Informe de estado semanal (WSR) a los clientes para el seguimiento del desarrollo del proyecto.",
   "experience_tcs_point_10": "10. Fixing Vulnerability bugs found using SAST and DAST scans in Acunetix 360 software.",
-
   "experience_xebia": "Xebia Arquitectos de TI",
   "experience_xebia_period": "septiembre 2020 - julio 2021",
   "experience_xebia_designation": "Consultor | JavaScript | Reaccionar JS | Nodo JS @ Digital14 - TAMM, Emiratos Árabes Unidos",
@@ -130,7 +126,6 @@
   "experience_xebia_point_10": "10. Capacitar y ayudar a los nuevos desarrolladores a brindar servicios en plazos ajustados.",
   "experience_xebia_point_11": "11. Actualice regularmente el tablero de JIRA cambiando los estados de las tareas y los errores para realizar un seguimiento del desarrollo del servicio.",
   "experience_xebia_point_12": "12. Tener comunicaciones regulares con múltiples partes interesadas en el proyecto para brindar las mejores soluciones posibles.",
-
   "experience_shadan": "Shadan Industrius",
   "experience_shadan_period": "noviembre 2017 - mayo 2020",
   "experience_shadan_designation": "Desarrollador Web (Desarrollador Full Stack JS)",
@@ -145,7 +140,6 @@
   "experience_shadan_point_7": "7. Desarrollo del proyecto E-learning de Myanmar a través de Moodle.",
   "experience_shadan_point_8": "8. Trabajó en AWS y Heroku participó en diferentes scripts de comandos a través de Putty.",
   "experience_shadan_point_9": "9. Haber desarrollado videoconferencias con una presentación en Linux Ubuntu con la ayuda de la API BigBlueButton, los usuarios pueden unirse a la reunión y compartir presentaciones.",
-
   "experience_fundlr": "Fundlr",
   "experience_fundlr_period": "Dic 2016 - Sep 2017",
   "experience_fundlr_designation": "Desarrollador web",
@@ -161,7 +155,6 @@
   "experience_fundlr_point_8": "8. Facilidad de notificación push proporcionada por oneSignal API.",
   "experience_fundlr_point_9": "9. Mayormente trabajé en tecnología MySql para bases de datos.",
   "experience_fundlr_point_10": "10. Ayudar a los miembros del equipo a resolver problemas técnicos.",
-
   "educations": "Educación",
   "education_nalanda": "Instituto de Tecnología de Nalanda",
   "education_nalanda_period": "Junio ​​2011 - Mayo 2015",
@@ -172,17 +165,14 @@
   "education_nalanda_desc_college": "College: Instituto de Tecnología de Nalanda, Bhubaneswar, India",
   "education_nalanda_desc_degree": "Título: B-Tech",
   "education_bput": "Universidad Tecnológica de Biju Patnaik (BPUT)",
-
   "education_st_patricks": "Escuela secundaria de San Patricio Escuela",
   "education_st_patricks_location": "Asansol, India",
   "education_st_patricks_12_period": "Junio ​​2009 - Mayo 2011",
   "education_st_patricks_12_degree": "Junta de ISC | Educación Secundaria Superior | Ciencias y Matemáticas",
   "education_st_patricks_12_desc": "La educación fue mi educación superior en el campo de la ciencia. También aprendí sobre SQL, PHP, MVC, OOPS y más.",
-
   "education_st_patricks_10_period": "marzo de 1998 - abril de 2009",
   "education_st_patricks_10_degree": "Junta de CISE | Escuela Secundaria | Ciencias y Matemáticas",
   "education_st_patricks_10_desc": "Me gradué de la escuela secundaria, donde disfruté haciendo ciencias, matemáticas, biología y artes. Me di cuenta en mi tercer año de escuela que quería hacer algo con sitios web, así que comencé a hacer sitios web pequeños.",
-
   "node": "Nodo JS",
   "expressjs": "Expresar JS",
   "reactjs": "Reaccionar JS",
@@ -225,12 +215,10 @@
   "aws": "Nube AWS",
   "cpanel": "CPanel",
   "vim": "Editor VIM",
-
   "languages": "Idiomas",
   "en": "Inglés (uso diario)",
   "hi": "Hindi (lengua materna)",
   "ar": "Arábica",
-
   "videos_quotes": "Compartiendo mi experiencia como Desarrollador de Software Full Stack.",
   "videos_feat1": "Servicios web de Amazon",
   "videos_feat1_link": "Consultar más contenidos",
@@ -239,21 +227,16 @@
   "videos_feat3": "Codificación segura | Seguridad del software",
   "videos_feat3_link": "Codificación segura: ver más contenidos",
   "here": " aquí",
-
   "blogs_quotes": "La vida sin conocimiento es muerte disfrazada.",
   "blogs_quotes2": "Me encanta aprender y compartir mi experiencia. Hacer clic",
   "blogs_quotes3": "por contenido técnico.",
-
   "awards_badges": "Premios e insignias",
-
   "ey_kudo_header": "1. Premio EY Kudos",
   "ey_kudo_timestamp": "Publicado por Ernst and Young. marzo 2023",
   "ey_kudo_reason": "Otorgado Kudos por EY por desempeño ejemplar. Vista",
-
   "tcs_gems_header": "2. TCS Gems - Premio a la iniciativa especial",
   "tcs_gems_timestamp": "Emitido por TATA Consultancy Services. ene 2022",
   "tcs_gems_reason": "En agradecimiento a la destacada contribución a la organización. Vista",
-
   "github_badge_header": "3. Insignias de logros de Github:",
   "github_badge_timestamp": "Emitido por Github. 7 de junio, 14 de mayo de 2023, junio de 2021, febrero de 2020 resp.",
   "github_badge_desc": "Recibido debajo de las insignias de Github:",
@@ -265,96 +248,74 @@
   "github_badge_pullshark_desc": "Para solucionar problemas que se han fusionado. Vista",
   "github_badge_name_arctic": "IV. Insignia de colaborador de Arctic Code Vault:",
   "github_badge_arctic_desc": "Preservar el software de código abierto para las generaciones futuras. Vista",
-
-  "postman_badge_header": "4. Postman Achievement Badge: ",
-  "postman_badge_timestamp": "Issued by Postman . Jul 2023",
-  "postman_badge_desc": "Received below postman badge:",
-  "postman_badge_name_fundamentals": "V. Postman API Expert:",
-  "postman_badge_fundamentals_desc": "For understansding Postman concepts and passing test script. View ",
-
+  "postman_badge_header": "4. Insignia de Logro de Postman: ",
+  "postman_badge_timestamp": "Emitida por Postman . Jul 2023",
+  "postman_badge_desc": "Recibida la siguiente insignia de Postman:",
+  "postman_badge_name_fundamentals": "V. Experto en API de Postman:",
+  "postman_badge_fundamentals_desc": "Por comprender los conceptos de Postman y aprobar el script de prueba. Ver ",
   "aicte_platinum_certificate": "5. Ingeniero certificado AICTE de platino y oro",
   "aicte_platinum_timestamp": "Emitido por BSNL-EETP AICTE. Ene 2015, May 2014, Dic 2013 resp.",
   "aicte_platinum_certificate_desc": "Fui seleccionado por AICTE y capacitado en BSNL-AICTE EETP (Programa de Capacitación para la Mejora de la Empleabilidad). Conocí a académicos increíbles en los últimos 1,5 años y obtuve la certificación Platino. Un viaje de tres veranos con un equipo increíble. Vista",
-
   "reviews_quotes": "Vea lo que dicen los profesionales sobre Amir.",
-
   "review_shreyas_desc": "Amir y yo trabajamos juntos en varios proyectos. Constantemente se esforzó al 100 por ciento en el equipo y desempeñó un papel importante para garantizar que completáramos las tareas a tiempo. Tenía excelentes habilidades de gestión del tiempo y tenía la habilidad de mantener a todos tranquilos y productivos durante los intensos períodos de crisis. Cualquier equipo sería afortunado de tener a Amir.",
   "review_shreyas_timestamp": "23 de abril de 2023, Shreyas trabajó con Amir pero en diferentes equipos | Cliente",
   "review_shreyas_workdetail": "Shreyas Yadawad - Vicepresidente adjunto en Citi Private Bank, Londres",
-
   "review_aakanchha_desc": "Amir tiene la habilidad de utilizar su experiencia para crear y mejorar aplicaciones. Tiene una sólida comprensión de la arquitectura de aplicaciones y es particularmente competente en JavaScript y tecnologías de la nube. Siempre está ansioso por aprender y mantenerse al día con los últimos desarrollos de la industria. Yo lo recomendaria ampliamente.",
   "review_aakanchha_timestamp": "23 de abril de 2023, Aakanchha trabajó con Amir en el mismo equipo",
   "review_aakanchha_workdetail": "Aakanchha Gaurav - Gerente en EY, India",
-
   "review_tony_harris_desc": "Amir ha sido un miembro muy valioso de mi equipo, alguien en quien podía confiar con los servicios comerciales y los desafíos técnicos más complejos. Aprecié su atención a la calidad y la milla extra que dedicaría a lograr plazos y objetivos muy agresivos. ¡Te deseo lo mejor para tus futuros esfuerzos!",
   "review_tony_harris_timestamp": "11 de julio de 2021, Tony dirigió a Amir directamente",
   "review_tony_harris_workdetail": "Tony Harris - Director Ejecutivo en Digital14, Emiratos Árabes Unidos",
-
   "review_vincent_mendy_desc": "Amir está muy concentrado y dedicado a lograr su objetivo. Trabajamos en un entorno técnico muy complejo con muchas cosas mal documentadas y requisitos que cambiaban a menudo. Para tener éxito, se requiere ser un aprendiz continuo, personas enfocadas y desafiadas, solucionar problemas hasta que las cosas funcionen en medio de muchas dependencias (Arquitectura de microservicios con más de 800 servicios). Amir logró ser el jugador clave en su equipo para realizar entregas importantes. Así que es un placer compartir mi agradecimiento y aliento en su futuro cargo y confío en que seguirá teniendo éxito.",
   "review_vincent_mendy_timestamp": "27 de diciembre de 2021, Vincent era cliente de Amir",
   "review_vincent_mendy_workdetail": "Vincent Mendy - Director Arquitecto de Soluciones en TAMM, Emiratos Árabes Unidos",
-
   "review_aamir_iqbal_desc": "He trabajado con muchos profesionales a lo largo de mi viaje, pero el Sr. Amir Mustafa fue único para trabajar. Trabajamos juntos en Abu Dhabi TAMM en las unidades gubernamentales de EAD y ADAFSA. Su ética de trabajo es impecable y se adapta fácilmente a una situación determinada. Su capacidad para salir de su camino para ayudar a los demás lo ha hecho destacar. Se ha ganado el respeto de todos a través de sus habilidades y valor. Recomiendo al Sr. Amir Mustafa como un senior necesario para todos los que buscan mejorar.",
   "review_aamir_iqbal_timestamp": "8 de julio de 2021, Aamir dirigió a Amir directamente",
   "review_aamir_iqbal_workdetail": "Aamir Iqbal - Gerente Técnico | Director de TI | CTO | Arquitecto empresarial en Abu Dhabi Digital Authority, TAMM, Emiratos Árabes Unidos",
-
   "review_mera_horani_desc": "Trabajé con Amir en el proyecto TAMM, un proyecto gubernamental para la transformación digital. Tiene excelentes habilidades de comunicación y es muy cooperativo y está dispuesto a hacer un esfuerzo adicional para ayudar y apoyar. Mi trabajo con él fue en la parte de desarrollo de contenido, por lo que fue un gran apoyo para solucionar cualquier problema que surgiera y siempre se tomaba el tiempo para terminar incluso los problemas de baja prioridad según las expectativas.",
   "review_mera_horani_timestamp": "7 de julio de 2021, Mera trabajó con Amir en el mismo equipo",
   "review_mera_horani_workdetail": "Mera H - Líder del equipo de contenido en TAMM, Emiratos Árabes Unidos",
-
   "review_libin_mathew_desc": "Amir es muy talentoso y enfocado. Aprende rápido y se adapta rápidamente a nuevas habilidades. Me asocié con él en ciertas discusiones y resolución de problemas, lo encontré dedicado y motivado para resolver cualquier bloqueo. Será un activo valioso para cualquier organización si utiliza su talento de la mejor manera. Deseándole buena suerte para el futuro.",
   "review_libin_mathew_timestamp": "4 de julio de 2021, Libin Mathew trabajó con Amir en el mismo equipo",
   "review_libin_mathew_workdetail": "Libin Mathew - Consultor principal en TAMM, Emiratos Árabes Unidos",
-
   "review_anusuya_devi_desc": "Amir es un miembro confiable del equipo que es bueno técnicamente, siempre accesible para obtener ayuda, lógico y bueno para explicar problemas técnicos y dependencias con claridad. Trabaja con sinceridad, diligencia y entrega el trabajo con poca o ninguna guía y supervisión.",
   "review_anusuya_devi_timestamp": "11 de julio de 2021, Anusuya trabajó con Amir en el mismo equipo",
   "review_anusuya_devi_workdetail": "Anusuya Devi - Scrum Master en TAMM, Emiratos Árabes Unidos",
-
   "review_shanavas_elaydath_desc": "Fue un placer trabajar con el Sr. Amir Mustafa en el proyecto del Gobierno de Abu Dhabi (TAMM). Tiene un profundo conocimiento y experiencia en el desarrollo de JavaScript, y la forma en que maneja a los clientes es genuinamente notable. Siendo su propietario del producto, puedo decir que todas las aplicaciones desarrolladas por él fueron de calidad. Un gran jugador de equipo, siempre está listo para dar su 100% y más cuando sea necesario. Amir es una persona de mente abierta con ganas de lograr resultados. Es un gran activo para un equipo de proyecto. Te deseo todo lo mejor y éxito en tu carrera por delante.",
   "review_shanavas_elaydath_timestamp": "26 de abril de 2021, el Dr. Shanavas trabajó con Amir en el mismo equipo",
   "review_shanavas_elaydath_workdetail": "Dr. Shanavas Elayedath - Propietario de producto en TAMM, Emiratos Árabes Unidos",
-
   "review_mohammed_zafar_desc": "Amir es un profesional muy entusiasta y enérgico. Tiene un buen conocimiento de los lenguajes de programación PHP y JavaScript. Tiene buen dominio de la base de datos MySQL y frameworks web basados ​​en PHP como Laravel. También sus puntos fuertes son que aprende rápido y es una persona tranquila y paciente. Le deseo todo lo mejor para su futuro cercano.",
   "review_mohammed_zafar_timestamp": "10 de septiembre de 2018, Mohammed fue el mentor de Amir.",
   "review_mohammed_zafar_workdetail": "Mohammed Zafar - Comercio electrónico | Arquitecto de Salesforce Commerce Cloud, India",
-
   "review_sanjay_kumar_desc": "Amir es una persona extremadamente valiosa para tener en su red. Sus respuestas son oportunas, de valor agregado y está abierto a trabajar con gente nueva. Su espíritu de 'Never Say Die' lo mantiene a él y al equipo luchando por lo mejor. Puede encontrar su camino esquivando obstáculos y dando la mejor oportunidad a la productividad. La entrega y el proyecto nunca han sido un problema con él estando allí. Tiene buenos conocimientos de PHP, Laravel y Angular JavaScript. ¡Lo recomiendo mucho!",
   "review_sanjay_kumar_timestamp": "30 de julio de 2017, Sanjay trabajó con Amir en el mismo equipo",
   "review_sanjay_kumar_workdetail": "Sanjay Kumar - Desarrollador web en Fundlr, India",
-
   "review_ujjwal_anand_desc": "Amir es una persona altamente dedicada y apasionada, que muestra una atención extrema a los detalles y su capacidad cognitiva para cambiar rápidamente de una tarea a otra es encomiable. Con su profesionalismo a este nivel, será un activo para trabajar. Le deseo todo lo mejor en sus futuros proyectos.",
   "review_ujjwal_anand_timestamp": "23 de abril de 2017, Ujjwal trabajó directamente con Amir",
   "review_ujjwal_anand_workdetail": "Ujjwal Anand - Consultor Principal en Virtusa, India",
-
   "review_paras_pagare_desc": "Amir es una persona altamente motivada que desea aprender nuevas tecnologías y aplicarlas en su trabajo. Ha creado varios proyectos en Github por su pasión por escribir código. Tiene una buena comprensión de MEAN stack y PHP. Debería ser un buen activo para cualquier organización que busque un puesto de desarrollador web.",
   "review_paras_pagare_timestamp": "1 de diciembre de 2016, Paras fue mentor de Amir",
   "review_paras_pagare_workdetail": "Paras Pagare - Gerente General en Icertis, India",
-
   "review_priya_nayar_desc": "Amir es una persona entusiasta y ansiosa por aprender con buenas habilidades técnicas. Es fácil trabajar con él y es una persona divertida 👍",
   "review_priya_nayar_timestamp": "14 de marzo de 2021, Priya trabajó con Amir en el mismo equipo",
   "review_priya_nayar_workdetail": "Priya Nayar - Consultora Principal en Xebia, India",
-
   "review_karan_gupta_desc": "Amir es una persona altamente eficiente. Tuve el placer de trabajar con él en Fundlr. Siempre aprecio su capacidad para terminar cualquier tarea antes de la fecha límite. Sería un activo para cualquier equipo.",
   "review_karan_gupta_timestamp": "26 de septiembre de 2017, Karan era superior a Amir pero no lo gestionaba directamente",
   "review_karan_gupta_workdetail": "Karan Gupta - Ingeniero de Software Senior en Emids, India",
-
-  "review_shrish_desc_line1": "Amir is a result oriented Full stack/Node JS developer delivering work product, tasks within stipulated timelines, has strong alignment with team results, goes beyond what is expected of him to achieve tasks/goals.  He keeps himself updated in technology and tools related to project. He participates and implement in defect prevention and software improvement activities in the project. he also participation in SQA activities such as peer reviews. He diligently understands project defined processes and implements the same in everyday tasks. He is a great team player.",
-  "review_shrish_desc_line2": "He communicates effectively and can be relied upon in times of crisis – Mr. dependable. He assists in any technical issues being faced by team members and other team members consult him for suggestion, solutions, etc. He has also helped in hiring right resources to the project. He is a great asset to the team, thanks for the commendable work done so far.",
-  "review_shrish_timestamp": "July 4, 2023, Shrish managed Amir directly",
-  "review_shrish_workdetail": "Shrish Tripathi - Enterprise Architect- Data & Analytics /Head of FS ITT COE Data & Analytics at EY, India",
-
-  "review_vinu_jade_desc_line1": "I highly recommend Amir Mustafa for any Senior Architect role on his leadership qualities and expertise in the field. As an upcoming TOGAF certified professional, Amir has demonstrated an understanding of architectural frameworks and methodologies, delivering innovative and scalable solutions.He has a talent for inspiring and motivating teams, creating a collaborative work environment where individuals thrive. His open and effective communication style enables him to build strong relationships with stakeholders.Amir's dedication to continuous learning and professional development is commendable. He stays updated with latest industry trends and best practices, leveraging his strategic thinking to drive technological advancements and provide valuable guidance.",
-  "review_vinu_jade_desc_line2": "I have utmost confidence in Amir and recommend him to any organization seeking a results-driven professional who can lead teams to success. I wish him the very best.",
-  "review_vinu_jade_timestamp": "July 4, 2023, Vinu was Amir’s mentor | 60+ years of experience",
-  "review_vinu_jade_workdetail": "Vinu Jade - Founder & CEO jDruids, Chief Architect and Consultant at jDruids, India",
-
-  "review_mohit_agrawal_desc_line1": "I have worked with Amir Mustafa on a large-scale project. He is a very hard-working person and has excellent technical skills. Thanks to these qualities, he consistently delivers projects on time and with a high level of professionalism. I would also like to highlight Amir's adaptiveness and self learning capabilities, constantly strives to find the best ways to contribute to team’s success , enhance productivity, and create a positive work environment.",
-  "review_mohit_agrawal_desc_line2": "Amir's contributions and skills make him a true asset to any team or organization.",
-  "review_mohit_agrawal_timestamp": "July 5, 2023, Mohit managed Amir directly",
-  "review_mohit_agrawal_workdetail": "Mohit Agrawal - Associate Vice President at Xebia, Americas",
+  "review_shrish_desc_line1": "Amir es un desarrollador Full stack/Node JS orientado a resultados que entrega productos de trabajo, tareas dentro de los plazos establecidos, tiene una fuerte alineación con los resultados del equipo, va más allá de lo que se espera de él para lograr tareas/objetivos. Se mantiene actualizado en tecnología y herramientas relacionadas con el proyecto. Participa e implementa actividades de prevención de defectos y mejora de software en el proyecto. También participa en actividades de Aseguramiento de Calidad de Software, como revisiones entre pares. Comprende diligentemente los procesos definidos del proyecto e implementa lo mismo en las tareas cotidianas. Es un gran jugador de equipo.",
+"review_shrish_desc_line2": "Se comunica de manera efectiva y se puede confiar en él en tiempos de crisis, es una persona confiable. Ayuda en cualquier problema técnico que enfrenten los miembros del equipo y otros miembros del equipo lo consultan para obtener sugerencias, soluciones, etc. También ha ayudado en la contratación de los recursos adecuados para el proyecto. Es un gran activo para el equipo, gracias por el trabajo encomiable realizado hasta ahora.",
+"review_shrish_timestamp": "4 de julio de 2023, Shrish gestionó a Amir directamente",
+"review_shrish_workdetail": "Shrish Tripathi - Arquitecto Empresarial de Datos y Análisis / Jefe de FS ITT COE Datos y Análisis en EY, India",
+"review_vinu_jade_desc_line1": "Recomiendo encarecidamente a Amir Mustafa para cualquier puesto de Arquitecto Senior debido a sus cualidades de liderazgo y experiencia en el campo. Como próximo profesional certificado en TOGAF, Amir ha demostrado comprender los marcos y metodologías arquitectónicas, ofreciendo soluciones innovadoras y escalables. Tiene talento para inspirar y motivar a los equipos, creando un entorno de trabajo colaborativo donde las personas prosperan. Su estilo de comunicación abierto y efectivo le permite construir relaciones sólidas con las partes interesadas. La dedicación de Amir al aprendizaje continuo y al desarrollo profesional es encomiable. Se mantiene actualizado con las últimas tendencias de la industria y las mejores prácticas, aprovechando su pensamiento estratégico para impulsar los avances tecnológicos y brindar orientación valiosa.",
+"review_vinu_jade_desc_line2": "Tengo plena confianza en Amir y lo recomiendo a cualquier organización que busque un profesional orientado a los resultados que pueda liderar equipos hacia el éxito. Le deseo lo mejor.",
+"review_vinu_jade_timestamp": "4 de julio de 2023, Vinu fue mentor de Amir | Más de 60 años de experiencia",
+"review_vinu_jade_workdetail": "Vinu Jade - Fundador y CEO de jDruids, Arquitecto Jefe y Consultor en jDruids, India",
+"review_mohit_agrawal_desc_line1": "He trabajado con Amir Mustafa en un proyecto a gran escala. Es una persona muy trabajadora y tiene excelentes habilidades técnicas. Gracias a estas cualidades, entrega proyectos puntualmente y con un alto nivel de profesionalismo. También me gustaría destacar la adaptabilidad y capacidad de aprendizaje propio de Amir, siempre se esfuerza por encontrar las mejores formas de contribuir al éxito del equipo, mejorar la productividad y crear un ambiente de trabajo positivo.",
+"review_mohit_agrawal_desc_line2": "Las contribuciones y habilidades de Amir lo convierten en un verdadero activo para cualquier equipo u organización.",
+"review_mohit_agrawal_timestamp": "5 de julio de 2023, Mohit gestionó a Amir directamente",
+"review_mohit_agrawal_workdetail": "Mohit Agrawal - Vicepresidente Asociado en Xebia, Américas",
 
   "new": "Nuevo",
-
   "contact_quotes": "Si le hubiera preguntado a la gente qué querían, me habrían dicho caballos más rápidos.",
   "copyright_desclamair": "Amir Mustafá 2023"
 }
