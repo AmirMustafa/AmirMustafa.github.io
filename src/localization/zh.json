@@ -272,7 +272,6 @@
   "postman_badge_name_fundamentals": "V. Postman API 专家:",
   "postman_badge_fundamentals_desc": "用于理解 Postman 概念并通过测试。查看 ",
 
-
   "aicte_platinum_certificate": "5. AICTE白金和金牌工程师认证",
   "aicte_platinum_timestamp": "由BSNL-EETP AICTE颁发。分别为2015年1月、2014年5月和2013年12月",
   "aicte_platinum_certificate_desc": "通过AICTE的选拔并在BSNL-AICTE EETP（就业能力提升培训计划）中接受培训。在过去的1.5年里，我遇到了许多优秀的学者，并被认证为白金级别。这是与一个了不起的团队一起度过的三个夏天的旅程。查看",
@@ -352,7 +351,13 @@
   "review_mohit_agrawal_desc_line1": "我与阿米尔·穆斯塔法在一个大型项目上共事。他是一个非常勤奋并且具有出色技术技能的人。凭借这些素质，他始终按时并以高水平的专业精神交付项目。我还想强调Amir的适应能力和自学能力，他不断努力寻找为团队的成功、提高生产力和创造积极工作环境的最佳方法。",
   "review_mohit_agrawal_desc_line2": "Amir的贡献和技能使他成为任何团队或组织的真正资产。",
   "review_mohit_agrawal_timestamp": "2023年7月5日，Mohit直接管理Amir",
-  "review_mohit_agrawal_workdetail":"Mohit Agrawal - Xebia副总裁，美洲地区",
+  "review_mohit_agrawal_workdetail": "Mohit Agrawal - Xebia副总裁，美洲地区",
+
+  "review_dinesh_dalal_desc_line1": "我非常高兴全心全意地推荐Amir Mustafa，他是一位技术娴熟、专攻React.js的高级全栈JavaScript开发人员。在我们的合作中，Amir展现了在前端和后端技术方面的卓越能力，提供了一流的解决方案。Amir在HTML、CSS、JavaScript和React.js方面的前端专长令人瞩目，使他能够创建出令人惊叹且响应灵敏的用户界面。同样令人印象深刻的是他在后端方面的知识，具有Node.js、Express和诸如MongoDB等数据库的实践经验，确保了强大的服务器端开发。",
+  "review_dinesh_dalal_desc_line2": "Amir突出的特点之一是他能够与跨职能团队无缝融合，促进了有效的沟通与协作。他解决问题的能力和对细节的关注显著促成了项目的成功交付。Amir对创新和持续学习的热情体现在他对最新JavaScript框架和库的最新知识的了解上。他对卓越的承诺使他成为任何开发团队的宝贵资产。",
+  "review_dinesh_dalal_desc_line3": "Amir突出的特点之一是他能够与跨职能团队无缝融合，促进了有效的沟通与协作。他解决问题的能力和对细节的关注显著促成了项目的成功交付。Amir对创新和持续学习的热情体现在他对最新JavaScript框架和库的最新知识的了解上。他对卓越的承诺使他成为任何开发团队的宝贵资产。",
+  "review_dinesh_dalal_timestamp": "2023年7月17日，Dinesh直接管理Amir",
+  "review_dinesh_dalal_workdetail": "Dinesh Dalal - TAMM高级工程经理，阿联酋 | 解决方案架构师",
 
   "pt1": "1.",
   "pt2": "2.",
@@ -373,9 +378,6 @@
   "five_pt5_desc": "Amir在多个领域的项目中工作，从初创公司到阿布扎比政府、生命科学、医疗和银行领域。他相信学习和分享。他目前正在学习Azure Cloud、Nest.js、MobX、Azure Orchestration，并对架构层面的工作感到兴奋。",
 
   "highlight_video_title": "观看Amir在Microsoft Bing中解释CHATGPT-4",
-
-
-
 
   "contact_quotes": "如果我问人们他们想要什么，他们会说更快的马。",
   "new": "新",

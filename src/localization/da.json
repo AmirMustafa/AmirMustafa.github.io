@@ -88,7 +88,6 @@
   "project_desc_ffrg": "Financial Resilient Growth NGO, der lærer om offentlige budgetter og planlægning vedrørende klimaforandringer og forbedrer modstandsdygtighed over for klimaforandringer.",
   "project_tech_ffrg": "Udvikling, Moodle",
 
-
   "experience_quote": "Protoner giver et atom dets identitet, elektroner giver det personlighed.",
   "experience_header": "Erhvervserfaring",
   "experience_skill": "Færdigheder:",
@@ -232,7 +231,6 @@
   "hi": "Hindi (modersmål)",
   "ar": "Arabisk",
 
-
   "videos_quotes": "Deling af min erfaring som Full Stack Softwareudvikler.",
   "videos_feat1": "Amazon Web Services",
   "videos_feat1_link": "Se mere indhold",
@@ -356,6 +354,12 @@
   "review_mohit_agrawal_timestamp": "5. juli 2023, Mohit har ledet Amir direkte",
   "review_mohit_agrawal_workdetail": "Mohit Agrawal - Associate Vice President hos Xebia, Americas | San Francisco, Californien, USA",
 
+  "review_dinesh_dalal_desc_line1": "Jeg er begejstret for at kunne anbefale Amir Mustafa på det varmeste. Han er en yderst dygtig Senior Full Stack JavaScript-udvikler med specialisering i React.js. I vores samarbejde har Amir vist en exceptionel ekspertise inden for front-end og back-end teknologier og leveret førsteklasses løsninger. Amirs ekspertise inden for front-end med HTML, CSS, JavaScript og React.js er bemærkelsesværdig og muliggør oprettelse af imponerende og responsive brugergrænseflader. Lige så imponerende er hans baggrund inden for back-end, med praktisk erfaring i Node.js, Express og databaser som MongoDB, hvilket sikrer robust udvikling af server-siden.",
+  "review_dinesh_dalal_desc_line2": "En af Amirs fremragende egenskaber er hans evne til problemfri integration med tværfunktionelle teams, hvilket fremmer effektiv kommunikation og samarbejde. Hans evner til problemløsning og opmærksomhed på detaljer har betydet betydelige bidrag til succesfuld projektlevering. Amirs lidenskab for innovation og kontinuerligt læring er tydelig i hans opdaterede viden om de nyeste JavaScript-frameworks og biblioteker. Hans engagement i at levere fremragende resultater gør ham til en værdifuld ressource for ethvert udviklingsteam.",
+  "review_dinesh_dalal_desc_line3": "En af Amirs fremragende egenskaber er hans evne til problemfri integration med tværfunktionelle teams, hvilket fremmer effektiv kommunikation og samarbejde. Hans evner til problemløsning og opmærksomhed på detaljer har betydelige bidrag til succesfuld projektlevering. Amirs lidenskab for innovation og kontinuerligt læring er tydelig i hans opdaterede viden om de nyeste JavaScript-frameworks og biblioteker. Hans engagement i at levere fremragende resultater gør ham til en værdifuld ressource for ethvert udviklingsteam.",
+  "review_dinesh_dalal_timestamp": "17. juli 2023, Dinesh var Amirs direkte leder",
+  "review_dinesh_dalal_workdetail": "Dinesh Dalal - Senior Engineering Manager hos TAMM, UAE | Solution Architect ",
+
   "pt1": "1.",
   "pt2": "2.",
   "pt3": "3.",
@@ -379,6 +383,4 @@
   "contact_quotes": "Hvis jeg havde spurgt folk, hvad de ønskede, ville de have sagt hurtigere heste.",
   "new": "Ny",
   "copyright_desclamair": "Amir Mustafa 2023"
-
 }
-

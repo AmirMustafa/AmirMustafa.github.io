@@ -272,7 +272,6 @@
   "postman_badge_name_fundamentals": "V. Expert API Postman :",
   "postman_badge_fundamentals_desc": "Pour comprendre les concepts de Postman et réussir le script de test. Voir ",
 
-
   "aicte_platinum_certificate": "5. Ingénieur certifié AICTE Platine et Or",
   "aicte_platinum_timestamp": "Délivré par BSNL-EETP AICTE. janv. 2015, mai 2014, déc. 2013 resp.",
   "aicte_platinum_certificate_desc": "A été sélectionné par l'AICTE et formé au BSNL-AICTE EETP (Employability Enhancement Training Programme). J'ai rencontré des universitaires incroyables au cours des 1,5 dernières années et j'ai été certifié Platine. Un voyage de trois étés avec une équipe formidable. Voir",
@@ -351,6 +350,12 @@
   "review_mohit_agrawal_desc_line2": "Les contributions et les compétences d'Amir font de lui un véritable atout pour n'importe quelle équipe ou organisation.",
   "review_mohit_agrawal_timestamp": "5 juillet 2023, Mohit a géré Amir directement",
   "review_mohit_agrawal_workdetail": "Mohit Agrawal - Vice-président associé chez Xebia, Amériques",
+
+  "review_dinesh_dalal_desc_line1": "Je suis ravi de recommander chaleureusement Amir Mustafa, un développeur JavaScript Full Stack Senior hautement qualifié spécialisé dans React.js. Tout au long de notre collaboration, Amir a fait preuve d'une expertise exceptionnelle dans les technologies front-end et back-end, fournissant des solutions de premier ordre. L'expertise d'Amir en front-end avec HTML, CSS, JavaScript et React.js est remarquable, lui permettant de créer des interfaces utilisateur époustouflantes et réactives. Son savoir-faire en back-end est tout aussi impressionnant, avec une expérience pratique en Node.js, Express et des bases de données comme MongoDB, garantissant un développement robuste côté serveur.",
+  "review_dinesh_dalal_desc_line2": "L'une des qualités remarquables d'Amir est sa capacité à s'intégrer parfaitement aux équipes pluridisciplinaires, favorisant ainsi la communication et la collaboration efficaces. Ses compétences en résolution de problèmes et son attention aux détails ont contribué de manière significative à la réussite des projets. La passion d'Amir pour l'innovation et l'apprentissage continu se manifeste par sa connaissance à jour des derniers frameworks et bibliothèques JavaScript. Son engagement envers l'excellence fait de lui un atout pour toute équipe de développement.",
+  "review_dinesh_dalal_desc_line3": "L'une des qualités remarquables d'Amir est sa capacité à s'intégrer parfaitement aux équipes pluridisciplinaires, favorisant ainsi la communication et la collaboration efficaces. Ses compétences en résolution de problèmes et son attention aux détails ont contribué de manière significative à la réussite des projets. La passion d'Amir pour l'innovation et l'apprentissage continu se manifeste par sa connaissance à jour des derniers frameworks et bibliothèques JavaScript. Son engagement envers l'excellence fait de lui un atout pour toute équipe de développement.",
+  "review_dinesh_dalal_timestamp": "17 juillet 2023, Dinesh a directement géré Amir",
+  "review_dinesh_dalal_workdetail": "Dinesh Dalal - Directeur de l'ingénierie senior chez TAMM, Émirats Arabes Unis | Architecte de solutions",
 
   "pt1": "1.",
   "pt2": "2.",
