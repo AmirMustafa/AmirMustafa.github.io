@@ -272,7 +272,6 @@
   "postman_badge_name_fundamentals": "V. Chuyên gia API của Postman:",
   "postman_badge_fundamentals_desc": "Để hiểu các khái niệm của Postman và vượt qua các kịch bản kiểm tra. Xem ",
 
-
   "aicte_platinum_certificate": "5. Kỹ sư được chứng nhận Platinum và Gold của AICTE",
   "aicte_platinum_timestamp": "Được trao bởi BSNL-EETP AICTE. Tháng 1 năm 2015, tháng 5 năm 2014, tháng 12 năm 2013 tương ứng.",
   "aicte_platinum_certificate_desc": "Được chọn bởi AICTE và được đào tạo tại Chương trình Đào tạo Nâng cao Khả năng Làm việc BSNL-AICTE (Employability Enhancement Training Programme). Gặp gỡ các học giả tuyệt vời trong suốt 1,5 năm qua và được chứng nhận là Platinum. Một hành trình của ba mùa hè với một đội ngũ tuyệt vời. Xem ",
@@ -354,6 +353,12 @@
   "review_mohit_agrawal_timestamp": "5 tháng 7 năm 2023, Mohit quản lý Amir trực tiếp",
   "review_mohit_agrawal_workdetail": "Mohit Agrawal - Phó Tổng Giám đốc Tại Xebia, Châu Mỹ",
 
+  "review_dinesh_dalal_desc_line1": "Tôi rất vui mừng và lòng thành khuyên bạn nên lựa chọn Amir Mustafa, một Lập trình viên JavaScript Full Stack có kỹ năng cao với chuyên môn về React.js. Suốt thời gian hợp tác, Amir đã thể hiện khả năng chuyên môn xuất sắc trong các công nghệ front-end và back-end, mang đến những giải pháp tốt nhất. Sự thành thạo của Amir trong front-end với HTML, CSS, JavaScript và React.js là đáng kinh ngạc, cho phép anh ta tạo giao diện người dùng đẹp mắt và phản hồi tốt. Kiến thức back-end của anh ta cũng rất ấn tượng, với kinh nghiệm thực tế về Node.js, Express và các cơ sở dữ liệu như MongoDB, đảm bảo phát triển mạnh mẽ phía máy chủ.",
+  "review_dinesh_dalal_desc_line2": "Một trong những đặc điểm nổi bật của Amir là khả năng tích hợp mượt mà với các nhóm đa chức năng, tạo điều kiện cho giao tiếp và cộng tác hiệu quả. Kỹ năng giải quyết vấn đề và sự chú ý đến chi tiết của anh ta đã góp phần đáng kể vào việc giao hàng thành công của các dự án. Niềm đam mê của Amir với sự đổi mới và học tập liên tục rõ ràng trong kiến thức cập nhật về các framework và thư viện JavaScript mới nhất. Sự cam kết với sự xuất sắc làm cho anh ta trở thành một tài sản đối với bất kỳ đội phát triển nào.",
+  "review_dinesh_dalal_desc_line3": "Một trong những đặc điểm nổi bật của Amir là khả năng tích hợp mượt mà với các nhóm đa chức năng, tạo điều kiện cho giao tiếp và cộng tác hiệu quả. Kỹ năng giải quyết vấn đề và sự chú ý đến chi tiết của anh ta đã góp phần đáng kể vào việc giao hàng thành công của các dự án. Niềm đam mê của Amir với sự đổi mới và học tập liên tục rõ ràng trong kiến thức cập nhật về các framework và thư viện JavaScript mới nhất. Sự cam kết với sự xuất sắc làm cho anh ta trở thành một tài sản đối với bất kỳ đội phát triển nào.",
+  "review_dinesh_dalal_timestamp": "Ngày 17 tháng 7 năm 2023, Dinesh quản lý Amir trực tiếp",
+  "review_dinesh_dalal_workdetail": "Dinesh Dalal - Quản lý Kỹ thuật Cao cấp tại TAMM, Các Tiểu Vương quốc Ả Rập Thống nhất | Kiến trúc sư Giải pháp",
+
   "pt1": "1.",
   "pt2": "2.",
   "pt3": "3.",
@@ -373,7 +378,6 @@
   "five_pt5_desc": "Amir đã làm việc trong các dự án đa lĩnh vực, từ start-up đến Chính phủ Abu Dhabi, các lĩnh vực Khoa học Sự sống, Y tế và Ngân hàng. Anh ấy tin vào việc học hỏi và chia sẻ. Hiện tại, anh ấy đang học Azure Cloud, Nest.js, MobX, Azure Orchestration và rất hứng thú với công việc ở mức kiến trúc.",
 
   "highlight_video_title": "XEM AMIR GIẢI THÍCH CHATGPT-4 TRÊN MICROSOFT BING",
-
 
   "contact_quotes": "Nếu tôi đã hỏi mọi người những gì họ muốn, họ đã nói là những con ngựa nhanh hơn.",
   "new": "Mới",

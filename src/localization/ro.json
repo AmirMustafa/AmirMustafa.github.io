@@ -272,7 +272,6 @@
   "postman_badge_name_fundamentals": "V. Expert API Postman:",
   "postman_badge_fundamentals_desc": "Pentru înțelegerea conceptelor Postman și trecerea testelor. Vizualizare ",
 
-
   "aicte_platinum_certificate": "5. AICTE Inginer certificat Platină și Aur",
   "aicte_platinum_timestamp": "Eliberat de BSNL-EETP AICTE. ian 2015, mai 2014, dec 2013 resp.",
   "aicte_platinum_certificate_desc": "Am fost selectat de AICTE și instruit în BSNL-AICTE EETP (Programul de Formare pentru Îmbunătățirea Angajabilității). În ultimii 1,5 ani, am cunoscut cercetători uimitori și a fost certificat ca platină. O călătorie de trei veri cu o echipă uimitoare. Vedere",
@@ -354,6 +353,12 @@
   "review_mohit_agrawal_timestamp": "5 iulie 2023, Mohit a coordonat direct pe Amir",
   "review_mohit_agrawal_workdetail": "Mohit Agrawal - Vicepreședinte Asociat la Xebia, Americas",
 
+  "review_dinesh_dalal_desc_line1": "Sunt încântat să recomand cu căldură pe Amir Mustafa, un dezvoltator Senior Full Stack JavaScript extrem de calificat, cu specializare în React.js. Pe parcursul colaborării noastre, Amir a demonstrat o competență excepțională în tehnologiile front-end și back-end, oferind soluții de top. Expertiza lui Amir în front-end, cu HTML, CSS, JavaScript și React.js, este remarcabilă, permițându-i să creeze interfețe de utilizator uimitoare și receptive. La fel de impresionantă este cunoașterea lui în back-end, cu experiență practică în Node.js, Express și baze de date precum MongoDB, asigurând dezvoltarea solidă a serverului.",
+  "review_dinesh_dalal_desc_line2": "Una dintre calitățile remarcabile ale lui Amir este abilitatea sa de a se integra perfect în echipele interfuncționale, promovând comunicarea și colaborarea eficientă. Abilitățile sale de rezolvare a problemelor și atenția sa la detalii au contribuit în mod semnificativ la livrarea cu succes a proiectelor. Pasiunea lui Amir pentru inovație și învățare continuă este evidențiată prin cunoașterea sa actualizată a celor mai recente framework-uri și biblioteci JavaScript. Angajamentul său pentru excelență îl transformă într-un asset pentru orice echipă de dezvoltare.",
+  "review_dinesh_dalal_desc_line3": "Una dintre calitățile remarcabile ale lui Amir este abilitatea sa de a se integra perfect în echipele interfuncționale, promovând comunicarea și colaborarea eficientă. Abilitățile sale de rezolvare a problemelor și atenția sa la detalii au contribuit în mod semnificativ la livrarea cu succes a proiectelor. Pasiunea lui Amir pentru inovație și învățare continuă este evidențiată prin cunoașterea sa actualizată a celor mai recente framework-uri și biblioteci JavaScript. Angajamentul său pentru excelență îl transformă într-un asset pentru orice echipă de dezvoltare.",
+  "review_dinesh_dalal_timestamp": "17 iulie 2023, Dinesh a fost responsabil direct de Amir",
+  "review_dinesh_dalal_workdetail": "Dinesh Dalal - Manager de Inginerie Senior la TAMM, Emiratele Arabe Unite | Arhitect de Soluții",
+
   "pt1": "1.",
   "pt2": "2.",
   "pt3": "3.",
@@ -373,7 +378,6 @@
   "five_pt5_desc": "Amir a lucrat în proiecte în mai multe domenii, de la start-up-uri la Guvernul Abu Dhabi, în domeniile Științe ale Vieții, Sănătate și Bănci. El crede în învățare și împărtășire. În prezent, el învață Azure Cloud, Nest.js, MobX, Azure Orchestration și se simte entuziasmat în privința muncii de nivel arhitectural.",
 
   "highlight_video_title": "URMĂRIȚI-L PE AMIR EXPLICÂND CHATGPT-4 ÎN MICROSOFT BING",
-
 
   "contact_quotes": "Dacă aș fi întrebat oamenii ce vor, ar fi spus cai mai rapizi.",
   "new": "Nou",
