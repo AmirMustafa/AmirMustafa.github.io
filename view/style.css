@@ -706,3 +706,11 @@ figure.effect:hover p {
 		margin: 5px 7px;
 		opacity: 0.5;
 	}
+
+  /* #qr-code-container {
+    text-align: center;
+  } */
+  
+  #qr-code-container img {
+    max-width: 150px; /* Adjust the size as per your preference */
+  }
