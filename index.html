@@ -76,7 +76,7 @@
 							<option value="fr"><span class="flag-emoji" style="font-size: 30px;">🇫🇷</span> Français (French)</option>
 							<option value="es"><span class="flag-emoji" style="font-size: 30px;">🇪🇸</span> Español (Spanish)</option>
 							<option value="ro"><span class="flag-emoji" style="font-size: 30px;">🇷🇴</span> Română (Romanian)</option>
-							<option value="ro"><span class="flag-emoji" style="font-size: 30px;">🇫🇮</span> Suomi (Finnish)</option>
+							<option value="fi"><span class="flag-emoji" style="font-size: 30px;">🇫🇮</span> Suomi (Finnish)</option>
 							<option value="tr"><span class="flag-emoji" style="font-size: 30px;">🇹🇷</span> Türkçe (Turkish)</option>
 							<option value="cz"><span class="flag-emoji" style="font-size: 30px;">🇨🇿</span> Čeština (Czech)</option>
 							<option value="da"><span class="flag-emoji" style="font-size: 30px;">🇩🇰</span> Dansk (Danish)</option>
@@ -90,10 +90,16 @@
 				</div>
 
 				<h1 data-i18n="name">Amir Mustafa</h1>
-				<p data-i18n="header" class="lead"></p>
+				<!-- <p data-i18n="header" class="lead"></p>
 				<p data-i18n="specialist" class="lead">Specialist in: JavaScript | React.js | Node.js | TypeScript | AWS
 					| Docker | Software | Security
+				</p> -->
+				<p data-i18n="header" class="lead_header0"></p>
+				<p data-i18n="specialist" class="lead_header1">Specialist in: JavaScript | React.js | Node.js | TypeScript | AWS
+					| Docker | Software | Security
 				</p>
+				<p data-i18n="header2" class="lead_header2">Experiences: United States, UAE, and India</p>
+				<p data-i18n="header3" class="lead_header3">QUALITY, INNOVATIONS, SPEED</p>
 			</div>
 
 			<div class="overlay"></div>
@@ -3264,6 +3270,20 @@
 	} */
 
 	select#language-select {
+    width: 240px;
+    position: absolute;
+    font-size: 20px;
+    height: auto;
+    margin: 0px !important;
+    display: inline !important;
+    vertical-align: baseline !important;
+    cursor: pointer;
+    background: transparent;
+    top: 220px !important;
+    /* color: white !important; */
+}
+
+	/* select#language-select {
 		font-size: 18px;
 		height: auto;
 		margin: 0px !important;
@@ -3273,7 +3293,7 @@
 
 		background: transparent;
 		color: white !important;
-	}
+	} */
 
 	select#language-select:hover {
 		box-shadow: 0 0 13px 5px rgba(150, 180, 200, .6);

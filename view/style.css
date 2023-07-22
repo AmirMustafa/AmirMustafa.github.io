@@ -105,7 +105,7 @@ hr {
 }
 
 .jumbotron {
-  background: no-repeat center right fixed url(images/banner/earth.jpg);
+  background: no-repeat center right fixed url(images/banner/banner_red_suit_grey_6.png);
 
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -150,15 +150,63 @@ hr {
   z-index: 4;
   text-align: center;
 }
+
 .jumbotron .container > * {
   text-align: center;
-  color: #ffffff;
+  color: #000;
+  /* margin-right: -1470px; */
 }
-.jumbotron .container h1 {
+/* .jumbotron .container > * {
+  text-align: center;
+  color: #ffffff;
+} */
+/* .jumbotron .container h1 {
   padding-bottom: 20px;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #000;
   border-bottom-color: rgba(255, 255, 255, 0.35);
   display: inline-block;
+} */
+
+.lead_header0 {
+  font-size: 30px !important;
+  color: #000;
+  margin-top: 10px;
+  margin-left: 757px;
+  width: 841px !important;
+}
+.lead_header1 {
+  font-size: 30px !important;
+  color: #000;
+  margin-top: 27px;
+  margin-left: 793px;
+  width: 841px !important;
+}
+.lead_header2 {
+  font-size: 30px !important;
+  color: #000;
+  margin-top: 148px;
+  margin-left: 826px;
+  width: 793px !important;
+}
+
+.lead_header3 {
+  /* margin-right: -1372px; */
+  font-size: 45px !important;
+  font-weight: 600 !important;
+  color: #fff !important;
+  background: #000;
+  border-radius: 5px;
+  margin-top: 219px;
+  margin-left: 800px;
+  width: 793px !important;
+}
+
+.jumbotron .container h1 {
+  padding-bottom: 27px;
+  border-bottom: 1px solid #000 !important;
+  border-bottom-color: rgba(255, 255, 255, 0.35);
+  display: inline-block;
+  margin-right: -1822px;
 }
 .jumbotron .container .lead {
   font-size: 28px;
