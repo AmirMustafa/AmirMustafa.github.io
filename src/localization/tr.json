@@ -382,6 +382,19 @@
   "qr_text_1": "Özgeçmişimi görmek için QR kodu tarayın",
   "qr_text_2": "Özgeçmişi İndir",
 
+  "branding_xebia_name": "Xebia",
+  "branding_xebia_place": "Atlanta, Amerika Birleşik Devletleri",
+  "branding_tamm_name": "TAMM",
+  "branding_tamm_place": "Abu Dabi, Birleşik Arap Emirlikleri",
+  "branding_tcs_name": "Tata Danışmanlık Hizmetleri",
+  "branding_tcs_place": "Noida, Hindistan",
+  "branding_elililly_name": "Eli Lilly",
+  "branding_elililly_place": "Indianapolis, Amerika Birleşik Devletleri",
+  "branding_ey_name": "EY",
+  "branding_ey_place": "Bengaluru, Hindistan",
+  "branding_nt_name": "Northern Trust",
+  "branding_nt_place": "Chicago, Amerika Birleşik Devletleri",
+
   "new": "Yeni",
 
   "contact_quotes": "If I had asked people what they wanted, they would have said faster horses.",

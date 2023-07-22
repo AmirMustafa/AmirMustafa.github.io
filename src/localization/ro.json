@@ -382,6 +382,19 @@
   "qr_text_1": "Scanați codul QR pentru a vizualiza CV-ul meu",
   "qr_text_2": "Descărcați CV-ul",
 
+  "branding_xebia_name": "Xebia",
+  "branding_xebia_place": "Atlanta, Statele Unite ale Americii",
+  "branding_tamm_name": "TAMM",
+  "branding_tamm_place": "Abu Dhabi, Emiratele Arabe Unite",
+  "branding_tcs_name": "Tata Consultancy Services",
+  "branding_tcs_place": "Noida, India",
+  "branding_elililly_name": "Eli Lilly",
+  "branding_elililly_place": "Indianapolis, Statele Unite ale Americii",
+  "branding_ey_name": "EY",
+  "branding_ey_place": "Bengaluru, India",
+  "branding_nt_name": "Northern Trust",
+  "branding_nt_place": "Chicago, Statele Unite ale Americii",
+
   "contact_quotes": "Dacă aș fi întrebat oamenii ce vor, ar fi spus cai mai rapizi.",
   "new": "Nou",
   "copyright_desclamair": "Amir Mustafa 2023"

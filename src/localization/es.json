@@ -341,6 +341,19 @@
 
   "qr_text_1": "Escanee el código QR para ver mi currículum",
   "qr_text_2": "Descargar currículum",
+
+  "branding_xebia_name": "Xebia",
+  "branding_xebia_place": "Atlanta, Estados Unidos",
+  "branding_tamm_name": "TAMM",
+  "branding_tamm_place": "Abu Dabi, Emiratos Árabes Unidos",
+  "branding_tcs_name": "Tata Consultancy Services",
+  "branding_tcs_place": "Noida, India",
+  "branding_elililly_name": "Eli Lilly",
+  "branding_elililly_place": "Indianapolis, Estados Unidos",
+  "branding_ey_name": "EY",
+  "branding_ey_place": "Bengaluru, India",
+  "branding_nt_name": "Northern Trust",
+  "branding_nt_place": "Chicago, Estados Unidos",
   
   "new": "Nuevo",
   "contact_quotes": "Si le hubiera preguntado a la gente qué querían, me habrían dicho caballos más rápidos.",

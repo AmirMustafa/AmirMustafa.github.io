@@ -370,6 +370,19 @@
   "qr_text_1": "Scan the QR code to view my resume",
   "qr_text_2": "Download Resume",
 
+  "branding_xebia_name":  "Xebia",
+  "branding_xebia_place":  "Atlanta, United States",
+  "branding_tamm_name":  "TAMM",
+  "branding_tamm_place":  "Abu Dhabi, United Arab Emirates",
+  "branding_tcs_name":  "TATA Consultancy Services",
+  "branding_tcs_place":  "Noida, India",
+  "branding_elililly_name":  "Eli Lilly",
+  "branding_elililly_place":  "Indianapolis, United States",
+  "branding_ey_name":  "EY",
+  "branding_ey_place":  "Bengaluru, India",
+  "branding_nt_name":  "Northern Trust",
+  "branding_nt_place":  "Chicago, United States",
+
   "contact_quotes": "If I had asked people what they wanted, they would have said faster horses.",
   "new": "Νew",
   "copyright_desclamair": "Amir Mustafa 2023"
