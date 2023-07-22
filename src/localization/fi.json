@@ -1,8 +1,11 @@
 {
   "lang": "Finnish",
   "name": "Amir Mustafa",
-  "header": "Web-kehittäjä, jolla on kokemusta Intiasta ja Yhdistyneistä Arabiemiirikunnista (TAMM)",
-  "specialist": "Erikoistunut: JavaScript | React.js | Node.js | TypeScript | AWS | Docker | Ohjelmistoturva",
+  "header": "IT-ammattilainen, JOHTAJA, Kehittäjä | Ratkaisuarkkitehtuurin tavoittelija",
+  "header2": "Kansainväliset kokemukset: Yhdysvallat, Arabiemiirikunnat ja Intia",
+  "header3": "LAATU, INNOVAATIOT, NOPEUS",
+  "specialist": "Erikoistunut: JavaScript | React.js | Node.js | TypeScript | Azure | AWS | Docker | Ohjelmistoturvallisuus | Ketterä",
+
   "profile": "Profiili",
   "projects": "Projektit",
   "experiences": "Kokemukset",

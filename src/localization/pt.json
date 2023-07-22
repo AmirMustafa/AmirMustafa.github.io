@@ -1,8 +1,11 @@
 {
   "lang": "Brazilian Portuguese",
-  "name": "Amir Mustafá",
-  "header": "Desenvolvedor Web com experiência na Índia e Emirados Árabes Unidos (TAMM)",
-  "specialist": "Especialista em: JavaScript | React.js | Node.js | TypeScript | AWS | Docker | Segurança de Software",
+  "name": "Amir Mustafa",
+  "header": "Profissional de TI, Líder, Desenvolvedor | Aspirante a Arquiteto de Soluções",
+  "header2": "Experiências Internacionais: Estados Unidos, Emirados Árabes Unidos e Índia",
+  "header3": "QUALIDADE, INOVAÇÕES, VELOCIDADE",
+  "specialist": "Especialista em: JavaScript | React.js | Node.js | TypeScript | Azure | AWS | Docker | Segurança de Software | Ágil",
+
   "profile": "Perfil",
   "projects": "Projetos",
   "experiences": "Experiências",

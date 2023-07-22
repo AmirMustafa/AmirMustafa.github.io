@@ -190,13 +190,12 @@ hr {
 }
 
 .lead_header3 {
-  /* margin-right: -1372px; */
   font-size: 45px !important;
   font-weight: 600 !important;
   color: #fff !important;
   background: #000;
   border-radius: 5px;
-  margin-top: 219px;
+  margin-top: 50px;
   margin-left: 800px;
   width: 793px !important;
 }
