@@ -257,7 +257,7 @@
   "tcs_gems_reason": "In appreciation of the outstanding contribution to the organization. View",
 
   "badge_header": "3. Achievement Badges: ",
-  "github_badge_header": "3. Github Achievement Badges: ",
+  "github_badge_header": "2. Github Achievement Badges: ",
   "github_badge_timestamp": "Issued by Github . Jun 7, May 14, 2023, Jun 2021, Feb 2020 resp.",
   "github_badge_desc": "Received below Github badges:",
   "github_badge_name_yolo": "II. Yolo Badge:",
@@ -269,16 +269,16 @@
   "github_badge_name_arctic": "V. Arctic Code Vault Contributor Badge:",
   "github_badge_arctic_desc": "Preserving open-source software for future generations. View",
 
-  "postman_badge_header": "4. Postman Achievement Badge: ",
+  "postman_badge_header": "3. Postman Achievement Badge: ",
   "postman_badge_timestamp": "Issued by Postman . Jul 2023",
   "postman_badge_desc": "Received below postman badge:",
   "postman_badge_name_fundamentals": "VI. Postman API Expert:",
   "postman_badge_fundamentals_desc": "For understansding Postman concepts and passing test script. View ",
 
-  "microsoft_badge_header": "5. Microsoft Achievement Trophies and Badges: ",
+  "microsoft_badge_header": "3. Microsoft Achievement Trophies and Badges: ",
   "microsoft_badge_timestamp": "Issued by Microsoft . Jul 2023",
   "microsoft_badge_desc": "Received below Microsoft trophies and badges:",
-  "microsoft_trophy_name": "I. Microsoft Learn Skills Challenge 2023 (Trophy):",
+  "microsoft_trophy_name": "I. Microsoft Learn Skills Challenge 2023 (Trophies):",
   "microsoft_trophy_name_desc": "For completing Microsoft Learn AI Skills Challenge. View ",
   "microsoft_badge_name": "II. Microsoft Learn Skills Challenge 2023 (Badges):",
   "microsoft_badge_name_desc": "For completing Microsoft Learn AI Skills Challenge. View ",
