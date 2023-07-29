@@ -1,6 +1,6 @@
 {
   "lang": "Brazilian Portuguese",
-  "name": "Amir Mustafa",
+  "name": "Amir Mustafá",
   "header": "Profissional de TI, Líder, Desenvolvedor | Aspirante a Arquiteto de Soluções",
   "header2": "Experiências Internacionais: Estados Unidos, Emirados Árabes Unidos e Índia",
   "header3": "QUALIDADE, INOVAÇÕES, VELOCIDADE",
@@ -17,7 +17,7 @@
   "contact": "Contato",
   "profile_desc": "Sou um desenvolvedor web criativo",
   "about_me_heading": "Sobre mim",
-  "about_me_line1": "Especialista em JavaScript e soluções em nuvem, Amir Mustafa ingressou na",
+  "about_me_line1": "Especialista em JavaScript e soluções em nuvem, Amir Mustafá ingressou na",
   "about_me_company": "EY India",
   "about_me_line2": "como Engenheiro Full Stack JavaScript e atualmente trabalha como",
   "about_me_designation": "Desenvolvedor Líder e gerenciando equipe",
@@ -29,7 +29,7 @@
   "looking_for_desc2": "Possui experiência nos Emirados Árabes Unidos - TAMM.",
   "role": "Cargo:",
   "roles_interested": "Líder de Equipe | Desenvolvedor Líder ou perfil equivalente - React, Node JS",
-  "image_alt_desc": "Amir Mustafa",
+  "image_alt_desc": "Amir Mustafá",
   "name_key": "Nome",
   "experience_key": "Experiência:",
   "experience_val": "6+ anos",
@@ -276,6 +276,15 @@
   "postman_badge_name_fundamentals": "V. Especialista em API do Postman:",
   "postman_badge_fundamentals_desc": "Para entender os conceitos do Postman e passar no script de teste. Ver ",
 
+  "microsoft_badge_header": "3. Conquistas e Distintivos Microsoft:",
+  "microsoft_badge_timestamp": "Emitido pela Microsoft. Jul 2023",
+  "microsoft_badge_desc": "Abaixo estão os troféus e distintivos da Microsoft recebidos:",
+  "microsoft_trophy_name": "I. Desafio de Habilidades Microsoft Learn 2023 (Troféus):",
+  "microsoft_trophy_name_desc": "Por concluir o Desafio de Habilidades AI da Microsoft Learn. Ver ",
+  "microsoft_badge_name": "II. Desafio de Habilidades Microsoft Learn 2023 (Distintivos):",
+  "microsoft_badge_name_desc": "Por concluir o Desafio de Habilidades AI da Microsoft Learn. Ver ",
+
+
   "aicte_platinum_certificate": "5. Engenheiro Certificado Platinum e Gold pela AICTE",
   "aicte_platinum_timestamp": "Concedido por BSNL-EETP AICTE. Jan 2015, Mai 2014, Dez 2013 respectivamente",
   "aicte_platinum_certificate_desc": "Fui selecionado pela AICTE e treinado no BSNL-AICTE EETP (Programa de Treinamento para Aprimoramento de Empregabilidade). Conheci estudiosos incríveis ao longo dos últimos 1,5 anos e fui certificado como Platinum. Uma jornada de três verões com uma equipe incrível. Ver",
@@ -298,7 +307,7 @@
   "review_vincent_mendy_timestamp": "27 de dezembro de 2021, Vincent foi cliente de Amir",
   "review_vincent_mendy_workdetail": "Vincent Mendy - Diretor de Arquitetura de Soluções na TAMM, Emirados Árabes Unidos",
 
-  "review_aamir_iqbal_desc": "Trabalhei com muitos profissionais ao longo da minha jornada, mas o Sr. Amir Mustafa foi único para trabalhar. Trabalhamos juntos no projeto TAMM em Abu Dhabi, nas unidades governamentais EAD e ADAFSA. Sua ética de trabalho é impecável e ele se adapta facilmente a uma situação dada. Sua capacidade de se esforçar para ajudar os outros o destaca. Ele conquistou o respeito de todos através de suas habilidades e valor. Eu recomendo o Sr. Amir Mustafa como um profissional sênior necessário para todos que desejam se aprimorar.",
+  "review_aamir_iqbal_desc": "Trabalhei com muitos profissionais ao longo da minha jornada, mas o Sr. Amir Mustafá foi único para trabalhar. Trabalhamos juntos no projeto TAMM em Abu Dhabi, nas unidades governamentais EAD e ADAFSA. Sua ética de trabalho é impecável e ele se adapta facilmente a uma situação dada. Sua capacidade de se esforçar para ajudar os outros o destaca. Ele conquistou o respeito de todos através de suas habilidades e valor. Eu recomendo o Sr. Amir Mustafá como um profissional sênior necessário para todos que desejam se aprimorar.",
   "review_aamir_iqbal_timestamp": "8 de julho de 2021, Aamir gerenciou Amir diretamente",
   "review_aamir_iqbal_workdetail": "Aamir Iqbal - Gerente Técnico | Diretor de TI | CTO | Arquiteto Corporativo na Autoridade Digital de Abu Dhabi, TAMM, Emirados Árabes Unidos",
 
@@ -314,7 +323,7 @@
   "review_anusuya_devi_timestamp": "11 de julho de 2021, Anusuya trabalhou com Amir na mesma equipe",
   "review_anusuya_devi_workdetail": "Anusuya Devi - Scrum Master na TAMM, Emirados Árabes Unidos",
 
-  "review_shanavas_elaydath_desc": "Foi um prazer trabalhar com o Sr. Amir Mustafa no projeto do Governo de Abu Dhabi (TAMM). Ele possui um profundo conhecimento e expertise no desenvolvimento JavaScript, e sua forma de lidar com os clientes é verdadeiramente notável. Como seu proprietário de produto, posso dizer que todas as aplicações desenvolvidas por ele tinham qualidade. Um ótimo jogador de equipe, ele está sempre pronto para dar o seu máximo e mais quando necessário. Amir é uma pessoa de mente aberta com desejo de alcançar resultados. Ele é um grande ativo para uma equipe de projeto. Desejo a você tudo de melhor e sucesso em sua carreira futura.",
+  "review_shanavas_elaydath_desc": "Foi um prazer trabalhar com o Sr. Amir Mustafá no projeto do Governo de Abu Dhabi (TAMM). Ele possui um profundo conhecimento e expertise no desenvolvimento JavaScript, e sua forma de lidar com os clientes é verdadeiramente notável. Como seu proprietário de produto, posso dizer que todas as aplicações desenvolvidas por ele tinham qualidade. Um ótimo jogador de equipe, ele está sempre pronto para dar o seu máximo e mais quando necessário. Amir é uma pessoa de mente aberta com desejo de alcançar resultados. Ele é um grande ativo para uma equipe de projeto. Desejo a você tudo de melhor e sucesso em sua carreira futura.",
   "review_shanavas_elaydath_timestamp": "26 de abril de 2021, Dr. Shanavas trabalhou com Amir na mesma equipe",
   "review_shanavas_elaydath_workdetail": "Dr. Shanavas Elayedath - Proprietário de Produto na TAMM, Emirados Árabes Unidos",
 
@@ -347,17 +356,17 @@
   "review_shrish_timestamp": "4 de julho de 2023, Shrish gerenciou Amir diretamente",
   "review_shrish_workdetail": "Shrish Tripathi - Arquiteto Empresarial- Dados e Análises / Chefe do Centro de Excelência de TI de Serviços Financeiros e Analytics na EY, Índia",
 
-  "review_vinu_jade_desc_line1": "Recomendo fortemente Amir Mustafa para qualquer papel de Arquiteto Sênior por suas qualidades de liderança e expertise no campo. Como um profissional certificado TOGAF em ascensão, Amir demonstrou compreensão de estruturas e metodologias arquiteturais, entregando soluções inovadoras e escaláveis. Ele tem talento para inspirar e motivar equipes, criando um ambiente de trabalho colaborativo onde os indivíduos prosperam. Seu estilo de comunicação aberto e eficaz permite que ele construa relacionamentos sólidos com as partes interessadas. A dedicação de Amir à aprendizagem contínua e ao desenvolvimento profissional é louvável. Ele se mantém atualizado com as últimas tendências e melhores práticas do setor, aproveitando seu pensamento estratégico para impulsionar avanços tecnológicos e fornecer orientações valiosas.",
+  "review_vinu_jade_desc_line1": "Recomendo fortemente Amir Mustafá para qualquer papel de Arquiteto Sênior por suas qualidades de liderança e expertise no campo. Como um profissional certificado TOGAF em ascensão, Amir demonstrou compreensão de estruturas e metodologias arquiteturais, entregando soluções inovadoras e escaláveis. Ele tem talento para inspirar e motivar equipes, criando um ambiente de trabalho colaborativo onde os indivíduos prosperam. Seu estilo de comunicação aberto e eficaz permite que ele construa relacionamentos sólidos com as partes interessadas. A dedicação de Amir à aprendizagem contínua e ao desenvolvimento profissional é louvável. Ele se mantém atualizado com as últimas tendências e melhores práticas do setor, aproveitando seu pensamento estratégico para impulsionar avanços tecnológicos e fornecer orientações valiosas.",
   "review_vinu_jade_desc_line2": "Tenho plena confiança em Amir e o recomendo para qualquer organização que busque um profissional orientado a resultados capaz de liderar equipes para o sucesso. Desejo a ele todo o sucesso.",
   "review_vinu_jade_timestamp": "4 de julho de 2023, Vinu foi mentor de Amir | Mais de 60 anos de experiência",
   "review_vinu_jade_workdetail": "Vinu Jade - Fundador e CEO da jDruids, Arquiteto-chefe e Consultor da jDruids, Índia",
 
-  "review_mohit_agrawal_desc_line1": "Trabalhei com Amir Mustafa em um projeto de grande escala. Ele é uma pessoa muito trabalhadora e possui excelentes habilidades técnicas. Graças a essas qualidades, ele entrega consistentemente projetos no prazo e com alto nível de profissionalismo. Gostaria também de destacar a adaptabilidade e as capacidades de aprendizado contínuo de Amir, ele se esforça constantemente para encontrar as melhores maneiras de contribuir para o sucesso da equipe, aumentar a produtividade e criar um ambiente de trabalho positivo.",
+  "review_mohit_agrawal_desc_line1": "Trabalhei com Amir Mustafá em um projeto de grande escala. Ele é uma pessoa muito trabalhadora e possui excelentes habilidades técnicas. Graças a essas qualidades, ele entrega consistentemente projetos no prazo e com alto nível de profissionalismo. Gostaria também de destacar a adaptabilidade e as capacidades de aprendizado contínuo de Amir, ele se esforça constantemente para encontrar as melhores maneiras de contribuir para o sucesso da equipe, aumentar a produtividade e criar um ambiente de trabalho positivo.",
   "review_mohit_agrawal_desc_line2": "As contribuições e habilidades de Amir o tornam um verdadeiro ativo para qualquer equipe ou organização.",
   "review_mohit_agrawal_timestamp": "5 de julho de 2023, Mohit gerenciou Amir diretamente",
   "review_mohit_agrawal_workdetail": "Mohit Agrawal - Vice-Presidente Associado na Xebia, Américas",
 
-  "review_dinesh_dalal_desc_line1": "Estou empolgado em recomendar Amir Mustafa, um desenvolvedor sênior altamente habilidoso em JavaScript Full Stack com especialização em React.js. Ao longo de nossa colaboração, Amir demonstrou proficiência excepcional em tecnologias front-end e back-end, entregando soluções de alta qualidade. A expertise de Amir em front-end com HTML, CSS, JavaScript e React.js é notável, permitindo a criação de interfaces de usuário impressionantes e responsivas. Sua habilidade em back-end, com experiência prática em Node.js, Express e bancos de dados como MongoDB, garante um desenvolvimento robusto do lado do servidor.",
+  "review_dinesh_dalal_desc_line1": "Estou empolgado em recomendar Amir Mustafá, um desenvolvedor sênior altamente habilidoso em JavaScript Full Stack com especialização em React.js. Ao longo de nossa colaboração, Amir demonstrou proficiência excepcional em tecnologias front-end e back-end, entregando soluções de alta qualidade. A expertise de Amir em front-end com HTML, CSS, JavaScript e React.js é notável, permitindo a criação de interfaces de usuário impressionantes e responsivas. Sua habilidade em back-end, com experiência prática em Node.js, Express e bancos de dados como MongoDB, garante um desenvolvimento robusto do lado do servidor.",
   "review_dinesh_dalal_desc_line2": "Uma das qualidades marcantes de Amir é sua capacidade de se integrar perfeitamente a equipes multidisciplinares, promovendo comunicação e colaboração eficazes. Suas habilidades de resolução de problemas e atenção aos detalhes contribuíram significativamente para o sucesso na entrega de projetos. A paixão de Amir pela inovação e aprendizado contínuo é evidente em seu conhecimento atualizado dos frameworks e bibliotecas JavaScript mais recentes. Seu compromisso com a excelência o torna um ativo para qualquer equipe de desenvolvimento.",
   "review_dinesh_dalal_desc_line3": "Uma das qualidades marcantes de Amir é sua capacidade de se integrar perfeitamente a equipes multidisciplinares, promovendo comunicação e colaboração eficazes. Suas habilidades de resolução de problemas e atenção aos detalhes contribuíram significativamente para o sucesso na entrega de projetos. A paixão de Amir pela inovação e aprendizado contínuo é evidente em seu conhecimento atualizado dos frameworks e bibliotecas JavaScript mais recentes. Seu compromisso com a excelência o torna um ativo para qualquer equipe de desenvolvimento.",
   "review_dinesh_dalal_timestamp": "17 de julho de 2023, Dinesh gerenciou Amir diretamente",
@@ -401,5 +410,5 @@
 
   "contact_quotes": "Se eu tivesse perguntado às pessoas o que elas queriam, elas teriam dito cavalos mais rápidos.",
   "new": "Novo",
-  "copyright_desclamair": "Amir Mustafa 2023"
+  "copyright_desclamair": "Amir Mustafá 2023"
 }

@@ -1,6 +1,6 @@
 {
   "lang": "Hungarian",
-  "name": "Amir Mustafa",
+  "name": "Amir Musztafa",
   "header": "IT szakember, VEZETŐ, Fejlesztő | Megoldások Architektus Aspiráns",
   "header2": "Nemzetközi tapasztalatok: Egyesült Államok, Egyesült Arab Emírségek és India",
   "header3": "MINŐSÉG, INNOVÁCIÓ, SEBESSÉG",
@@ -16,7 +16,7 @@
   "contact": "Kapcsolat",
   "profile_desc": "Kreatív Web Fejlesztő vagyok",
   "about_me_heading": "Rólam",
-  "about_me_line1": "JavaScript és felhőalapú megoldások specialistája, Amir Mustafa csatlakozott",
+  "about_me_line1": "JavaScript és felhőalapú megoldások specialistája, Amir Musztafa csatlakozott",
   "about_me_company": "EY India",
   "about_me_line2": "mint Teljes Stack JavaScript Mérnök, és jelenleg a ",
   "about_me_designation": "Fejlesztő Vezető és csapatvezetés",
@@ -28,7 +28,7 @@
   "looking_for_desc2": "Van UAE tapasztalatom - TAMM.",
   "role": "Szerep:",
   "roles_interested": "Csapatvezető | Fejlesztő Vezető vagy azonos rangú profil - React, Node JS",
-  "image_alt_desc": "Amir Mustafa",
+  "image_alt_desc": "Amir Musztafa",
   "experience_quote": "A proton adja az atom azonosságát, az elektronok a személyiségét.",
   "experience_header": "Szakmai tapasztalatok",
   "experience_skill": "Készségek:",
@@ -214,6 +214,15 @@
   "postman_badge_name_fundamentals": "V. Postman API szakértő:",
   "postman_badge_fundamentals_desc": "Postman koncepciók megértéséért és tesztszkript átadásáért. Megtekintés ",
 
+  "microsoft_badge_header": "3. Microsoft Eredményjelvények és Jelvények:",
+  "microsoft_badge_timestamp": "Kibocsátotta a Microsoft. 2023. július",
+  "microsoft_badge_desc": "Alább találhatóak a Microsoft eredményjelvényei és jelvényei:",
+  "microsoft_trophy_name": "I. Microsoft Learn Készségfejlesztő Kihívás 2023 (Eredményjelvények):",
+  "microsoft_trophy_name_desc": "A Microsoft Learn AI Készségfejlesztő Kihívás teljesítéséért. Megtekintés ",
+  "microsoft_badge_name": "II. Microsoft Learn Készségfejlesztő Kihívás 2023 (Jelvények):",
+  "microsoft_badge_name_desc": "A Microsoft Learn AI Készségfejlesztő Kihívás teljesítéséért. Megtekintés ",
+
+
   "aicte_platinum_certificate": "5. AICTE Platinum és Gold minősített mérnök ",
   "aicte_platinum_timestamp": "Kibocsátotta: BSNL-EETP AICTE. 2015. január, 2014. május, 2013. december",
   "aicte_platinum_certificate_desc": "AICTE által kiválasztva és BSNL-AICTE EETP (Foglalkoztathatóság Fokozása Képzési Program) keretében képzett. Az elmúlt 1,5 évben fantasztikus tanárok mellett tanulhattem és platina minősítést szereztem. Három nyár utazás egy fantasztikus csapattal. Megtekintés ",
@@ -236,7 +245,7 @@
   "review_vincent_mendy_timestamp": "2021. december 27., Vincent Amir ügyfele volt",
   "review_vincent_mendy_workdetail": "Vincent Mendy - Megoldástervezési Igazgató az TAMM-nál, Egyesült Arab Emírségek",
 
-  "review_aamir_iqbal_desc": "Sok szakemberrel dolgoztam együtt az utam során, de Amir Mustafa úr egyedi volt a munkában. Együtt dolgoztunk az Abu Dhabi TAMM-nál az EAD és az ADAFSA kormányzati egységekben. A munkaetikája makulátlan, és könnyen alkalmazkodik az adott helyzethez. Képessége, hogy a segítségnyújtás érdekében mindent megtegyen, kiemeli őt a többiek közül. Készségeivel és értékével mindenkinek elnyerte a tiszteletet. Amir Mustafa urat olyan szükséges személyként ajánlom, aki mindenki számára jobbá akar válni.",
+  "review_aamir_iqbal_desc": "Sok szakemberrel dolgoztam együtt az utam során, de Amir Musztafa úr egyedi volt a munkában. Együtt dolgoztunk az Abu Dhabi TAMM-nál az EAD és az ADAFSA kormányzati egységekben. A munkaetikája makulátlan, és könnyen alkalmazkodik az adott helyzethez. Képessége, hogy a segítségnyújtás érdekében mindent megtegyen, kiemeli őt a többiek közül. Készségeivel és értékével mindenkinek elnyerte a tiszteletet. Amir Musztafa urat olyan szükséges személyként ajánlom, aki mindenki számára jobbá akar válni.",
   "review_aamir_iqbal_timestamp": "2021. július 8., Aamir közvetlenül kezelte Amirt",
   "review_aamir_iqbal_workdetail": "Aamir Iqbal - Műszaki menedzser | IT Igazgató | CTO | Vállalati architekt az Abu Dhabi Digital Authority-nél, TAMM, Egyesült Arab Emírségek",
 
@@ -252,7 +261,7 @@
   "review_anusuya_devi_timestamp": "2021. július 11., Anusuya ugyanabban a csapatban dolgozott Amirral",
   "review_anusuya_devi_workdetail": "Anusuya Devi - Scrum Master az TAMM-nál, Egyesült Arab Emírségek",
 
-  "review_shanavas_elaydath_desc": "Öröm volt együtt dolgozni Amir Mustafa úrral az Abu Dhabi Government (TAMM) projektben. Mély ismerete és szakértelme van a JavaScript fejlesztés terén, és rendkívül figyelemreméltóan kezeli az ügyfeleket. Mint terméktulajdonos, azt mondhatom, hogy általa fejlesztett minden alkalmazás minőségi volt. Egy nagyszerű csapattag, mindig kész a 100% -ot és még többet is beletenni, amikor szükség van rá. Amir egy nyitott gondolkodású személy a vágy, hogy eredményeket érjen el. Nagyszerű eszköz egy projektcsapat számára. Minden jót és sok sikert kívánok a jövőbeli karrieredben.",
+  "review_shanavas_elaydath_desc": "Öröm volt együtt dolgozni Amir Musztafa úrral az Abu Dhabi Government (TAMM) projektben. Mély ismerete és szakértelme van a JavaScript fejlesztés terén, és rendkívül figyelemreméltóan kezeli az ügyfeleket. Mint terméktulajdonos, azt mondhatom, hogy általa fejlesztett minden alkalmazás minőségi volt. Egy nagyszerű csapattag, mindig kész a 100% -ot és még többet is beletenni, amikor szükség van rá. Amir egy nyitott gondolkodású személy a vágy, hogy eredményeket érjen el. Nagyszerű eszköz egy projektcsapat számára. Minden jót és sok sikert kívánok a jövőbeli karrieredben.",
   "review_shanavas_elaydath_timestamp": "2021. április 26., Dr. Shanavas ugyanabban a csapatban dolgozott Amirral",
   "review_shanavas_elaydath_workdetail": "Dr. Shanavas Elayedath - Terméktulajdonos az TAMM-nál, Egyesült Arab Emírségek",
 
@@ -339,6 +348,6 @@
 
 "contact_quotes": "Ha megkérdeztem volna az embereket, mit akarnak, azt mondták volna, hogy gyorsabb lovakat.",
 "new": "Új",
-"copyright_desclamair": "Amir Mustafa 2023"
+"copyright_desclamair": "Amir Musztafa 2023"
 
 }

@@ -1,10 +1,10 @@
 {
   "lang": "Turkish",
   "name": "Amir Mustafa",
-"header": "IT Profesyoneli, LİDER, Geliştirici | Çözüm Mimarı Adayı",
-"header2": "Uluslararası Deneyimler: Amerika Birleşik Devletleri, Birleşik Arap Emirlikleri ve Hindistan",
-"header3": "KALİTE, İNOVASYON, HIZ",
-"specialist": "Uzmanlık Alanı: JavaScript | React.js | Node.js | TypeScript | Azure | AWS | Docker | Yazılım Güvenliği | Çevik",
+  "header": "IT Profesyoneli, LİDER, Geliştirici | Çözüm Mimarı Adayı",
+  "header2": "Uluslararası Deneyimler: Amerika Birleşik Devletleri, Birleşik Arap Emirlikleri ve Hindistan",
+  "header3": "KALİTE, İNOVASYON, HIZ",
+  "specialist": "Uzmanlık Alanı: JavaScript | React.js | Node.js | TypeScript | Azure | AWS | Docker | Yazılım Güvenliği | Çevik",
 
   "profile": "Profil",
   "projects": "Projeler",
@@ -274,6 +274,15 @@
   "postman_badge_desc": "Aşağıdaki Postman rozetini aldı:",
   "postman_badge_name_fundamentals": "V. Postman API Uzmanı:",
   "postman_badge_fundamentals_desc": "Postman kavramlarını anlamak ve test senaryosunu geçmek için. Görüntüle ",
+
+  "microsoft_badge_header": "3. Microsoft Başarı Rozetleri ve Madalyaları:",
+  "microsoft_badge_timestamp": "Microsoft tarafından verildi. Temmuz 2023",
+  "microsoft_badge_desc": "Aşağıdaki Microsoft rozetleri ve madalyaları alındı:",
+  "microsoft_trophy_name": "I. Microsoft Öğrenme Becerileri Yarışması 2023 (Madalyalar):",
+  "microsoft_trophy_name_desc": "Microsoft Öğren AI Becerileri Yarışmasını tamamlamak için. Görüntüle ",
+  "microsoft_badge_name": "II. Microsoft Öğrenme Becerileri Yarışması 2023 (Rozetler):",
+  "microsoft_badge_name_desc": "Microsoft Öğren AI Becerileri Yarışmasını tamamlamak için. Görüntüle ",
+
 
   "aicte_platinum_certificate": "5. AICTE Platin ve Altın Sertifikalı Mühendis",
   "aicte_platinum_timestamp": "BSNL-EETP AICTE tarafından yayınlandı. Ocak 2015, Mayıs 2014, Aralık 2013 resp.",
