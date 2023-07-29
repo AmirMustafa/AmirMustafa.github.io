@@ -385,12 +385,12 @@ hr {
       }
 
       .lead_header2 {
-          position: absolute;
-          color: rgb(0, 0, 0);
-          margin-top: 200px;
-          right: -5%;
-          font-size: 21px !important;
-          width: 665px;
+        position: absolute;
+        color: rgb(0, 0, 0);
+        margin-top: 200px;
+        right: 0%;
+        font-size: 21px !important;
+        width: 537px !important;
       }
     
     
