@@ -285,11 +285,11 @@ hr {
   /* Your styles for Apple 14'', 29'' range go here*/
 
   .flag-dropdown {
-		position: absolute;
-		color: inherit !important;
-		top: -250% !important;
-		right: -100%;
-	}
+    position: absolute;
+    color: inherit !important;
+    top: -323% !important;
+    right: 32%;
+}
   .brand-container > .container {
       max-width: 1100px !important;
       padding: 40px 180px;
@@ -299,8 +299,8 @@ hr {
       font-size: 21px !important;
       color: #000;
       margin-top: 40px;
-      right: -11%;
-      width: 841px !important;
+      right: -8%;
+      width: 780px !important;
   }
 
   .lead_header1 {
@@ -311,17 +311,26 @@ hr {
     right: 0%;
     width: 541px !important;
   }
-  
-  
+
   .lead_header2 {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin-top: 200px;
+    right: -5%;
+    font-size: 21px !important;
+    width: 665px;
+}
+  
+  
+  /* .lead_header2 {
     position: absolute;
     font-size: 21px !important;
     color: #000;
     margin-top: 200px;
     right: -10%;
-    /* margin-left: 826px; */
+    /* margin-left: 826px; 
     width: 793px !important;
-  }
+  } */
   
   .lead_header3 {
     position: absolute;
@@ -332,7 +341,7 @@ hr {
     border-radius: 5px;
     margin-top: 280px;
     right: 0%;
-    width: 550px !important;
+    width: 560px !important;
   }
   
   .jumbotron .container h1 {
