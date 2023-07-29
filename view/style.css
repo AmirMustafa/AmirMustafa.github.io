@@ -105,7 +105,7 @@ hr {
 }
 
 .jumbotron {
-  background: no-repeat center right fixed url(images/banner/banner_red_suit_grey_6.png);
+  background: no-repeat center right fixed url(images/banner/banner_red_suit_grey_7.png);
 
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -151,6 +151,7 @@ hr {
   text-align: center;
 }
 
+
 .jumbotron .container > * {
   text-align: center;
   color: #000;
@@ -167,21 +168,81 @@ hr {
   display: inline-block;
 } */
 
+div#parent_lead_header {
+  position: relative;
+  width: 100%;
+}
+
 .lead_header0 {
+  position: absolute;
+  font-size: 30px !important;
+  color: #000;
+  margin-top: 137px;
+  right: -71%;
+  width: 841px !important;
+}
+
+.lead_header1 {
+  position: absolute;
+  font-size: 30px !important;
+  color: #000;
+  margin-top: 230px;
+  right: -71%;
+  width: 841px !important;
+}
+
+
+.lead_header2 {
+  position: absolute;
+  font-size: 30px !important;
+  color: #000;
+  margin-top: 380px;
+  right: -72% !important;
+  /* margin-left: 826px; */
+  width: 793px !important;
+}
+
+.lead_header3 {
+  position: absolute;
+  font-size: 45px !important;
+  font-weight: 600 !important;
+  color: #fff !important;
+  background: #000;
+  border-radius: 5px;
+  margin-top: 500px;
+  /* margin-left: 800px; */
+  right: -70%;
+  width: 793px !important;
+}
+
+.jumbotron .container h1 {
+  position: absolute;
+  padding-bottom: 27px;
+  border-bottom: 1px solid #000 !important;
+  border-bottom-color: rgba(255, 255, 255, 0.35);
+  display: inline-block;
+  /* margin-right: -1822px; */
+  right: -71%;
+  top: -100%;
+}
+
+
+
+/* .lead_header0 {
   font-size: 30px !important;
   color: #000;
   margin-top: 10px;
   margin-left: 757px;
   width: 841px !important;
-}
-.lead_header1 {
+} */
+/* .lead_header1 {
   font-size: 30px !important;
   color: #000;
   margin-top: 27px;
   margin-left: 793px;
   width: 841px !important;
-}
-.lead_header2 {
+} */
+/* .lead_header2 {
   font-size: 30px !important;
   color: #000;
   margin-top: 148px;
@@ -198,15 +259,17 @@ hr {
   margin-top: 50px;
   margin-left: 800px;
   width: 793px !important;
-}
+} */
 
-.jumbotron .container h1 {
+
+
+/* .jumbotron .container h1 {
   padding-bottom: 27px;
   border-bottom: 1px solid #000 !important;
   border-bottom-color: rgba(255, 255, 255, 0.35);
   display: inline-block;
   margin-right: -1822px;
-}
+} */
 .jumbotron .container .lead {
   font-size: 28px;
 }
