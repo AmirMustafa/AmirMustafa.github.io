@@ -359,8 +359,8 @@ hr {
       .flag-dropdown {
         position: absolute;
         color: inherit !important;
-        top: -323% !important;
-        right: 32%;
+        top: -366% !important;
+        right: 38%;
       }
       .brand-container > .container {
           max-width: 1100px !important;
@@ -371,7 +371,7 @@ hr {
           font-size: 21px !important;
           color: #000;
           margin-top: 40px;
-          right: -8%;
+          right: -10%;
           width: 780px !important;
       }
 
@@ -380,7 +380,7 @@ hr {
         font-size: 21px !important;
         color: #000;
         margin-top: 100px;
-        right: 0%;
+        right: -2%;
         width: 541px !important;
       }
 
@@ -388,7 +388,7 @@ hr {
         position: absolute;
         color: rgb(0, 0, 0);
         margin-top: 200px;
-        right: 0%;
+        right: -2%;
         font-size: 21px !important;
         width: 537px !important;
       }
