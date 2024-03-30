@@ -3349,6 +3349,7 @@
 
 			<!-- Scripts -->
 			<script>
+				
 				$(document).ready(function () {
 				  try {
 					$('.popover-dismiss').popover({
@@ -3400,6 +3401,8 @@
 						}
 					}
 
+					
+
 					async function getPublications() {
 						try {
 							const username = '@amirmustafaofficial';
@@ -3427,10 +3430,21 @@
 							  console.log("Number of likes:", likes);
 							  var cardCarousel = $('#card-carousel');
 							  blogData.items.forEach(function (blog) {
+								// Preparing image from content key
+								const content = blog.content;
+								const tempDiv = document.createElement('div');
+								tempDiv.innerHTML = content;
+
+								const firstImg = tempDiv.querySelector('img');
+								const srcValue = firstImg.getAttribute('src');
+
+								console.log(srcValue); // This will log the src value of the first img tag
+
+
 								  var card = $('<div>').addClass('card');
 								  var image = $(`
 										<a href='${blog.link}' target='_blank'>
-										<img src='${blog.thumbnail}' alt="Blog Image" width='95%' height="190px" />
+										<img src='${srcValue}' alt="Blog Image" width='95%' height="190px" />
 										</a>
 									`);
 								  var cardBody = $('<div>').addClass('card-body');
