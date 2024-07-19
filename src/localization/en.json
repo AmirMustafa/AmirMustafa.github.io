@@ -259,14 +259,16 @@
   "ey_header": "1. EY Awards ",
 
  
-  "ey_clientextraordinare_header": "I. EY Client Extraordinare Award: ",
+  "ey_kudo_timestamp": "Issued by Ernst and Young . Jun 2024, Mar 2024, Mar 2023 respectively",
+  "ey_eco_header": "I. EY Eco Action-Pledge Award:",
+  "ey_eco_desc": "This award is awarded to Amir for EY Eco contribution. View ",
+  "ey_clientextraordinare_header": "II. EY Client Extraordinare Award: ",
   "ey_clientextraordinare_desc": "This award is received when clients the work and quality. Awarded for creating data management portal from where client can themself use regex and replace features from UI without help of developer. View ",
-  "ey_kudo_header": "II. EY Kudos Award: ",
+  "ey_kudo_header": "III. EY Kudos Award: ",
   "ey_kudo_desc": "Received this award for easily modifying the extration JSON from Azure AI by providing JSON edit feature. Increased business performace by 70%. View ",
   "ey_kudo_reason": "Awarded Kudos by EY for Exemplary performance. View",
 
   "ey_desc": "Received below EY awards:",
-  "ey_kudo_timestamp": "Issued by Ernst and Young . Mar 2024, Mar 2023 respectively",
 
   "tcs_gems_header": "2. TCS Gems - Special Initiative Award ",
   "tcs_gems_timestamp": "Issued by TATA Consultancy Services . Jan 2022",
