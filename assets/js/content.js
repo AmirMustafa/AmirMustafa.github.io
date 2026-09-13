@@ -288,6 +288,11 @@ const SKILL_GROUPS = [
     ],
   },
   {
+    title: "AI",
+    icon: "fa-solid fa-wand-magic-sparkles",
+    keys: ["claude", "cursor_ai", "github_copilot"],
+  },
+  {
     title: "Cloud & Tools",
     icon: "fa-solid fa-cloud",
     keys: [
@@ -326,6 +331,53 @@ const SKILL_GROUPS = [
     keys: ["en", "hi", "ar"],
   },
 ];
+
+/** Devicon (`devicon-*`) or Font Awesome (`fa-*`) class for ability chips */
+const SKILL_LOGOS = {
+  node: "devicon-nodejs-plain colored",
+  expressjs: "devicon-express-original colored",
+  reactjs: "devicon-react-original colored",
+  reacthooks: "devicon-react-original colored",
+  redux: "devicon-redux-original colored",
+  node_unit_testing: "devicon-jest-plain colored",
+  tdd: "devicon-jest-plain colored",
+  js: "devicon-javascript-plain colored",
+  html5: "devicon-html5-plain colored",
+  css3: "devicon-css3-plain colored",
+  mvc: "fa-solid fa-diagram-project",
+  restapi: "fa-solid fa-plug",
+  php: "devicon-php-plain colored",
+  laravel: "devicon-laravel-plain colored",
+  sql: "devicon-mysql-plain colored",
+  oops: "fa-solid fa-cubes",
+  claude: "img:https://cdn.simpleicons.org/anthropic/D97757",
+  cursor_ai: "img:https://cdn.simpleicons.org/cursor/111111|dark:https://cdn.simpleicons.org/cursor/EEEEEE",
+  github_copilot: "img:https://cdn.simpleicons.org/githubcopilot/0066FF",
+  aws: "fa-brands fa-aws",
+  firebase: "devicon-firebase-plain colored",
+  cloudinary: "fa-solid fa-cloud",
+  linux: "devicon-linux-plain colored",
+  moodle: "fa-solid fa-graduation-cap",
+  prod_deploy: "fa-solid fa-rocket",
+  jira: "devicon-jira-plain colored",
+  confluence: "devicon-confluence-plain colored",
+  github: "devicon-github-original colored",
+  gitlab: "devicon-gitlab-plain colored",
+  cpanel: "fa-solid fa-server",
+  putty: "fa-solid fa-terminal",
+  windows: "devicon-windows8-original colored",
+  mac: "devicon-apple-original colored",
+  linux_ubuntu: "devicon-ubuntu-plain colored",
+  chrome: "devicon-chrome-plain colored",
+  xampp: "fa-solid fa-server",
+  sublime_editor: "devicon-sublime-plain colored",
+  vim: "devicon-vim-plain colored",
+  citrics_vdi: "fa-solid fa-desktop",
+  filezilla: "fa-solid fa-file-arrow-up",
+  en: "fa-solid fa-earth-americas",
+  hi: "fa-solid fa-earth-asia",
+  ar: "fa-solid fa-earth-africa",
+};
 
 const VIDEOS = [
   {

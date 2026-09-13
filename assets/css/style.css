@@ -1682,7 +1682,8 @@ body[data-theme="light"] .banner-contact-item[class*="banner-contact-item--"] .b
 .ability-chip {
   display: inline-flex;
   align-items: center;
-  padding: 10px 16px;
+  gap: 10px;
+  padding: 10px 16px 10px 12px;
   border-radius: 999px;
   font-size: clamp(14px, 1.5vw, 16px);
   font-weight: 600;
@@ -1704,6 +1705,30 @@ body[data-theme="light"] .ability-chip {
   border-color: color-mix(in srgb, var(--brass) 45%, var(--line));
   background: color-mix(in srgb, var(--brass) 12%, transparent);
   transform: translateY(-2px);
+}
+.ability-chip-label {
+  line-height: 1.25;
+}
+.ability-chip-logo {
+  flex-shrink: 0;
+  line-height: 1;
+}
+.ability-chip-logo.devicon {
+  font-size: 22px;
+}
+.ability-chip-logo[class*="fa-"] {
+  width: 22px;
+  font-size: 17px;
+  text-align: center;
+  color: color-mix(in srgb, var(--fg) 88%, var(--brass));
+}
+.ability-chip:hover .ability-chip-logo[class*="fa-"] {
+  color: var(--brass);
+}
+.ability-chip-logo-img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
 }
 
 /* ── Projects ── */

@@ -255,6 +255,45 @@
     tags.forEach((tag) => wrap.appendChild(tag.cloneNode(true)));
   }
 
+  function skillLogoImageSrc(logoValue) {
+    if (!logoValue.startsWith("img:")) return null;
+    const payload = logoValue.slice(4);
+    const isDark =
+      document.body.getAttribute("data-theme") !== "light";
+    if (payload.includes("|dark:")) {
+      const [light, dark] = payload.split("|dark:");
+      return isDark ? dark : light;
+    }
+    return payload;
+  }
+
+  function appendSkillLogo(chip, key) {
+    const logoClass =
+      typeof SKILL_LOGOS !== "undefined" ? SKILL_LOGOS[key] : null;
+    if (!logoClass) return;
+    if (logoClass.startsWith("img:")) {
+      const img = document.createElement("img");
+      img.src = skillLogoImageSrc(logoClass);
+      img.alt = "";
+      img.className = "ability-chip-logo ability-chip-logo-img";
+      img.loading = "lazy";
+      img.decoding = "async";
+      chip.appendChild(img);
+      return;
+    }
+    const icon = document.createElement("i");
+    icon.className = logoClass + " ability-chip-logo";
+    icon.setAttribute("aria-hidden", "true");
+    chip.appendChild(icon);
+  }
+
+  function createAbilityChip(key) {
+    const chip = el("span", "ability-chip");
+    appendSkillLogo(chip, key);
+    chip.appendChild(el("span", "ability-chip-label", t(key, key)));
+    return chip;
+  }
+
   function renderSkills() {
     const grid = document.getElementById("skillsGrid");
     grid.innerHTML = "";
@@ -279,7 +318,7 @@
       card.appendChild(head);
 
       const chips = el("div", "ability-chips");
-      group.keys.forEach((k) => chips.appendChild(el("span", "ability-chip", t(k, k))));
+      group.keys.forEach((k) => chips.appendChild(createAbilityChip(k)));
       card.appendChild(chips);
 
       grid.appendChild(card);
@@ -1024,6 +1063,7 @@
       icon.className = mode === "dark" ? "fa-solid fa-moon" : "fa-solid fa-sun";
       localStorage.setItem("themeMode", mode);
       applyTheme(colorTheme, mode);
+      renderSkills();
     });
 
     colorSelect.addEventListener("change", (e) => {
