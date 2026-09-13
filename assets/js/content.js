@@ -382,21 +382,31 @@ const SKILL_LOGOS = {
   ar: "fa-solid fa-earth-africa",
 };
 
+const MEDIUM_USERNAME = "@amirmustafaofficial";
+const MEDIUM_PROFILE_URL = "https://medium.com/@amirmustafaofficial";
+const MEDIUM_BLOG_LIMIT = 9;
+
 const VIDEOS = [
   {
     titleKey: "videos_feat1",
     linkKey: "videos_feat1_link",
     href: "https://www.youtube.com/playlist?list=PLiZdgZd6wod3MnaV_pPBsM2fLmJUQuGRa",
+    embed:
+      "https://www.youtube.com/embed/videoseries?list=PLiZdgZd6wod3MnaV_pPBsM2fLmJUQuGRa",
   },
   {
     titleKey: "videos_feat2",
     linkKey: "videos_feat2_link",
     href: "https://www.youtube.com/playlist?list=PLiZdgZd6wod2Tnd5eATCNtbdMPDwi7FuB",
+    embed:
+      "https://www.youtube.com/embed/videoseries?list=PLiZdgZd6wod2Tnd5eATCNtbdMPDwi7FuB",
   },
   {
     titleKey: "videos_feat3",
     linkKey: "videos_feat3_link",
     href: "https://www.youtube.com/playlist?list=PLiZdgZd6wod2B8VE-JGYuR8vQ997oLxs9",
+    embed:
+      "https://www.youtube.com/embed/videoseries?list=PLiZdgZd6wod2B8VE-JGYuR8vQ997oLxs9",
   },
 ];
 

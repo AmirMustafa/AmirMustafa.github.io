@@ -484,17 +484,7 @@
               </h2>
             </div>
           </header>
-          <div class="video-hero">
-            <div class="video-frame glass-card reveal">
-              <iframe
-                src="https://www.youtube.com/embed/videoseries?list=PLiZdgZd6wod3MnaV_pPBsM2fLmJUQuGRa"
-                title="Amir Mustafa video playlist"
-                allowfullscreen
-                loading="lazy"
-              ></iframe>
-            </div>
-            <ul class="video-links glass-card reveal" id="videoLinks"></ul>
-          </div>
+          <div class="video-showcase" id="videoShowcase"></div>
         </div>
       </section>
 
@@ -518,9 +508,9 @@
                 >Love learning and sharing my experience. Click</span
               >
               <a
-                href="https://github.com/AmirMustafa"
+                href="https://medium.com/@amirmustafaofficial"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 data-i18n="here"
               >
                 here</a
@@ -528,13 +518,18 @@
               <span data-i18n="blogs_quotes3">for technical content.</span>
             </p>
             <a
-              href="https://github.com/AmirMustafa"
+              href="https://medium.com/@amirmustafaofficial"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               class="btn btn-glass"
             >
-              <i class="fa-brands fa-github"></i> GitHub
+              <i class="fa-brands fa-medium"></i> Medium
             </a>
+          </div>
+          <div class="blog-grid" id="blogGrid" aria-live="polite">
+            <p class="blog-loading mono" id="blogLoading" data-i18n="blog_loading">
+              Loading articles from Medium…
+            </p>
           </div>
         </div>
       </section>

@@ -75,6 +75,7 @@
     updateLangPickerLabel();
     renderAll();
     observeReveals();
+    loadMediumBlogs();
   }
 
   function updateLangPickerLabel() {
@@ -104,7 +105,7 @@
 
     document
       .querySelectorAll(
-        ".ability-card, .project-card, .tl-item, .edu-card, .award-card",
+        ".ability-card, .project-card, .blog-card, .tl-item, .edu-card, .award-card",
       )
       .forEach((node) => {
         if (!node.classList.contains("reveal-scale"))
@@ -132,7 +133,7 @@
 
     document
       .querySelectorAll(
-        ".section .reveal, .reveal-scale, .ability-card, .project-card, .tl-item, .edu-card, .award-card",
+        ".section .reveal, .reveal-scale, .ability-card, .project-card, .blog-card, .tl-item, .edu-card, .award-card",
       )
       .forEach((node, i) => {
         if (node.classList.contains("visible")) return;
@@ -556,23 +557,166 @@
     });
   }
 
-  function renderVideos() {
-    const list = document.getElementById("videoLinks");
-    list.innerHTML = "";
-    VIDEOS.forEach((v) => {
-      const li = el("li");
-      const label = el("span", null, t(v.titleKey, ""));
-      const a = el(
-        "a",
-        null,
-        `${t(v.linkKey, "Check more contents")} <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:11px;"></i>`,
+  function stripHtml(html) {
+    const doc = new DOMParser().parseFromString(html || "", "text/html");
+    return (doc.body.textContent || "").replace(/\s+/g, " ").trim();
+  }
+
+  function trimBlogText(text, maxLen) {
+    const clean = (text || "").trim();
+    if (clean.length <= maxLen) return clean;
+    return clean.slice(0, maxLen).replace(/\s+\S*$/, "") + "…";
+  }
+
+  function blogImageFromItem(item) {
+    if (item.thumbnail) return item.thumbnail;
+    const html = item.content || item.description || "";
+    const doc = new DOMParser().parseFromString(html, "text/html");
+    const img = doc.querySelector("img");
+    if (img?.getAttribute("src")) return img.getAttribute("src");
+    return "";
+  }
+
+  function formatBlogDate(pubDate) {
+    if (!pubDate) return "";
+    const d = new Date(pubDate);
+    if (Number.isNaN(d.getTime())) return pubDate;
+    return d.toLocaleDateString(undefined, {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+    });
+  }
+
+  async function loadMediumBlogs() {
+    const grid = document.getElementById("blogGrid");
+    const loading = document.getElementById("blogLoading");
+    if (!grid) return;
+
+    const username =
+      typeof MEDIUM_USERNAME !== "undefined"
+        ? MEDIUM_USERNAME
+        : "@amirmustafaofficial";
+    const limit =
+      typeof MEDIUM_BLOG_LIMIT !== "undefined" ? MEDIUM_BLOG_LIMIT : 9;
+    const feedUrl = `https://medium.com/feed/${username}`;
+    const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}`;
+
+    try {
+      const res = await fetch(apiUrl);
+      const data = await res.json();
+      if (loading) loading.remove();
+
+      if (data.status !== "ok" || !Array.isArray(data.items) || !data.items.length) {
+        grid.innerHTML = "";
+        grid.appendChild(
+          el("p", "blog-empty", t("blog_empty", "No Medium articles to show right now.")),
+        );
+        return;
+      }
+
+      grid.innerHTML = "";
+      data.items.slice(0, limit).forEach((item, i) => {
+        const card = el("article", "blog-card glass reveal-scale");
+        card.dataset.revealDelay = String(i % 6);
+
+        const thumbSrc = blogImageFromItem(item);
+        const thumb = el("a", "blog-thumb");
+        thumb.href = item.link;
+        thumb.target = "_blank";
+        thumb.rel = "noopener noreferrer";
+        if (thumbSrc) {
+          const img = new Image();
+          img.src = thumbSrc;
+          img.alt = "";
+          img.loading = "lazy";
+          img.decoding = "async";
+          thumb.appendChild(img);
+        } else {
+          thumb.appendChild(el("span", "blog-thumb-fallback", "Medium"));
+        }
+        card.appendChild(thumb);
+
+        const body = el("div", "blog-body");
+        body.appendChild(
+          el("time", "blog-date mono", formatBlogDate(item.pubDate)),
+        );
+        const titleLink = el("a", "blog-title", item.title || "");
+        titleLink.href = item.link;
+        titleLink.target = "_blank";
+        titleLink.rel = "noopener noreferrer";
+        body.appendChild(titleLink);
+        const excerpt = trimBlogText(
+          stripHtml(item.description || item.content),
+          140,
+        );
+        body.appendChild(el("p", "blog-excerpt", excerpt));
+        const read = el(
+          "a",
+          "blog-read mono",
+          `${t("blog_read_more", "Read on Medium")} <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>`,
+        );
+        read.href = item.link;
+        read.target = "_blank";
+        read.rel = "noopener noreferrer";
+        body.appendChild(read);
+        card.appendChild(body);
+
+        grid.appendChild(card);
+      });
+
+      observeReveals();
+    } catch (err) {
+      console.error("Medium blogs:", err);
+      if (loading) loading.remove();
+      grid.innerHTML = "";
+      grid.appendChild(
+        el(
+          "p",
+          "blog-empty",
+          t(
+            "blog_error",
+            "Could not load Medium articles. Visit Medium using the link above.",
+          ),
+        ),
       );
-      a.href = v.href;
-      a.target = "_blank";
-      a.rel = "noopener";
-      li.appendChild(label);
-      li.appendChild(a);
-      list.appendChild(li);
+    }
+  }
+
+  function renderVideos() {
+    const showcase = document.getElementById("videoShowcase");
+    if (!showcase || typeof VIDEOS === "undefined") return;
+    showcase.innerHTML = "";
+    VIDEOS.forEach((v, i) => {
+      const card = el("article", "video-wide glass-card reveal");
+      card.dataset.revealDelay = String(i);
+
+      const head = el("div", "video-wide-head");
+      head.appendChild(el("h3", "video-wide-title", t(v.titleKey, "")));
+      const playlist = el(
+        "a",
+        "video-wide-playlist mono",
+        `${t(v.linkKey, "Check more contents")} <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>`,
+      );
+      playlist.href = v.href;
+      playlist.target = "_blank";
+      playlist.rel = "noopener noreferrer";
+      head.appendChild(playlist);
+      card.appendChild(head);
+
+      const frame = el("div", "video-frame");
+      const iframe = document.createElement("iframe");
+      iframe.src = v.embed || v.href;
+      iframe.title = t(v.titleKey, "YouTube playlist");
+      iframe.allow =
+        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      iframe.allowFullscreen = true;
+      iframe.loading = "lazy";
+      iframe.referrerPolicy = "strict-origin-when-cross-origin";
+      frame.appendChild(iframe);
+      card.appendChild(frame);
+
+      showcase.appendChild(card);
     });
   }
 
@@ -1245,6 +1389,7 @@
       updateLangPickerLabel();
       renderAll();
       observeReveals();
+      loadMediumBlogs();
     } else {
       await loadLang(startLang);
     }
