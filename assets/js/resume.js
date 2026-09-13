@@ -1,6 +1,7 @@
-/* About & Resume content — sourced from Amir_Resume_Node_React_9y.docx (Jun 2026) */
+/* About & Resume content — Amir_Resume_Node_React_9y.pdf (Sep 2026) */
 
-const RESUME_FILE = "assets/files/Amir_Resume_Node_React_9y.docx";
+const RESUME_FILE = "assets/files/Amir_Resume_Node_React_9y.pdf";
+const RESUME_DOWNLOAD_NAME = "Amir_Resume_Node_React_9y.pdf";
 
 const ABOUT_PROFILE = {
   title: "Senior Full Stack Engineer",
@@ -21,6 +22,7 @@ const ABOUT_PROFILE = {
     { label: "GitHub", href: "https://github.com/AmirMustafa" },
     { label: "Portfolio", href: "https://www.amirmustafa.net" },
     { label: "YouTube", href: "https://www.youtube.com/playlist?list=PLiZdgZd6wod3MnaV_pPBsM2fLmJUQuGRa" },
+    { label: "Download CV", href: RESUME_FILE, download: RESUME_DOWNLOAD_NAME },
   ],
 };
 

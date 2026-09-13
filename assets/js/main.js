@@ -791,8 +791,12 @@
     ABOUT_PROFILE.links.forEach((link) => {
       const a = el("a", "about-link-chip", link.label);
       a.href = link.href;
-      a.target = "_blank";
-      a.rel = "noopener";
+      if (link.download) {
+        a.setAttribute("download", link.download);
+      } else {
+        a.target = "_blank";
+        a.rel = "noopener";
+      }
       links.appendChild(a);
     });
 
@@ -852,11 +856,22 @@
     fills.forEach((f) => obs.observe(f));
   }
 
+  function wireResumeDownloadLinks() {
+    if (typeof RESUME_FILE === "undefined") return;
+    const name =
+      typeof RESUME_DOWNLOAD_NAME !== "undefined"
+        ? RESUME_DOWNLOAD_NAME
+        : "Amir_Resume_Node_React_9y.pdf";
+    document.querySelectorAll("[data-resume-download]").forEach((a) => {
+      a.href = RESUME_FILE;
+      a.setAttribute("download", name);
+    });
+  }
+
   function renderResumePage() {
     if (typeof RESUME_JOBS === "undefined") return;
 
-    const dl = document.getElementById("resumeDownloadBtn");
-    if (dl) dl.href = RESUME_FILE;
+    wireResumeDownloadLinks();
 
     const eduWrap = document.getElementById("resumeEducation");
     eduWrap.innerHTML = "";

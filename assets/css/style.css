@@ -1773,13 +1773,12 @@ body[data-theme="light"] .ability-chip {
 .project-card:hover::before { opacity: 1; }
 
 .project-card.feature {
-  grid-column: span 2;
+  grid-column: 1 / -1;
   flex-direction: row;
   align-items: stretch;
 }
 @media (max-width: 780px) {
   .project-card.feature {
-    grid-column: span 1;
     flex-direction: column;
   }
 }
@@ -1811,11 +1810,12 @@ body[data-theme="light"] .ability-chip {
   overflow: hidden;
 }
 
-/* Northern Trust & Eli Lilly: wide full-height logo panel (~red-box width) */
+/* Featured logo panel — Northern Trust, Eli Lilly, TAMM (same width & logo scale) */
 .project-card.feature.has-logo.project-card--logo-wide .project-thumb {
-  flex: 0 0 46%;
-  width: 46%;
-  min-width: 280px;
+  flex: 0 0 clamp(260px, 34vw, 360px);
+  width: clamp(260px, 34vw, 360px);
+  min-width: 260px;
+  max-width: 360px;
   min-height: 100%;
   max-height: none;
   aspect-ratio: auto;
@@ -1828,9 +1828,13 @@ body[data-theme="light"] .ability-chip {
 .project-card--logo-wide .project-thumb.is-logo {
   background: linear-gradient(165deg, #ffffff 0%, #eef1f6 100%);
 }
-.project-card--logo-wide .project-thumb.is-logo img {
+.project-card--logo-wide .project-thumb.is-logo img,
+.project-card.feature.has-logo.project-card--logo-wide .project-thumb.is-logo img {
   object-fit: contain;
+  object-position: center;
   padding: 32px 40px;
+  width: 100%;
+  height: 100%;
 }
 .project-card--logo-wide .project-thumb-shade {
   opacity: 0;
@@ -1883,7 +1887,7 @@ body[data-theme="light"] .ability-chip {
   padding: 0;
   filter: none;
 }
-.project-card.feature.has-logo .project-thumb.is-logo img {
+.project-card.feature.has-logo:not(.project-card--logo-wide) .project-thumb.is-logo img {
   object-fit: cover;
 }
 .project-card:not(.feature) .project-thumb.is-logo img {

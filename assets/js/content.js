@@ -44,6 +44,7 @@ const PROJECTS = [
     img: "assets/images/projects/TAMM2.jpg",
     feature: true,
     logo: true,
+    logoWide: true,
     links: [{ kind: "site", href: "https://www.tamm.abudhabi/" }],
   },
   {
