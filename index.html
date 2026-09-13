@@ -145,7 +145,7 @@
           </div>
           <select id="color-theme-select" aria-label="Select color theme">
             <option value="theme-1">Slate & Emerald</option>
-            <option value="theme-2">Midnight Indigo</option>
+            <option value="theme-2" selected>Midnight Indigo</option>
             <option value="theme-3">Graphite & Copper</option>
             <option value="theme-4">Arctic Minimal</option>
             <option value="theme-5">Forest & Sand</option>
@@ -153,7 +153,7 @@
             <option value="theme-7">Gold & Ivory</option>
             <option value="theme-8">Ocean Teal</option>
             <option value="theme-9">Crimson & Charcoal</option>
-            <option value="theme-10" selected>Cobalt Steel</option>
+            <option value="theme-10">Cobalt Steel</option>
           </select>
           <button
             class="icon-btn"
@@ -330,13 +330,20 @@
                 ><span class="tag-num">02</span>
                 <span data-i18n="abilities">Abilities</span></span
               >
-              <h2 class="section-title abilities-section-title" data-i18n="specialist">
+              <h2
+                class="section-title abilities-section-title"
+                data-i18n="specialist"
+              >
                 Specialist in: JavaScript | React.js | Node.js | TypeScript |
                 Azure | AWS | Docker | Software Security | Agile
               </h2>
             </div>
           </header>
-          <div class="abilities-board" id="skillsGrid" aria-label="Skills and tools"></div>
+          <div
+            class="abilities-board"
+            id="skillsGrid"
+            aria-label="Skills and tools"
+          ></div>
         </div>
       </section>
 
@@ -548,7 +555,11 @@
             </a>
           </div>
           <div class="blog-grid" id="blogGrid" aria-live="polite">
-            <p class="blog-loading mono" id="blogLoading" data-i18n="blog_loading">
+            <p
+              class="blog-loading mono"
+              id="blogLoading"
+              data-i18n="blog_loading"
+            >
               Loading articles from Medium…
             </p>
           </div>
@@ -665,10 +676,7 @@
               ><span class="tag-num">10</span>
               <span data-i18n="contact">Contact</span></span
             >
-            <h2
-              class="contact-quote gradient-text"
-              data-i18n="contact_quotes"
-            >
+            <h2 class="contact-quote gradient-text" data-i18n="contact_quotes">
               If I had asked people what they wanted, they would have said
               faster horses.
             </h2>
