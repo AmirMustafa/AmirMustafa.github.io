@@ -1240,12 +1240,48 @@
     });
   }
 
+  function renderContactSocial() {
+    const row = document.getElementById("contactSocialRow");
+    if (!row || typeof CONTACT_SOCIAL === "undefined") return;
+    const email = getPublicEmail();
+    row.innerHTML = "";
+
+    CONTACT_SOCIAL.forEach((item) => {
+      const href = item.email ? `mailto:${email}` : item.href;
+      const external = !item.email && /^https?:\/\//.test(href);
+      const brand = item.brand ? ` contact-social-link--${item.brand}` : "";
+      const a = el("a", "contact-social-link" + brand);
+      a.href = href;
+      a.setAttribute("aria-label", item.label);
+      a.title = item.label;
+      if (item.email) a.id = "emailSocial";
+      if (external) {
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+      }
+      const iconWrap = el(
+        "span",
+        "banner-contact-icon" +
+          (item.brand ? ` banner-contact-icon--${item.brand}` : ""),
+      );
+      if (item.img) {
+        const img = new Image();
+        img.src = item.img;
+        img.alt = "";
+        iconWrap.appendChild(img);
+      } else {
+        iconWrap.innerHTML = `<i class="${item.icon}" aria-hidden="true"></i>`;
+      }
+      a.appendChild(iconWrap);
+      row.appendChild(a);
+    });
+  }
+
   function initEmail() {
     const address = getPublicEmail();
     document.getElementById("emailLink").href = `mailto:${address}`;
     document.getElementById("emailLink").textContent = address;
-    const social = document.getElementById("emailSocial");
-    if (social) social.href = `mailto:${address}`;
+    renderContactSocial();
     renderBannerContact();
   }
 

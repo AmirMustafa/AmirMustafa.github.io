@@ -382,6 +382,76 @@ const SKILL_LOGOS = {
   ar: "fa-solid fa-earth-africa",
 };
 
+/** Contact section — same channels as portfolio 1.0 */
+const CONTACT_SOCIAL = [
+  {
+    label: "LinkedIn",
+    brand: "linkedin",
+    href: "https://www.linkedin.com/in/amirmustafa-sr-consultant-it/",
+    icon: "fa-brands fa-linkedin-in",
+  },
+  {
+    label: "WhatsApp",
+    brand: "whatsapp",
+    href: "tel:+918170954991",
+    icon: "fa-brands fa-whatsapp",
+  },
+  {
+    label: "YouTube",
+    brand: "youtube",
+    href: "https://www.youtube.com/channel/UCiRv7SECTSF3-tXQM1IoMTw",
+    icon: "fa-brands fa-youtube",
+  },
+  {
+    label: "Twitter",
+    brand: "twitter",
+    href: "https://twitter.com/happy_learnings",
+    icon: "fa-brands fa-x-twitter",
+  },
+  {
+    label: "Email",
+    brand: "email",
+    email: true,
+    icon: "fa-solid fa-envelope",
+  },
+  {
+    label: "Instagram",
+    brand: "instagram",
+    href: "https://www.instagram.com/aamir__mustafa/",
+    icon: "fa-brands fa-instagram",
+  },
+  {
+    label: "GitHub",
+    brand: "github",
+    href: "https://github.com/AmirMustafa",
+    icon: "fa-brands fa-github",
+  },
+  {
+    label: "Discord",
+    brand: "discord",
+    href: "https://discord.com/users/amir__mustafa",
+    icon: "fa-brands fa-discord",
+  },
+  {
+    label: "Replit",
+    brand: "replit",
+    href: "https://replit.com/@AmirMustafa",
+    img: "assets/images/social/replitblue.png",
+  },
+  {
+    label: "Microsoft Teams",
+    brand: "teams",
+    href: "https://teams.live.com/meet/9534035385876",
+    img: "assets/images/social/microsoft-teams.png",
+  },
+  {
+    label: "Botim",
+    brand: "botim",
+    href: "tel:+918170954991",
+    img: "assets/images/social/botim.png",
+  },
+];
+
 const MEDIUM_USERNAME = "@amirmustafaofficial";
 const MEDIUM_PROFILE_URL = "https://medium.com/@amirmustafaofficial";
 const MEDIUM_BLOG_LIMIT = 9;

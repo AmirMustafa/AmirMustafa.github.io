@@ -1384,6 +1384,54 @@ body[data-theme="light"] .employer-brand img {
   border-color: transparent;
   color: #fff;
 }
+.banner-contact-icon--whatsapp {
+  background: #25d366;
+  border-color: transparent;
+  color: #fff;
+}
+.banner-contact-icon--twitter {
+  background: #0f1419;
+  border-color: transparent;
+  color: #fff;
+}
+.banner-contact-icon--instagram {
+  background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af);
+  border-color: transparent;
+  color: #fff;
+}
+.banner-contact-icon--discord {
+  background: #5865f2;
+  border-color: transparent;
+  color: #fff;
+}
+.banner-contact-icon--replit {
+  background: #f26207;
+  border-color: transparent;
+  color: #fff;
+}
+.banner-contact-icon--teams {
+  background: #ffffff;
+  border-color: color-mix(in srgb, var(--line) 65%, transparent);
+  color: #fff;
+}
+.banner-contact-icon--botim {
+  background: #0084ff;
+  border-color: transparent;
+  color: #fff;
+}
+.banner-contact-icon--replit img,
+.banner-contact-icon--botim img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+.banner-contact-icon--teams img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  filter: none;
+}
 .banner-contact-item[class*="banner-contact-item--"]:hover .banner-contact-icon {
   color: #fff;
   border-color: transparent;
@@ -2901,65 +2949,52 @@ body[data-theme="light"] .ability-chip {
   padding-bottom: clamp(80px, 12vw, 140px);
 }
 .contact-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: clamp(40px, 6vw, 72px);
-  align-items: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  max-width: 640px;
 }
-@media (max-width: 860px) { .contact-grid { grid-template-columns: 1fr; } }
 
 .contact-quote {
   font-size: clamp(28px, 4vw, 42px);
   max-width: 18ch;
-  margin: 16px 0 32px;
+  margin: 16px 0 28px;
   line-height: 1.2;
 }
 
-.social-row { display: flex; gap: 12px; flex-wrap: wrap; }
-.social-btn {
-  width: 48px; height: 48px;
+.contact-social-grid {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 14px;
-  background: var(--glass);
-  border: 1px solid var(--glass-border);
-  font-size: 18px;
-  transition: all 0.3s var(--ease-out);
+  flex-wrap: wrap;
+  gap: 12px;
 }
-.social-btn:hover {
-  background: linear-gradient(135deg, var(--brass), var(--steel));
-  border-color: transparent;
-  color: #fff;
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px color-mix(in srgb, var(--brass) 35%, transparent);
+.contact-social-link {
+  display: inline-flex;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: transform 0.28s var(--ease-out), filter 0.28s;
 }
-
-.contact-cards { display: flex; flex-direction: column; gap: 12px; }
-.contact-card {
-  padding: 20px 24px;
-  border-radius: var(--radius-sm);
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  transition: all 0.3s var(--ease-out);
+.contact-social-link:hover {
+  transform: translateY(-4px) scale(1.06);
 }
-.contact-card:hover {
-  border-color: color-mix(in srgb, var(--brass) 30%, transparent);
-  transform: translateX(6px);
+.contact-social-link:hover .banner-contact-icon {
+  filter: brightness(1.08);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
 }
-.contact-label {
-  font-size: 10px;
-  color: var(--muted);
-  letter-spacing: 0.08em;
+.contact-social-link .banner-contact-icon {
+  width: 56px;
+  height: 56px;
+  font-size: 22px;
 }
-.contact-card a {
-  font-size: 15px;
-  font-weight: 500;
-  color: var(--fg);
-  transition: color 0.2s;
+.contact-social-link .banner-contact-icon img {
+  width: 30px;
+  height: 30px;
 }
-.contact-card a:hover { color: var(--brass); }
+.contact-social-link .banner-contact-icon--teams img {
+  width: 36px;
+  height: 36px;
+  filter: none;
+}
 
 /* ── Footer ── */
 footer {
