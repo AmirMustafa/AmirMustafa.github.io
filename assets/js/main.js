@@ -1314,6 +1314,52 @@
     });
   }
 
+  function resetLangPickerSearch() {
+    const search = document.getElementById("langPickerSearch");
+    if (search) search.value = "";
+    filterLangOptions("");
+  }
+
+  function filterLangOptions(query) {
+    const list = document.getElementById("langPickerList");
+    if (!list) return;
+
+    const q = query.trim().toLowerCase();
+    const options = list.querySelectorAll(".lang-option");
+    let visible = 0;
+
+    options.forEach((btn) => {
+      const name =
+        btn.querySelector(".lang-option-name")?.textContent.toLowerCase() ||
+        "";
+      const code = (btn.dataset.value || "").toLowerCase();
+      const codeFlat = code.replace(/-/g, "");
+      const match =
+        !q ||
+        name.includes(q) ||
+        code.includes(q) ||
+        codeFlat.includes(q.replace(/-/g, ""));
+      btn.classList.toggle("lang-picker-option-hidden", !match);
+      if (match) visible++;
+    });
+
+    let empty = list.querySelector(".lang-picker-empty");
+    if (visible === 0) {
+      if (!empty) {
+        empty = el("div", "lang-picker-empty");
+        empty.setAttribute("role", "status");
+        list.appendChild(empty);
+      }
+      empty.textContent = t(
+        "lang_search_empty",
+        "No languages match your search.",
+      );
+      empty.hidden = false;
+    } else if (empty) {
+      empty.hidden = true;
+    }
+  }
+
   function closeLangPicker() {
     const root = document.getElementById("langPicker");
     const trigger = document.getElementById("langPickerTrigger");
@@ -1321,6 +1367,7 @@
     root.classList.remove("open");
     trigger.setAttribute("aria-expanded", "false");
     menu.setAttribute("aria-hidden", "true");
+    resetLangPickerSearch();
   }
 
   function openLangPicker() {
@@ -1330,8 +1377,14 @@
     root.classList.add("open");
     trigger.setAttribute("aria-expanded", "true");
     menu.setAttribute("aria-hidden", "false");
-    const active = menu.querySelector('[aria-selected="true"]');
+    resetLangPickerSearch();
+    const list = document.getElementById("langPickerList");
+    const active = list?.querySelector('[aria-selected="true"]');
     if (active) active.scrollIntoView({ block: "nearest" });
+    const search = document.getElementById("langPickerSearch");
+    if (search) {
+      requestAnimationFrame(() => search.focus());
+    }
   }
 
   function selectLanguage(lang) {
@@ -1351,7 +1404,8 @@
     if (!available.includes(initial)) initial = "en";
 
     const menu = document.getElementById("langPickerMenu");
-    menu.innerHTML = "";
+    const list = document.getElementById("langPickerList");
+    list.innerHTML = "";
     LOCALES.forEach((loc) => {
       const btn = el("button", "lang-option");
       btn.type = "button";
@@ -1366,8 +1420,18 @@
         </span>
         <i class="fa-solid fa-check lang-option-check" aria-hidden="true"></i>`;
       btn.addEventListener("click", () => selectLanguage(loc.value));
-      menu.appendChild(btn);
+      list.appendChild(btn);
     });
+
+    const search = document.getElementById("langPickerSearch");
+    if (search && !search.dataset.wired) {
+      search.dataset.wired = "1";
+      search.addEventListener("input", () => filterLangOptions(search.value));
+      search.addEventListener("click", (e) => e.stopPropagation());
+      search.addEventListener("keydown", (e) => {
+        if (e.key !== "Escape") e.stopPropagation();
+      });
+    }
 
     setLangPickerUI(initial);
     document

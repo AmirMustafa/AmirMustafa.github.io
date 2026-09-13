@@ -117,10 +117,31 @@
             <div
               class="lang-picker-menu"
               id="langPickerMenu"
-              role="listbox"
-              aria-label="Languages"
               aria-hidden="true"
-            ></div>
+            >
+              <div class="lang-picker-search-wrap">
+                <i
+                  class="fa-solid fa-magnifying-glass lang-picker-search-icon"
+                  aria-hidden="true"
+                ></i>
+                <input
+                  type="search"
+                  id="langPickerSearch"
+                  class="lang-picker-search"
+                  placeholder="Search by name or code"
+                  data-i18n-attr="placeholder:lang_search"
+                  aria-label="Search languages"
+                  autocomplete="off"
+                  spellcheck="false"
+                />
+              </div>
+              <div
+                class="lang-picker-list"
+                id="langPickerList"
+                role="listbox"
+                aria-label="Languages"
+              ></div>
+            </div>
           </div>
           <select id="color-theme-select" aria-label="Select color theme">
             <option value="theme-1">Slate & Emerald</option>

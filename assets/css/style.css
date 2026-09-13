@@ -386,8 +386,9 @@ select#color-theme-select option { color: #111; background: #fff; }
   right: 0;
   width: min(320px, calc(100vw - 32px));
   max-height: min(420px, 60vh);
-  overflow-y: auto;
-  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   padding: 8px;
   background: color-mix(in srgb, var(--bg-2) 96%, transparent);
   backdrop-filter: blur(24px);
@@ -399,6 +400,59 @@ select#color-theme-select option { color: #111; background: #fff; }
   visibility: hidden;
   transform: translateY(-8px) scale(0.98);
   transition: opacity 0.25s var(--ease-out), transform 0.25s var(--ease-out), visibility 0.25s;
+}
+.lang-picker-search-wrap {
+  position: relative;
+  flex-shrink: 0;
+  margin-bottom: 6px;
+}
+.lang-picker-search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 13px;
+  color: var(--muted);
+  pointer-events: none;
+}
+.lang-picker-search {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px 10px 38px;
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--bg) 40%, transparent);
+  color: var(--fg);
+  font-family: var(--font-body), sans-serif;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.lang-picker-search::placeholder {
+  color: var(--muted);
+}
+.lang-picker-search:focus {
+  border-color: color-mix(in srgb, var(--brass) 55%, transparent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--brass) 14%, transparent);
+}
+.lang-picker-search::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+.lang-picker-list {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.lang-picker-option-hidden {
+  display: none !important;
+}
+.lang-picker-empty {
+  padding: 20px 14px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.45;
 }
 .lang-picker.open .lang-picker-menu {
   opacity: 1;
@@ -463,8 +517,8 @@ select#color-theme-select option { color: #111; background: #fff; }
 }
 .lang-option[aria-selected="true"] .lang-option-check { opacity: 1; }
 
-.lang-picker-menu::-webkit-scrollbar { width: 6px; }
-.lang-picker-menu::-webkit-scrollbar-thumb {
+.lang-picker-list::-webkit-scrollbar { width: 6px; }
+.lang-picker-list::-webkit-scrollbar-thumb {
   background: var(--line);
   border-radius: 6px;
 }
