@@ -85,5 +85,6 @@ function applyTheme(themeId, mode) {
   root.setProperty("--font-mono", `'${theme.fonts.mono}'`);
 
   document.body.setAttribute("data-theme", mode);
+  document.documentElement.setAttribute("data-theme", mode);
   document.body.setAttribute("data-color-theme", themeId);
 }

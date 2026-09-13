@@ -15,6 +15,24 @@
       content="Amir Mustafa — IT Professional, Lead Developer, Solutions Architect Aspirant. React.js, Node.js, TypeScript, Azure, AWS."
     />
     <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+    <meta name="color-scheme" content="dark light" />
+
+    <script>
+      (function () {
+        try {
+          var key = "themeDefaultDark_v1";
+          if (!localStorage.getItem(key)) {
+            localStorage.setItem("themeMode", "dark");
+            localStorage.setItem(key, "1");
+          }
+          var mode = localStorage.getItem("themeMode");
+          document.documentElement.setAttribute(
+            "data-theme",
+            mode === "light" ? "light" : "dark",
+          );
+        } catch (e) {}
+      })();
+    </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

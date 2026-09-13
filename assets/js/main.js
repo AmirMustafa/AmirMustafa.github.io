@@ -1045,12 +1045,20 @@
     sections.forEach((s) => spy.observe(s));
   }
 
+  function getThemeMode() {
+    const stored = localStorage.getItem("themeMode");
+    return stored === "light" ? "light" : "dark";
+  }
+
   function initTheme() {
     const modeBtn = document.getElementById("themeToggle");
     const icon = modeBtn.querySelector("i");
     const colorSelect = document.getElementById("color-theme-select");
 
-    let mode = localStorage.getItem("themeMode") || "dark";
+    let mode = getThemeMode();
+    if (!localStorage.getItem("themeMode")) {
+      localStorage.setItem("themeMode", "dark");
+    }
     let colorTheme = localStorage.getItem("colorTheme") || "theme-10";
     if (!THEMES.some((th) => th.id === colorTheme)) colorTheme = "theme-1";
 

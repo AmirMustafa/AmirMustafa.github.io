@@ -1145,7 +1145,7 @@ body[data-theme="light"] .banner-motto {
 }
 @media (max-width: 639px) {
   .employer-brands-grid {
-    grid-template-columns: repeat(4, 64px);
+    grid-template-columns: repeat(4, 58px);
     justify-content: center;
     gap: 8px;
   }
@@ -1155,8 +1155,9 @@ body[data-theme="light"] .banner-motto {
 }
 @media (min-width: 640px) {
   .employer-brands-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 12px;
+    grid-template-columns: repeat(4, 72px);
+    justify-content: center;
+    gap: 10px;
   }
 }
 @media (min-width: 901px) {
@@ -1165,7 +1166,9 @@ body[data-theme="light"] .banner-motto {
     text-align: left;
   }
   .employer-brands-grid {
-    grid-template-columns: repeat(7, minmax(0, 1fr));
+    grid-template-columns: repeat(7, 76px);
+    justify-content: flex-start;
+    gap: 10px;
   }
 }
 .employer-brand {

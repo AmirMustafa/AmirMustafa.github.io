@@ -191,7 +191,8 @@ const PROJECTS = [
   },
 ];
 
-const EXPERIENCE_LOGO_FALLBACK = "assets/images/experience/fallback-company.svg";
+const EXPERIENCE_LOGO_FALLBACK =
+  "assets/images/experience/fallback-company.svg";
 
 const EXPERIENCE = [
   {
@@ -288,11 +289,6 @@ const SKILL_GROUPS = [
     ],
   },
   {
-    title: "AI",
-    icon: "fa-solid fa-wand-magic-sparkles",
-    keys: ["claude", "cursor_ai", "github_copilot"],
-  },
-  {
     title: "Cloud & Tools",
     icon: "fa-solid fa-cloud",
     keys: [
@@ -330,6 +326,11 @@ const SKILL_GROUPS = [
     icon: "fa-solid fa-language",
     keys: ["en", "hi", "ar"],
   },
+  {
+    title: "AI",
+    icon: "fa-solid fa-wand-magic-sparkles",
+    keys: ["claude", "cursor_ai", "github_copilot"],
+  },
 ];
 
 /** Devicon (`devicon-*`) or Font Awesome (`fa-*`) class for ability chips */
@@ -351,7 +352,8 @@ const SKILL_LOGOS = {
   sql: "devicon-mysql-plain colored",
   oops: "fa-solid fa-cubes",
   claude: "img:https://cdn.simpleicons.org/anthropic/D97757",
-  cursor_ai: "img:https://cdn.simpleicons.org/cursor/111111|dark:https://cdn.simpleicons.org/cursor/EEEEEE",
+  cursor_ai:
+    "img:https://cdn.simpleicons.org/cursor/111111|dark:https://cdn.simpleicons.org/cursor/EEEEEE",
   github_copilot: "img:https://cdn.simpleicons.org/githubcopilot/0066FF",
   aws: "fa-brands fa-aws",
   firebase: "devicon-firebase-plain colored",
