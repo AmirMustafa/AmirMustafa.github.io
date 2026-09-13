@@ -4,27 +4,42 @@ const RESUME_FILE = "assets/files/Amir_Resume_Node_React_9y.pdf";
 const RESUME_DOWNLOAD_NAME = "Amir_Resume_Node_React_9y.pdf";
 
 const ABOUT_PROFILE = {
-  title: "Senior Full Stack Engineer",
-  employer: "@Molex , Bangalore, India",
-  org: "JavaScript · React · Node · TypeScript · Cloud",
-  summary:
-    "Senior Full Stack Engineer with 9+ years building enterprise-grade, cloud-native applications using React.js, Node.js, and TypeScript. Expert in microservices, system design, serverless (AWS Lambda, Azure Functions), and AI-augmented development. Delivered high-impact solutions for Banking (Northern Trust), Pharma (Eli Lilly), and Government (UAE) with 99.9% uptime. Proven CI/CD automation, scalable architecture, and Agile delivery at scale.",
-  meta: [
-    { k: "Location", v: "Bengaluru, Karnataka, India" },
-    { k: "Experience", v: "9+ years" },
-    { k: "Email", v: "amirengg15@gmail.com", href: "mailto:amirengg15@gmail.com" },
-    { k: "Phone", v: "+91-8170954991", href: "tel:+918170954991" },
-    { k: "Passport", v: "Available (exp. 2033)" },
-    { k: "Relocate", v: "Open to UAE, UK, Europe" },
-  ],
-  links: [
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/amirmustafa-sr-consultant-it/" },
-    { label: "GitHub", href: "https://github.com/AmirMustafa" },
-    { label: "Portfolio", href: "https://www.amirmustafa.net" },
-    { label: "YouTube", href: "https://www.youtube.com/playlist?list=PLiZdgZd6wod3MnaV_pPBsM2fLmJUQuGRa" },
-    { label: "Download CV", href: RESUME_FILE, download: RESUME_DOWNLOAD_NAME },
-  ],
+  titleKey: "about_page_title",
+  employerKey: "about_page_employer",
+  orgKey: "about_page_org",
+  summaryKey: "about_page_summary",
 };
+
+const ABOUT_META = [
+  { labelKey: "clocation_key", valueKey: "clocation_val" },
+  { labelKey: "experience_key", valueKey: "experience_val" },
+  { labelKey: "about_meta_email", email: true },
+  {
+    labelKey: "about_meta_phone",
+    valueKey: "about_meta_phone_val",
+    href: "tel:+918170954991",
+  },
+  { labelKey: "passport_key", valueKey: "about_meta_passport_val" },
+  { labelKey: "about_meta_relocate", valueKey: "about_meta_relocate_val" },
+];
+
+const ABOUT_LINKS = [
+  {
+    labelKey: "about_link_linkedin",
+    href: "https://www.linkedin.com/in/amirmustafa-sr-consultant-it/",
+  },
+  { labelKey: "about_link_github", href: "https://github.com/AmirMustafa" },
+  { labelKey: "about_link_portfolio", href: "https://www.amirmustafa.net" },
+  {
+    labelKey: "about_link_youtube",
+    href: "https://www.youtube.com/playlist?list=PLiZdgZd6wod3MnaV_pPBsM2fLmJUQuGRa",
+  },
+  {
+    labelKey: "download_cv",
+    href: RESUME_FILE,
+    download: RESUME_DOWNLOAD_NAME,
+  },
+];
 
 /** Banner contact strip — icon + label + display text (from resume / profile) */
 /** Hero employer highlight — logos only, not links */
@@ -85,31 +100,51 @@ const HERO_SOCIAL_LINKS = [
 ];
 
 const SKILL_BARS = [
-  { name: "React.js / TypeScript", years: "7+ yrs", level: 95 },
-  { name: "Node.js / Express / Nest.js", years: "7+ yrs", level: 93 },
-  { name: "JavaScript (ES6+)", years: "9+ yrs", level: 96 },
-  { name: "Azure Cloud", years: "4+ yrs", level: 88 },
-  { name: "AWS Cloud", years: "5+ yrs", level: 85 },
-  { name: "PostgreSQL / Cosmos DB", years: "6+ yrs", level: 82 },
-  { name: "Docker / CI/CD", years: "5+ yrs", level: 84 },
-  { name: "System Design / Microservices", years: "4+ yrs", level: 80 },
-  { name: "DevSecOps / VAPT", years: "4+ yrs", level: 78 },
-  { name: "AI-Assisted Development", years: "2+ yrs", level: 85 },
+  { nameKey: "about_skill_1_name", yearsKey: "about_skill_1_years", level: 95 },
+  { nameKey: "about_skill_2_name", yearsKey: "about_skill_2_years", level: 93 },
+  { nameKey: "about_skill_3_name", yearsKey: "about_skill_3_years", level: 96 },
+  { nameKey: "about_skill_4_name", yearsKey: "about_skill_4_years", level: 88 },
+  { nameKey: "about_skill_5_name", yearsKey: "about_skill_5_years", level: 85 },
+  { nameKey: "about_skill_6_name", yearsKey: "about_skill_6_years", level: 82 },
+  { nameKey: "about_skill_7_name", yearsKey: "about_skill_7_years", level: 84 },
+  { nameKey: "about_skill_8_name", yearsKey: "about_skill_8_years", level: 80 },
+  { nameKey: "about_skill_9_name", yearsKey: "about_skill_9_years", level: 78 },
+  { nameKey: "about_skill_10_name", yearsKey: "about_skill_10_years", level: 85 },
 ];
 
-const PERSONAL_SKILLS = [
-  "Always curious to learn new technologies and patterns",
-  "Strong team lead — mentoring, code reviews, and delivery ownership",
-  "Clear communication with technical and non-technical stakeholders",
-  "Banking, pharma, and government domain experience (US, UAE, India)",
+const PERSONAL_SKILL_KEYS = [
+  "about_personal_1",
+  "about_personal_2",
+  "about_personal_3",
+  "about_personal_4",
 ];
 
 const ABOUT_CERTS = [
-  { title: "Microsoft Azure AI Fundamentals (AI-900)", issuer: "Microsoft", when: "2024" },
-  { title: "Professional Scrum Master (PSM I)", issuer: "Scrum.org", when: "2023" },
-  { title: "PSPO I & II — Product Owner", issuer: "Scrum.org", when: "2023" },
-  { title: "EY AI Engineering Bronze Badge", issuer: "EY", when: "2024" },
-  { title: "AI for Everyone", issuer: "Coursera", when: "2024" },
+  {
+    titleKey: "about_cert_1_title",
+    issuerKey: "about_cert_1_issuer",
+    whenKey: "about_cert_1_when",
+  },
+  {
+    titleKey: "about_cert_2_title",
+    issuerKey: "about_cert_2_issuer",
+    whenKey: "about_cert_2_when",
+  },
+  {
+    titleKey: "about_cert_3_title",
+    issuerKey: "about_cert_3_issuer",
+    whenKey: "about_cert_3_when",
+  },
+  {
+    titleKey: "about_cert_4_title",
+    issuerKey: "about_cert_4_issuer",
+    whenKey: "about_cert_4_when",
+  },
+  {
+    titleKey: "about_cert_5_title",
+    issuerKey: "about_cert_5_issuer",
+    whenKey: "about_cert_5_when",
+  },
 ];
 
 /** Resume page education — keys into assets/data/localization/{lang}.json */

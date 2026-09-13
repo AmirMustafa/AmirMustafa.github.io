@@ -899,41 +899,55 @@
   function renderAboutPage() {
     if (typeof ABOUT_PROFILE === "undefined") return;
 
-    document.getElementById("aboutPageRole").textContent = ABOUT_PROFILE.title;
+    document.getElementById("aboutPageRole").textContent = t(
+      ABOUT_PROFILE.titleKey,
+      "",
+    );
     const employerEl = document.getElementById("aboutPageEmployer");
     if (employerEl) {
-      const employer = ABOUT_PROFILE.employer || "";
+      const employer = t(ABOUT_PROFILE.employerKey, "");
       employerEl.textContent = employer;
       employerEl.hidden = !employer;
     }
-    document.getElementById("aboutPageOrg").textContent = ABOUT_PROFILE.org;
-    document.getElementById("aboutSummary").textContent = ABOUT_PROFILE.summary;
+    document.getElementById("aboutPageOrg").textContent = t(
+      ABOUT_PROFILE.orgKey,
+      "",
+    );
+    document.getElementById("aboutSummary").textContent = t(
+      ABOUT_PROFILE.summaryKey,
+      "",
+    );
 
     const meta = document.getElementById("aboutMetaList");
     meta.innerHTML = "";
-    ABOUT_PROFILE.meta.forEach((m) => {
+    ABOUT_META.forEach((m) => {
       const li = el("li");
       const icon = el("i", "fa-solid fa-chevron-right");
       li.appendChild(icon);
-      const k = el("span", "about-meta-k", m.k);
-      li.appendChild(k);
-      const val = m.href ? el("a", "about-meta-v") : el("span", "about-meta-v");
-      if (m.href) {
-        val.href = m.href;
-        if (!m.href.startsWith("mailto") && !m.href.startsWith("tel")) {
+      li.appendChild(el("span", "about-meta-k", t(m.labelKey, m.labelKey)));
+      let href = m.href;
+      let value = m.valueKey ? t(m.valueKey, "") : "";
+      if (m.email) {
+        value = getPublicEmail();
+        href = `mailto:${value}`;
+      }
+      const val = href ? el("a", "about-meta-v") : el("span", "about-meta-v");
+      if (href) {
+        val.href = href;
+        if (!href.startsWith("mailto") && !href.startsWith("tel")) {
           val.target = "_blank";
           val.rel = "noopener";
         }
       }
-      val.textContent = m.v;
+      val.textContent = value;
       li.appendChild(val);
       meta.appendChild(li);
     });
 
     const links = document.getElementById("aboutLinks");
     links.innerHTML = "";
-    ABOUT_PROFILE.links.forEach((link) => {
-      const a = el("a", "about-link-chip", link.label);
+    ABOUT_LINKS.forEach((link) => {
+      const a = el("a", "about-link-chip", t(link.labelKey, link.labelKey));
       a.href = link.href;
       if (link.download) {
         a.setAttribute("download", link.download);
@@ -950,9 +964,13 @@
       const row = el("div", "skill-bar-item reveal-scale");
       row.dataset.revealDelay = String(i % 4);
       const head = el("div", "skill-bar-head");
-      head.appendChild(el("span", "skill-bar-name", s.name));
+      head.appendChild(el("span", "skill-bar-name", t(s.nameKey, "")));
       head.appendChild(
-        el("span", "skill-bar-meta mono", `${s.years} · ${s.level}%`),
+        el(
+          "span",
+          "skill-bar-meta mono",
+          `${t(s.yearsKey, "")} · ${s.level}%`,
+        ),
       );
       const track = el("div", "skill-bar-track");
       const fill = el("div", "skill-bar-fill");
@@ -965,7 +983,9 @@
 
     const ps = document.getElementById("personalSkillsList");
     ps.innerHTML = "";
-    PERSONAL_SKILLS.forEach((line) => {
+    PERSONAL_SKILL_KEYS.forEach((key) => {
+      const line = t(key, "");
+      if (!line) return;
       const li = el("li");
       li.appendChild(el("i", "fa-solid fa-chevron-right"));
       li.appendChild(document.createTextNode(" " + line));
@@ -976,9 +996,9 @@
     cg.innerHTML = "";
     ABOUT_CERTS.forEach((c) => {
       const card = el("div", "cert-card glass");
-      card.appendChild(el("h4", null, c.title));
-      card.appendChild(el("p", "cert-issuer", c.issuer));
-      card.appendChild(el("span", "cert-when mono", c.when));
+      card.appendChild(el("h4", null, t(c.titleKey, "")));
+      card.appendChild(el("p", "cert-issuer", t(c.issuerKey, "")));
+      card.appendChild(el("span", "cert-when mono", t(c.whenKey, "")));
       cg.appendChild(card);
     });
   }
