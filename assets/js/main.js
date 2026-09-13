@@ -104,7 +104,7 @@
 
     document
       .querySelectorAll(
-        ".skill-group, .project-card, .tl-item, .edu-card, .award-card",
+        ".ability-card, .project-card, .tl-item, .edu-card, .award-card",
       )
       .forEach((node) => {
         if (!node.classList.contains("reveal-scale"))
@@ -132,7 +132,7 @@
 
     document
       .querySelectorAll(
-        ".section .reveal, .reveal-scale, .skill-group, .project-card, .tl-item, .edu-card, .award-card",
+        ".section .reveal, .reveal-scale, .ability-card, .project-card, .tl-item, .edu-card, .award-card",
       )
       .forEach((node, i) => {
         if (node.classList.contains("visible")) return;
@@ -259,13 +259,30 @@
     const grid = document.getElementById("skillsGrid");
     grid.innerHTML = "";
     SKILL_GROUPS.forEach((group, i) => {
-      const box = el("div", "skill-group reveal-scale");
-      box.dataset.revealDelay = String(i);
-      box.appendChild(el("h4", null, group.title));
-      const ul = el("ul");
-      group.keys.forEach((k) => ul.appendChild(el("li", null, t(k, k))));
-      box.appendChild(ul);
-      grid.appendChild(box);
+      const card = el("article", "ability-card glass reveal-scale");
+      card.dataset.revealDelay = String(i);
+
+      const head = el("header", "ability-card-head");
+      const iconWrap = el("span", "ability-card-icon");
+      iconWrap.innerHTML = `<i class="${group.icon || "fa-solid fa-star"}" aria-hidden="true"></i>`;
+      const meta = el("div", "ability-card-meta");
+      meta.appendChild(el("h3", "ability-card-title", group.title));
+      meta.appendChild(
+        el(
+          "p",
+          "ability-card-count mono",
+          `${group.keys.length} ${t("abilities_items_label", "skills")}`,
+        ),
+      );
+      head.appendChild(iconWrap);
+      head.appendChild(meta);
+      card.appendChild(head);
+
+      const chips = el("div", "ability-chips");
+      group.keys.forEach((k) => chips.appendChild(el("span", "ability-chip", t(k, k))));
+      card.appendChild(chips);
+
+      grid.appendChild(card);
     });
   }
 
@@ -847,6 +864,23 @@
     return reversed.split("").reverse().join("");
   }
 
+  function renderEmployerBrands() {
+    const grid = document.getElementById("employerBrandGrid");
+    if (!grid || typeof EMPLOYER_BRANDS === "undefined") return;
+    grid.innerHTML = "";
+    EMPLOYER_BRANDS.forEach((brand) => {
+      const item = el("li", "employer-brand glass");
+      item.title = brand.name;
+      const img = new Image();
+      img.src = brand.img;
+      img.alt = brand.name;
+      img.loading = "lazy";
+      img.decoding = "async";
+      item.appendChild(img);
+      grid.appendChild(item);
+    });
+  }
+
   function renderBannerContact() {
     const wrap = document.getElementById("bannerContactStrip");
     if (!wrap || typeof HERO_SOCIAL_LINKS === "undefined") return;
@@ -917,6 +951,7 @@
 
   function renderAll() {
     renderBannerContact();
+    renderEmployerBrands();
     renderHeroStats();
     renderTags();
     renderSkills();

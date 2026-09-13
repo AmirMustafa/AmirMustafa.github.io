@@ -267,6 +267,7 @@ const EDUCATION = [
 const SKILL_GROUPS = [
   {
     title: "Development",
+    icon: "fa-solid fa-code",
     keys: [
       "node",
       "expressjs",
@@ -288,6 +289,7 @@ const SKILL_GROUPS = [
   },
   {
     title: "Cloud & Tools",
+    icon: "fa-solid fa-cloud",
     keys: [
       "aws",
       "firebase",
@@ -305,6 +307,7 @@ const SKILL_GROUPS = [
   },
   {
     title: "Environment",
+    icon: "fa-solid fa-display",
     keys: [
       "windows",
       "mac",
@@ -317,7 +320,11 @@ const SKILL_GROUPS = [
       "filezilla",
     ],
   },
-  { title: "Languages", keys: ["en", "hi", "ar"] },
+  {
+    title: "Languages",
+    icon: "fa-solid fa-language",
+    keys: ["en", "hi", "ar"],
+  },
 ];
 
 const VIDEOS = [

@@ -25,6 +25,17 @@ const ABOUT_PROFILE = {
 };
 
 /** Banner contact strip — icon + label + display text (from resume / profile) */
+/** Hero employer highlight — logos only, not links */
+const EMPLOYER_BRANDS = [
+  { name: "Molex", img: "assets/images/experience/molex.jpg" },
+  { name: "EY", img: "assets/images/brand/ey.jpeg" },
+  { name: "Northern Trust", img: "assets/images/brand/nt.jpeg" },
+  { name: "Eli Lilly", img: "assets/images/brand/elililly.jpeg" },
+  { name: "TCS", img: "assets/images/brand/tcs.jpeg" },
+  { name: "Xebia", img: "assets/images/brand/xebia.jpeg" },
+  { name: "TAMM", img: "assets/images/brand/tamm.png" },
+];
+
 const HERO_SOCIAL_LINKS = [
   {
     label: "LinkedIn",
