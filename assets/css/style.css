@@ -1473,27 +1473,34 @@ body[data-theme="light"] .employer-brand img {
   border-color: transparent;
   color: #fff;
 }
-.banner-contact-icon--replit {
-  background: #f26207;
-  border-color: transparent;
-  color: #fff;
-}
 .banner-contact-icon--teams {
   background: #ffffff;
   border-color: color-mix(in srgb, var(--line) 65%, transparent);
   color: #fff;
 }
 .banner-contact-icon--botim {
-  background: #0084ff;
+  background: transparent;
   border-color: transparent;
-  color: #fff;
+  padding: 0;
+  overflow: visible;
 }
-.banner-contact-icon--replit img,
 .banner-contact-icon--botim img {
-  width: 24px;
-  height: 24px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
-  filter: brightness(0) invert(1);
+  filter: none;
+}
+.banner-contact-icon--replit {
+  background: transparent;
+  border-color: transparent;
+  padding: 0;
+  overflow: visible;
+}
+.banner-contact-icon--replit img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: none;
 }
 .banner-contact-icon--teams img {
   width: 28px;
@@ -3038,10 +3045,40 @@ body[data-theme="light"] .ability-chip {
   gap: 12px;
 }
 .contact-social-link {
+  position: relative;
   display: inline-flex;
   text-decoration: none;
   border-radius: 50%;
   transition: transform 0.28s var(--ease-out), filter 0.28s;
+}
+.contact-social-link::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 10px);
+  transform: translateX(-50%) translateY(4px);
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--bg-2) 94%, transparent);
+  border: 1px solid var(--glass-border);
+  color: var(--fg);
+  font-family: var(--font-body), sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s var(--ease-out), transform 0.2s var(--ease-out),
+    visibility 0.2s;
+  box-shadow: var(--shadow);
+  z-index: 20;
+}
+.contact-social-link:hover::after,
+.contact-social-link:focus-visible::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
 }
 .contact-social-link:hover {
   transform: translateY(-4px) scale(1.06);
@@ -3063,6 +3100,27 @@ body[data-theme="light"] .ability-chip {
   width: 36px;
   height: 36px;
   filter: none;
+}
+.contact-social-link .banner-contact-icon--replit {
+  background: transparent;
+  border-color: transparent;
+}
+.contact-social-link .banner-contact-icon--replit img {
+  width: 56px;
+  height: 56px;
+  filter: none;
+  object-fit: contain;
+}
+.contact-social-link .banner-contact-icon--botim {
+  background: transparent;
+  border-color: transparent;
+}
+.contact-social-link .banner-contact-icon--botim img {
+  width: 56px;
+  height: 56px;
+  filter: none;
+  object-fit: contain;
+  border-radius: 50%;
 }
 
 /* ── Footer ── */

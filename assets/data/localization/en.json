@@ -97,6 +97,17 @@
   "awards": "Awards",
   "recommendations": "Reviews",
   "contact": "Contact",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "Im a creative Web Developer",
   "about_me_heading": "About me",
   "about_me_line1": "Specialist in JavaScript and Cloud solutions, Amir Mustafa joined",
@@ -512,5 +523,5 @@
   "branding_nt_place": "Chicago, USA",
   "contact_quotes": "If I had asked people what they wanted, they would have said faster horses.",
   "new": "Νew",
-  "copyright_desclamair": "Amir Mustafa 2024"
+  "copyright_desclamair": "Amir Mustafa"
 }

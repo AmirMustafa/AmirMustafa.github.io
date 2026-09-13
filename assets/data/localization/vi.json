@@ -97,6 +97,17 @@
   "awards": "Giải thưởng",
   "recommendations": "Đánh giá",
   "contact": "Liên hệ",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "Tôi là một Lập trình viên Web sáng tạo",
   "about_me_heading": "Về tôi",
   "about_me_line1": "Là chuyên gia về JavaScript và giải pháp đám mây, Amir Mustafa đã tham gia",
@@ -512,5 +523,5 @@
   "branding_nt_place": "Chicago, Hoa Kỳ",
   "contact_quotes": "Nếu tôi đã hỏi mọi người những gì họ muốn, họ đã nói là những con ngựa nhanh hơn.",
   "new": "Mới",
-  "copyright_desclamair": "Amir Mustafa 2023"
+  "copyright_desclamair": "Amir Mustafa"
 }

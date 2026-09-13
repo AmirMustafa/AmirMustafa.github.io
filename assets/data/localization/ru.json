@@ -97,6 +97,17 @@
   "awards": "Награды",
   "recommendations": "Отзывы",
   "contact": "Контакт",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "Я креативный веб-разработчик",
   "about_me_heading": "Обо мне",
   "about_me_line1": "Специалист по JavaScript и облачным решениям, Амир Мустафа присоединился к",
@@ -512,5 +523,5 @@
   "branding_nt_place": "Чикаго, США",
   "contact_quotes": "Если бы я спрашивал людей, что они хотят, они бы сказали - более быстрые лошади.",
   "new": "Новое",
-  "copyright_desclamair": "Амир Мустафа 2023"
+  "copyright_desclamair": "Амир Мустафа"
 }

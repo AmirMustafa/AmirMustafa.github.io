@@ -97,6 +97,17 @@
   "awards": "Premii",
   "recommendations": "Recenzii",
   "contact": "Contacte",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "Sunt un dezvoltator web creativ",
   "about_me_heading": "Despre mine",
   "about_me_line1": "Specialist în soluții JavaScript și Cloud, s-a alăturat Amir Mustafa",
@@ -512,5 +523,5 @@
   "branding_nt_place": "Chicago, Statele Unite ale Americii",
   "contact_quotes": "Dacă aș fi întrebat oamenii ce vor, ar fi spus cai mai rapizi.",
   "new": "Nou",
-  "copyright_desclamair": "Amir Mustafa 2023"
+  "copyright_desclamair": "Amir Mustafa"
 }

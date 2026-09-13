@@ -97,6 +97,17 @@
   "awards": "Awards",
   "recommendations": "Recensies",
   "contact": "Contact",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "Ik ben een creatieve webontwikkelaar",
   "about_me_heading": "Over mij",
   "about_me_line1": "Specialist in JavaScript en Cloud-oplossingen, Amir Mustafa trad in dienst bij",
@@ -512,5 +523,5 @@
   "branding_nt_place": "Chicago, Verenigde Staten",
   "contact_quotes": "Als ik mensen had gevraagd wat ze wilden, zouden ze snellere paarden hebben gezegd.",
   "new": "Nieuw",
-  "copyright_desclamair": "Amir Mustafa 2023"
+  "copyright_desclamair": "Amir Mustafa"
 }

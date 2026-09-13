@@ -97,6 +97,17 @@
   "awards": "Décerner",
   "recommendations": "Témoignage",
   "contact": "Contacter",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "Je suis un développeur Web créatif",
   "about_me_heading": "À propos de moi",
   "about_me_line1": "Spécialiste des solutions JavaScript et Cloud, Amir Mustafa a rejoint",
@@ -512,5 +523,5 @@
   "branding_nt_place": "Chicago, États-Unis",
   "contact_quotes": "Si j'avais demandé aux gens ce qu'ils voulaient, ils auraient dit des chevaux plus rapides.",
   "new": "Nouveau",
-  "copyright_desclamair": "Amir Mustafa 2023"
+  "copyright_desclamair": "Amir Mustafa"
 }

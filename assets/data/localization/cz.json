@@ -97,6 +97,17 @@
   "awards": "Ocenění",
   "recommendations": "Hodnocení",
   "contact": "Kontakt",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "Jsem kreativní webový vývojář",
   "about_me_heading": "O mně",
   "about_me_line1": "Jako specialistou na JavaScript a cloudová řešení se Amir Mustafa připojil k společnosti",
@@ -512,5 +523,5 @@
   "branding_nt_place": "Chicago, Spojené státy",
   "contact_quotes": "Kdybych se lidi zeptal, co chtějí, řekli by rychlejší koně.",
   "new": "Nové",
-  "copyright_desclamair": "Amir Mustafa 2023"
+  "copyright_desclamair": "Amir Mustafa"
 }

@@ -97,6 +97,17 @@
   "awards": "奖项",
   "recommendations": "评价",
   "contact": "联系方式",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "我是一名富有创造力的 Web 开发人员",
   "about_me_heading": "关于我",
   "about_me_line1": "阿米尔·穆斯塔法 是一名 JavaScript 和云解决方案专家，曾就职于",
@@ -512,5 +523,5 @@
   "branding_nt_place": "芝加哥，美国",
   "contact_quotes": "如果我问人们他们想要什么，他们会说更快的马。",
   "new": "新",
-  "copyright_desclamair": "阿米尔·穆斯塔法 2023"
+  "copyright_desclamair": "阿米尔·穆斯塔法"
 }

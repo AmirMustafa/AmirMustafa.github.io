@@ -97,6 +97,17 @@
   "awards": "Apdovanojimai",
   "recommendations": "Atsiliepimai",
   "contact": "Kontaktai",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "Aš esu kūrybinis interneto programuotojas",
   "about_me_heading": "Apie mane",
   "about_me_line1": "Specialistas JavaScript ir debesų sprendimuose, Amir Mustafa prisijungė",
@@ -512,5 +523,5 @@
   "branding_nt_place": "Čikaga, Jungtinės Valstijos",
   "contact_quotes": "Jei būčiau klausęs žmonių, ką jie nori, jie būtų sakę greitesnius arklius.",
   "new": "Naujas",
-  "copyright_desclamair": "Amir Mustafa 2023"
+  "copyright_desclamair": "Amir Mustafa"
 }

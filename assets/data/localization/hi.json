@@ -97,6 +97,17 @@
   "awards": "पुरस्कार",
   "recommendations": "समीक्षा",
   "contact": "संपर्क",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "मैं एक रचनात्मक वेब डेवलपर हूं",
   "about_me_heading": "मेरे बारे मेँ",
   "about_me_line1": "जावास्क्रिप्ट और क्लाउड सॉल्यूशंस के विशेषज्ञ आमिर मुस्तफा शामिल हुए",
@@ -512,5 +523,5 @@
   "branding_nt_place": "शिकागो, संयुक्त राज्य अमेरिका",
   "contact_quotes": "अगर मैंने लोगों से पूछा होता कि वे क्या चाहते हैं, तो उन्होंने कहा होता कि तेज घोड़े।",
   "new": "नया",
-  "copyright_desclamair": "आमिर मुस्तफा 2023"
+  "copyright_desclamair": "आमिर मुस्तफा"
 }

@@ -97,6 +97,17 @@
   "awards": "Нагороди",
   "recommendations": "Рекомендації",
   "contact": "Контакт",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "Я креативний веб-розробник",
   "about_me_heading": "Про мене",
   "about_me_line1": "Спеціаліст з JavaScript та хмарних рішень, Амір Мустафа приєднався до компанії",
@@ -512,5 +523,5 @@
   "branding_nt_place": "Чикаго, Сполучені Штати",
   "contact_quotes": "Якби я питав людей, що вони хочуть, вони б сказали - швидших коней.",
   "new": "Новий",
-  "copyright_desclamair": "Амір Мустафа 2023"
+  "copyright_desclamair": "Амір Мустафа"
 }

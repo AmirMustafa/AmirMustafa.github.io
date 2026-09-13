@@ -97,6 +97,17 @@
   "awards": "Auszeichnungen",
   "recommendations": "Bewertungen",
   "contact": "Kontakt",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "Ich bin ein kreativer Webentwickler",
   "about_me_heading": "Über mich",
   "about_me_line1": "Spezialist für JavaScript und Cloud-Lösungen, trat Amir Mustafa",
@@ -512,5 +523,5 @@
   "branding_nt_place": "Chicago, Vereinigte Staaten",
   "contact_quotes": "Wenn ich die Menschen gefragt hätte, was sie wollen, hätten sie gesagt: schnellere Pferde.",
   "new": "Neu",
-  "copyright_desclamair": "Amir Mustafa 2023"
+  "copyright_desclamair": "Amir Mustafa"
 }

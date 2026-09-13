@@ -97,6 +97,17 @@
   "awards": "Priser",
   "recommendations": "Anbefalinger",
   "contact": "Kontakt",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "Jeg er en kreativ webudvikler",
   "about_me_heading": "Om mig",
   "about_me_line1": "Specialist i JavaScript og cloud-løsninger, Amir Mustafa blev ansat hos",
@@ -512,5 +523,5 @@
   "branding_nt_place": "Chicago, USA",
   "contact_quotes": "Hvis jeg havde spurgt folk, hvad de ønskede, ville de have sagt hurtigere heste.",
   "new": "Ny",
-  "copyright_desclamair": "Amir Mustafa 2023"
+  "copyright_desclamair": "Amir Mustafa"
 }

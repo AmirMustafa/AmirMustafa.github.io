@@ -97,6 +97,17 @@
   "awards": "Prêmios",
   "recommendations": "Opiniões",
   "contact": "Contato",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "Sou um desenvolvedor web criativo",
   "about_me_heading": "Sobre mim",
   "about_me_line1": "Especialista em JavaScript e soluções em nuvem, Amir Mustafá ingressou na",
@@ -512,5 +523,5 @@
   "branding_nt_place": "Chicago, Estados Unidos",
   "contact_quotes": "Se eu tivesse perguntado às pessoas o que elas queriam, elas teriam dito cavalos mais rápidos.",
   "new": "Novo",
-  "copyright_desclamair": "Amir Mustafá 2023"
+  "copyright_desclamair": "Amir Mustafá"
 }

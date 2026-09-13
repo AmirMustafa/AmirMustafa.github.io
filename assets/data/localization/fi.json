@@ -97,6 +97,17 @@
   "awards": "Palkinnot",
   "recommendations": "Arviot",
   "contact": "Yhteystiedot",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "Olen luova web-kehittäjä",
   "about_me_heading": "Minusta",
   "about_me_line1": "Olen erikoistunut JavaScriptiin ja pilvipalveluihin. Liityin",
@@ -512,5 +523,5 @@
   "branding_nt_place": "Chicago, Yhdysvallat",
   "contact_quotes": "Jos olisin kysynyt ihmisiltä, mitä he haluavat, he olisivat sanoneet nopeampia hevosia.",
   "new": "Uusi",
-  "copyright_desclamair": "Amir Mustafa 2023"
+  "copyright_desclamair": "Amir Mustafa"
 }

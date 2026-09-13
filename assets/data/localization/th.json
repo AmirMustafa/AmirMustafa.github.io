@@ -97,6 +97,17 @@
   "awards": "รางวัล",
   "recommendations": "รีวิว",
   "contact": "ติดต่อ",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "ฉันเป็นนักพัฒนาเว็บที่คิดสร้างสรรค์",
   "about_me_heading": "เกี่ยวกับฉัน",
   "about_me_line1": "เป็นผู้เชี่ยวชาญด้าน JavaScript และความเป็นที่พอใจในการใช้แนวคิดในการแก้ปัญหาในคลาสอาหารกลุ่มประเทศอินเดียทำ",
@@ -512,5 +523,5 @@
   "branding_nt_place": "ชิคาโก, สหรัฐอเมริกา",
   "contact_quotes": "ถ้าฉันได้ถามคนว่าพวกเขาต้องการอะไร พวกเขาจะพูดว่าม้าที่วิ่งเร็วขึ้น",
   "new": "ใหม่",
-  "copyright_desclamair": "อามีร มุสตาฟา ค.ศ. 2023"
+  "copyright_desclamair": "อามีร มุสตาฟา"
 }

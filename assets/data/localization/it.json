@@ -97,6 +97,17 @@
   "awards": "Premi",
   "recommendations": "Recensioni",
   "contact": "Contatto",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "Sono uno sviluppatore Web creativo",
   "about_me_heading": "Chi sono",
   "about_me_line1": "Specialista in JavaScript e soluzioni cloud, Amir Mustafà si è unito a",
@@ -512,5 +523,5 @@
   "branding_nt_place": "Chicago, Stati Uniti",
   "contact_quotes": "Se avessi chiesto alle persone cosa volevano, avrebbero detto cavalli più veloci.",
   "new": "Nuovo",
-  "copyright_desclamair": "Amir Mustafà 2023"
+  "copyright_desclamair": "Amir Mustafà"
 }

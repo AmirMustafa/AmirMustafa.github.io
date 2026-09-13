@@ -97,6 +97,17 @@
   "awards": "Βραβεία",
   "recommendations": "Μαρτυρίες",
   "contact": "Επικοινωνία",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "Είμαι δημιουργικός προγραμματιστής Ιστού",
   "about_me_heading": "Σχετικά με μένα",
   "about_me_line1": "Ο Amir Mustafa, ειδικός σε λύσεις JavaScript και Cloud, προσχώρησε",
@@ -512,5 +523,5 @@
   "branding_nt_place": "Σικάγο, Ηνωμένες Πολιτείες",
   "contact_quotes": "Αν ρωτούσα τους ανθρώπους τι θέλουν, θα έλεγαν πιο γρήγορα άλογα.",
   "new": "Νέος",
-  "copyright_desclamair": "Amir Mustafa 2023"
+  "copyright_desclamair": "Amir Mustafa"
 }

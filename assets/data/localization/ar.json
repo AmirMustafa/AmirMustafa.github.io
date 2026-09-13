@@ -97,6 +97,17 @@
   "awards": "الجوائز",
   "recommendations": "المراجعات",
   "contact": "تواصل",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "أنا مطور ويب مبدع",
   "about_me_heading": "ْعَنِّي",
   "about_me_line1": "متخصص في JavaScript والحلول السحابية ، انضم أمير مصطفى",
@@ -512,5 +523,5 @@
   "branding_nt_place": "شيكاغو، الولايات المتحدة",
   "contact_quotes": "إذا سألت الناس عما يريدون، كانوا سيقولون سيارات أسرع.",
   "new": "جديد",
-  "copyright_desclamair": "أمير مصطفى 2023"
+  "copyright_desclamair": "أمير مصطفى"
 }

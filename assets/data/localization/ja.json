@@ -97,6 +97,17 @@
   "awards": "受賞歴",
   "recommendations": "レビュー",
   "contact": "コンタクト",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "クリエイティブなウェブデベロッパーです",
   "about_me_heading": "自己紹介",
   "about_me_line1": "JavaScriptとクラウドソリューションのスペシャリストであるアミール・ムスタファは",
@@ -512,5 +523,5 @@
   "branding_nt_place": "シカゴ、アメリカ合衆国",
   "contact_quotes": "もし私が人々に尋ねていたことを言わせていたら、彼らはもっと速い馬を求めていただろう。",
   "new": "新しい",
-  "copyright_desclamair": "アミール・ムスタファ 2023"
+  "copyright_desclamair": "アミール・ムスタファ"
 }

@@ -97,6 +97,17 @@
   "awards": "Díjak",
   "recommendations": "Vélemények",
   "contact": "Kapcsolat",
+  "contact_social_linkedin": "LinkedIn",
+  "contact_social_whatsapp": "WhatsApp",
+  "contact_social_youtube": "YouTube",
+  "contact_social_twitter": "Twitter / X",
+  "contact_social_email": "Email",
+  "contact_social_instagram": "Instagram",
+  "contact_social_github": "GitHub",
+  "contact_social_discord": "Discord",
+  "contact_social_replit": "Replit",
+  "contact_social_teams": "Microsoft Teams",
+  "contact_social_botim": "Botim",
   "profile_desc": "Kreatív Web Fejlesztő vagyok",
   "about_me_heading": "Rólam",
   "about_me_line1": "JavaScript és felhőalapú megoldások specialistája, Amir Musztafa csatlakozott",
@@ -512,5 +523,5 @@
   "branding_nt_place": "Chicago, Egyesült Államok",
   "contact_quotes": "Ha megkérdeztem volna az embereket, mit akarnak, azt mondták volna, hogy gyorsabb lovakat.",
   "new": "Új",
-  "copyright_desclamair": "Amir Musztafa 2023"
+  "copyright_desclamair": "Amir Musztafa"
 }

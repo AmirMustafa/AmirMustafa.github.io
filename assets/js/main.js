@@ -1310,10 +1310,14 @@
       const href = item.email ? `mailto:${email}` : item.href;
       const external = !item.email && /^https?:\/\//.test(href);
       const brand = item.brand ? ` contact-social-link--${item.brand}` : "";
+      const tip = item.labelKey
+        ? t(item.labelKey, item.label)
+        : item.label;
       const a = el("a", "contact-social-link" + brand);
       a.href = href;
-      a.setAttribute("aria-label", item.label);
-      a.title = item.label;
+      a.setAttribute("aria-label", tip);
+      a.title = tip;
+      a.dataset.tooltip = tip;
       if (item.email) a.id = "emailSocial";
       if (external) {
         a.target = "_blank";
@@ -1327,7 +1331,7 @@
       if (item.img) {
         const img = new Image();
         img.src = item.img;
-        img.alt = "";
+        img.alt = item.imgAlt || tip;
         iconWrap.appendChild(img);
       } else {
         iconWrap.innerHTML = `<i class="${item.icon}" aria-hidden="true"></i>`;
