@@ -1021,6 +1021,21 @@ select#color-theme-select option { color: #111; background: #fff; }
   z-index: 3;
   transform: none;
   animation: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  white-space: nowrap;
+  width: max-content;
+  max-width: calc(100vw - 24px);
+  box-sizing: border-box;
+}
+@media (max-width: 900px) {
+  .banner-location {
+    font-size: clamp(9px, 2.5vw, 11px);
+    padding: 8px 12px;
+    letter-spacing: 0.03em;
+  }
 }
 @keyframes floatCard {
   0%, 100% { transform: translateY(0); }
