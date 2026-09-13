@@ -1012,8 +1012,23 @@
     });
   }
 
+  function resumeBulletText(raw) {
+    if (!raw) return "";
+    return String(raw).replace(/^\s*\d+\.\s*/, "").trim();
+  }
+
+  function experienceBullets(id, max = 12) {
+    const out = [];
+    for (let i = 1; i <= max; i++) {
+      const line = t(`experience_${id}_point_${i}`, "");
+      const text = resumeBulletText(line);
+      if (text) out.push(text);
+    }
+    return out;
+  }
+
   function renderResumePage() {
-    if (typeof RESUME_JOBS === "undefined") return;
+    if (typeof RESUME_JOB_IDS === "undefined") return;
 
     wireResumeDownloadLinks();
 
@@ -1021,36 +1036,61 @@
     eduWrap.innerHTML = "";
     RESUME_EDUCATION.forEach((e) => {
       const card = el("div", "resume-edu-card glass");
-      card.appendChild(el("span", "resume-date-pill mono", e.period));
-      card.appendChild(el("h4", "resume-edu-degree", e.degree));
-      card.appendChild(el("p", "resume-edu-field", e.field));
-      card.appendChild(el("p", "resume-edu-school", e.school));
-      if (e.university)
-        card.appendChild(el("p", "resume-edu-university", e.university));
-      card.appendChild(el("p", "resume-edu-desc", e.desc));
+      card.appendChild(
+        el("span", "resume-date-pill mono", t(e.periodKey, "")),
+      );
+      card.appendChild(el("h4", "resume-edu-degree", t(e.degreeKey, "")));
+      card.appendChild(el("p", "resume-edu-field", t(e.fieldKey, "")));
+      card.appendChild(el("p", "resume-edu-school", t(e.schoolKey, "")));
+      card.appendChild(el("p", "resume-edu-desc", t(e.descKey, "")));
       eduWrap.appendChild(card);
     });
 
     const hi = document.getElementById("resumeHighlights");
     hi.innerHTML = "";
-    RESUME_ACHIEVEMENTS.forEach((h) => hi.appendChild(el("li", null, h)));
+    RESUME_ACHIEVEMENT_KEYS.forEach((key) => {
+      const text = t(key, "");
+      if (text) hi.appendChild(el("li", null, text));
+    });
 
     const tl = document.getElementById("resumeTimeline");
     tl.innerHTML = "";
-    RESUME_JOBS.forEach((job) => {
+    RESUME_JOB_IDS.forEach((id) => {
+      const role = t(`experience_${id}_designation`, "");
+      const period = t(`experience_${id}_period`, "");
+      const company = t(`experience_${id}`, "");
+      const location = t(`experience_${id}_location`, "");
+      const client = t(`experience_${id}_client`, "");
+      const skills = t(`experience_${id}_skills`, "");
+      const summaryKey = `resume_job_${id}_summary`;
+      const customSummary = t(summaryKey, "");
+      const summary =
+        customSummary || resumeBulletText(t(`experience_${id}_point_1`, ""));
+
       const item = el("article", "resume-job");
       const body = el("div", "resume-job-body glass-card");
-      body.appendChild(el("h4", "resume-job-role", job.role));
-      body.appendChild(el("span", "resume-date-pill accent mono", job.period));
-      const company = el("p", "resume-job-company");
-      company.innerHTML = `<em>${job.company}</em> · ${job.location}${job.client ? ` · ${job.client}` : ""}`;
-      body.appendChild(company);
-      body.appendChild(el("p", "resume-job-summary", job.summary));
-      const ul = el("ul", "resume-job-bullets");
-      job.bullets.forEach((b) => ul.appendChild(el("li", null, b)));
-      body.appendChild(ul);
-      if (job.skills)
-        body.appendChild(el("p", "resume-job-skills mono", job.skills));
+      body.appendChild(el("h4", "resume-job-role", role));
+      body.appendChild(el("span", "resume-date-pill accent mono", period));
+      const companyEl = el("p", "resume-job-company");
+      companyEl.innerHTML = `<em>${company}</em> · ${location}${client ? ` · ${client}` : ""}`;
+      body.appendChild(companyEl);
+      if (summary)
+        body.appendChild(el("p", "resume-job-summary", summary));
+      const bullets = experienceBullets(id);
+      const bulletList = summary ? bullets.slice(1) : bullets;
+      if (bulletList.length) {
+        const ul = el("ul", "resume-job-bullets");
+        bulletList.forEach((b) => ul.appendChild(el("li", null, b)));
+        body.appendChild(ul);
+      }
+      if (skills)
+        body.appendChild(
+          el(
+            "p",
+            "resume-job-skills mono",
+            `${t("experience_skill", "Skills:")} ${skills}`,
+          ),
+        );
       item.appendChild(el("div", "resume-job-marker"));
       item.appendChild(body);
       tl.appendChild(item);

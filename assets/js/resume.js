@@ -112,113 +112,36 @@ const ABOUT_CERTS = [
   { title: "AI for Everyone", issuer: "Coursera", when: "2024" },
 ];
 
+/** Resume page education — keys into assets/data/localization/{lang}.json */
 const RESUME_EDUCATION = [
   {
-    degree: "Bachelor of Technology (B.Tech)",
-    field: "Electronics and Communication Engineering",
-    school: "Biju Patnaik University of Technology (BPUT), Bhubaneswar",
-    period: "2011 – 2015",
-    desc: "Electronics and computer science focus; hands-on PHP, MVC, and early web development.",
+    periodKey: "education_nalanda_period",
+    degreeKey: "resume_edu_btech_degree",
+    fieldKey: "resume_edu_btech_field",
+    schoolKey: "resume_edu_btech_school",
+    descKey: "education_nalanda_desc",
   },
   {
-    degree: "Higher Secondary (ISC)",
-    field: "Science and Mathematics",
-    school: "St. Patrick's H.S. School, Asansol",
-    period: "2009 – 2011",
-    desc: "Science stream with SQL, PHP, and OOP foundations.",
+    periodKey: "education_st_patricks_12_period",
+    degreeKey: "resume_edu_hsc_degree",
+    fieldKey: "resume_edu_hsc_field",
+    schoolKey: "resume_edu_hsc_school",
+    descKey: "education_st_patricks_12_desc",
   },
   {
-    degree: "High School (ICSE)",
-    field: "Science and Mathematics",
-    school: "St. Patrick's H.S. School, Asansol",
-    period: "1998 – 2009",
-    desc: "Built first websites in school; strong science and math foundation.",
+    periodKey: "education_st_patricks_10_period",
+    degreeKey: "resume_edu_icse_degree",
+    fieldKey: "resume_edu_icse_field",
+    schoolKey: "resume_edu_icse_school",
+    descKey: "education_st_patricks_10_desc",
   },
 ];
 
-const RESUME_JOBS = [
-  {
-    company: "Molex (Koch Industries)",
-    location: "Bengaluru, India",
-    role: "Full Stack Developer",
-    period: "Jun 2026 – Present",
-    summary: "Building a Kanban application tailored to copper-solutions business workflows.",
-    bullets: ["Project: Kanban Application for Copper Solutions", "Skills: React.js"],
-  },
-  {
-    company: "Ernst & Young (EY)",
-    location: "Bengaluru, India",
-    role: "Senior Consultant — Technical Lead",
-    client: "Northern Trust (Banking)",
-    period: "Sep 2022 – Apr 2026",
-    summary:
-      "AI-powered document digitization platform (NT Digitizer) processing 10K+ financial documents daily with 95%+ OCR accuracy.",
-    bullets: [
-      "React.js + MobX frontend; Nest.js APIs with Azure Durable Functions (99.9% success rate)",
-      "Migrated Node.js v12 → v24 — 30% performance gain, 40% less technical debt",
-      "Bulk upload for 1000+ concurrent documents with fault-tolerant retries",
-      "Azure webhooks, RBAC, Application Insights — 50% faster incident response",
-      "Mentored 5 developers; 100+ code reviews",
-    ],
-    skills: "React, Node, Nest.js, Cosmos DB, Azure, TypeScript, REST",
-  },
-  {
-    company: "Tata Consultancy Services (TCS)",
-    location: "Noida, India",
-    role: "Systems Engineer — Lead Developer",
-    client: "Eli Lilly (Pharma)",
-    period: "Jul 2021 – Sep 2022",
-    summary: "Eli Lilly IBU Sales Analytics — daily medicine sales for India and Taiwan affiliates.",
-    bullets: [
-      "Led 7 React/Node modules for 200+ sales teams — 25% faster reporting",
-      "AWS Lambda pipelines (S3, SNS, API Gateway) with Aurora PostgreSQL",
-      "Docker + GitHub Actions CI/CD — 40% faster deployments",
-      "Resolved 50+ SAST/DAST issues — 100% compliance for FDA-regulated env",
-    ],
-    skills: "React, Node, Express, PostgreSQL, AWS, REST",
-  },
-  {
-    company: "Xebia IT Architects",
-    location: "Gurugram, India",
-    role: "Technical Consultant",
-    client: "TAMM — Abu Dhabi Digital Authority",
-    period: "Sep 2020 – Jul 2021",
-    summary: "UAE's largest digital government platform — 50K+ daily active users, 99.9% uptime.",
-    bullets: [
-      "Delivered 10+ government e-services with React/TypeScript and Camunda BPMN",
-      "GitLab CI/CD — release cycles from weeks to days",
-      "VAPT remediation; collaboration with EAD, ADAFSA agencies",
-    ],
-    skills: "React, Node, TypeScript, Camunda, GitLab, REST",
-  },
-  {
-    company: "Shadan Industrius",
-    location: "Noida, India",
-    role: "Web Developer (Full Stack)",
-    period: "Nov 2017 – May 2020",
-    summary: "Full-stack products across e-commerce, OAuth, and e-learning.",
-    bullets: [
-      "Waves e-commerce — React, Redux, Node, PayPal/Stripe",
-      "Firebase sports app; Myanmar e-learning (Moodle)",
-    ],
-    skills: "React, Node, Redux, Express, MySQL",
-  },
-  {
-    company: "Fundlr",
-    location: "New Delhi, India",
-    role: "Web Developer",
-    period: "Dec 2016 – Sep 2017",
-    summary: "Crowdfunding and e-commerce platform with Laravel and AngularJS.",
-    bullets: [
-      "Facebook/Twitter OAuth, PayPal, OneSignal push — 15% retention lift",
-      "Led small team on scalable backend (Laravel 5.4)",
-    ],
-    skills: "JavaScript, Laravel, MySQL, AngularJS",
-  },
-];
+/** Same roles as Experiences timeline — uses experience_{id}* locale keys */
+const RESUME_JOB_IDS = ["molex", "ey", "tcs", "xebia", "shadan", "fundlr"];
 
-const RESUME_ACHIEVEMENTS = [
-  "EY Client Extraordinaire Award (2024, 2025) · EY Kudos (2023) · TCS Gems (2022)",
-  "Reduced manual document processing by 60% for Northern Trust (10K+ docs/day)",
-  "20+ Medium articles reaching 10K+ developers",
+const RESUME_ACHIEVEMENT_KEYS = [
+  "resume_highlight_1",
+  "resume_highlight_2",
+  "resume_highlight_3",
 ];
