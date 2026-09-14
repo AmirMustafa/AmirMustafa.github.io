@@ -100,6 +100,16 @@
 
   let revealObserver = null;
 
+  function revealNodeIfInView(node) {
+    const rect = node.getBoundingClientRect();
+    const inView =
+      rect.top < window.innerHeight - 40 && rect.bottom > 0 && rect.width > 0;
+    if (!inView || node.classList.contains("visible")) return false;
+    const delay = node.dataset.delay || node.dataset.revealDelay || 0;
+    setTimeout(() => node.classList.add("visible"), delay * 80);
+    return true;
+  }
+
   function observeReveals() {
     if (revealObserver) revealObserver.disconnect();
 
@@ -140,6 +150,7 @@
         if (!node.dataset.revealDelay && !node.dataset.delay) {
           node.dataset.revealDelay = String(i % 6);
         }
+        if (revealNodeIfInView(node)) return;
         revealObserver.observe(node);
       });
   }
@@ -1291,6 +1302,7 @@
       localStorage.setItem("themeMode", mode);
       applyTheme(colorTheme, mode);
       renderSkills();
+      observeReveals();
     });
 
     colorSelect.addEventListener("change", (e) => {
